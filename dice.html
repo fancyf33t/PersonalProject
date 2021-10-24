@@ -4,29 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/dicestyle.css">
     <title>Dice</title>
 </head>
 <body>
-    <img id="die" src="1.jpg" width="50" height="50">
-    <button onclick="AniDice()">Roll Dice</button>
-<button onclick="stopDice()">Stop</button>
-
-<script>
-
-function AniDice()
-{
-myVar=setInterval(rolldice,20)
-}
-
-function rolldice()
-{
-var ranNum = Math.floor( 1 + Math.random() * 6 );
-var dice = document.getElementById("die");
-dice.src=ranNum+".jpg";
-}
-function stopDice()
-{clearInterval(myVar);}
-</script>
-
+    <header class="header" id="header"></header>
+    <main class="main" id="main">
+        <img src="media/die1.png" alt="die 1" class="die" id="die1">
+        <img src="media/die2.png" alt="die 2" class="die" id="die2">
+        <img src="media/die3.png" alt="die 3" class="die" id="die3">
+        <img src="media/die4.png" alt="die 4" class="die" id="die4">
+        <img src="media/die5.png" alt="die 5" class="die" id="die5">
+        <img src="media/die6.png" alt="die 6" class="die" id="die6">
+        <button onclick="AniDice()">Roll Dice</button>
+        <button onclick="stopDice()">Stop</button>
+    </main>
+    <footer class="footer" id="footer">
+        <div style="border:4px solid blue; width:100px; height:100px text-align:center;padding:0">
+            <h1 id="dice" style="font-size:300%">1</h1></div>
+            <br>
+            <button onclick="AniDice()">Roll Dice</button>
+            <button onclick="stopDice()">Stop</button>
+    </footer>
+    <script src="javascript/diceAnimation.js"></script>
 </body>
 </html>

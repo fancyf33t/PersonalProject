@@ -1,0 +1,7 @@
+I want to make the dice animate and change to give me a single number between 1-6. 
+After I am able to get that done, I will repeat the process. Let's start with using Math functions
+
+
+Refer here:
+https://javascript-tutor.net/jSample/jsp_anidice2.html#:~:text=In%20this%20example%2C%20we%20will%20create%20an%20animated,syntax%20is%20as%20follows%3A%20myVariable%3DsetInterval%28myfunction%2C%20time%20interval%29%20
+
