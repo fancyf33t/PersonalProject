@@ -1,0 +1,70 @@
+The Himalayas
+A horrifying beast suddenly attacks you, almost as if it had stepped right out of your nightmares. Span a Monster on your space and immediately encounter it. If you defeat it, resolve the pass effect. If you do not defeat it, resolve the fail effect.
+Pass: The creature from your dreams is defeated; retreat Doom by 1. You look into local legends to find the link between this area and the Dreamlands [lore]. If you fail, lose 2 Sanity as your uncertainty unhinges your mind.
+Fail: Unable to overcome the threat, you run away and look for a place to hide [observation]. If you pass, discard the Monster and retreat Doom by 1. If you fail, lose 1 Sanity as you cower in fear.
+The Himalayas
+You duck into a cave to find shelter from the deadly snowstorm. Inside, the tunnels twist and turn in the dark, making it almost impossible to navigate [observe].
+Pass: Inside a well-lit laboratory, you find a human brain inside a cylinder. You can speak to the brain, but it disturbs you to do so [will]. If you pass, it tells you where the mi-go store their equipment; gain 1 Artifact. If you fail, you retreat from all human contact; gain a Paranoia Condition.
+Fail: Large, winged, crab-like beings surround you. You're going to have to fight if you want to escape [-1 strength]. If you pass, you subdue the mi-go for study; gain 2 Clues. If you fail, thecreatures inject you with a glowing serum; gain an Internal Injury Condition.
+The Himalayas
+The gnoph-keh summons a terrible blizzard to destroy you and your expedition. You'll have to survive the storm before you can continue [strength].
+Pass: You weather the storm in a cave and find a statue of a three-eyed horror, surrounded by odd relics. Gain 1 Artifact. You try to determine the staute's origin [-1 lore]. If you fail, you do not recognize Rhan-Tegoth, and the icon remains a mystery that haunts your dreams; lose 2 Sanity.
+Fail: Trapped by the storm, the other members of your expedition panic. You try to calm them [influence]. If you pass, they are willing to continue, and you make a discovery; gain 1 Artifact. If you fail, their refusal fills you with doubts; gain a Paranoia Condition.
+Tunguska
+As you approach the crater described in Rasputin's notes, toxic fumes pour out of a fissure in the earth. You struggle to stay conscious and continue your descent [strength].
+Pass: You find the remains of the monk's camp: gain 1 Artifact. You then search the crater [-1 observation]. If you pass, you find traces of the comet; gain 1 Clue. If you fail, the shattered landscape is difficult to look at; lose 1 Sanity.
+Fail: The fumes burn your lungs and you cough up blood. Gain an Internal Injury Condition. You try to convince your guides to help [influence]. If you pass, they rescue you and recover Rasputin's possessions; gain 1 Artifact. If you fail, lose 2 Health crawling out on your own.
+Tunguska
+A small piece of the stone you are standing on crumbles away, revealing a hollowed-out chamber beneath you. You look for a safe way to get inside [observation].
+Pass: You find a temple with scorched human remains. You try to resist the urge to run away [will]. If you pass, you uncover a long-buried treasure; gain 1 Artifact. If you fail, the symbols of Cthugha compel you to run away in a mad panic; gain a Paranoia Condition.
+Fail: The ground beneath your feet collapses, and you scramble to avoid being trapped [-1 strength]. If you pass, you find a mural of Cthugha; gain 2 Clus. If you fail, a boulder falls on you; gain a Back Injury Condition.
+Tunguska
+A strange color that you've never seen before permeates the air. It crawls like a phosphorescent mist along every surface. You can feel its corrosive effect on your skin, and you struggle to escape the area [strength].
+Pass: Behind you, the color flies up into space. You try to interpret what you've seen [lore]. If you pass, you'e sure the threat has passed; retreat Doom by 1. If you fail, your mind cannot accept what you've seen; gain an Amnesia Condition.
+Fail: The ground shakes and you are knocked off your fee. Lose 1 Health and gain a Leg Injury Condition. Gray dust fills the air, but you think you see a light [-1 observation]. If you pass, you see the color fly up into the air; retreat Doom by 1.
+The Amazon
+You've heard rumors that a particular secret of the ancients is visible from the top of a hill. You find that climbing the hillside is not an easy task [strength].
+Pass: You find a lost treasure. Gain 1 Artifact. From this height, you can survey the land for miles [-1 observation]. If you pass, you see drawings that are hundreds of feet across; gain 1 Clue. If you fail, vertigo sets in; lose 1 Sanity.
+Fail: You take too long climbing, and you stumble around in the dark. Gain a Leg Injury Condition. You yell for help [influence]. If you pass, the rescue party's flashlights reveal what you tripped over; gain 1 Artifact. If you fail, you return to your camp alone i the cold and dark; lose 2 Health.
+The Amazon
+You see the vine-covered temple ahead of you, but you're going to have to fight your way through a thick tangle of venomous snakes between yourself and the entrance [strength].
+Pass: You enter the Temp of Yig. Retreat Doom by 1. Strange runes are inscribed on the wall in a serpentine design. You must interpret their meaning to avoid their hypnotic effect [lore]. If you fail, gain an Amnesia Condition.
+Fail: You've been bit! Lose 1 Health and gain an Internal Injury Condition. Something about the snakes is odd. You try to identify what makes them unique [-1 observation]. If you pass, you notice a crescent on the snake's head; retreat Doom by 1.
+The Heart of Africa
+THe whole jungle shakes, and the ground splits beneath your feet. You fall through the crevice into a vast subterranan tunnel [strength].
+Pass: You follow the tunnel to the ancient city of G'harne. Retreat Doom by 1. If you have read about G'harne, you know to leave quickly [lore]. If you fail, you wake up in the jungle with no memory; gain an Amnesia Condition.
+Fail: You land painfully on your spine. Lose 1 Health and gain a Back Injury Condition. While you're stuck here, you examine this tunnel [-1 observation]. If you pass, you see that it was dug out by a large creature; retreat Doom by 1.
+The Heart of Africa
+The old N'bangu man's map to the gray city of the white god relies on landmarks that are now overgrown by the dense jungle. You search carefully to recognize anything familiar [observation].
+Pass: You find the remains of a white ape and study the bones [lore]. If you pass, you find a hastily drawn map that leads you to a hidden treasure; gain 1 Artifact. If you fail, something about this creature makes you doubt your own humanity; gain a Hallucinations Condition.
+Fail: Stumbling across a copper mine, you are immediately accused of being a thief or a saboteur. You fight to escape into the jungle [-1 strength]. If you pass, you find the gray city; gain 2 Clues. If you fail, gain a Detained Condition.
+The Heart of Africa
+Suddenly, you are surrounded by leopard men! THey quickly capture you, tie you up, and take you back to their village. On the way, you try to free yourself from the ropes that bind you [strength].
+Pass: At their village, you spot a rare item sitting on an altar. Gain 1 Artifact. You escape and flee from the village as quickly as possible without watching where you are going [-1 observation]. If you fail, you collide with a statue of Tsathoggua; lose 1 Sanity.
+Fail: Your escape attempt does more harm than good. Gain a Leg Injury Condition. You try to convince the leopard men that you are a messenger from their god [lore]. If you pass, they let you go; gain 1 Artifact. If you fail, the leopard men attack you with primitive weapons as you escape; lose 2 Health.
+Antarctica
+You find what you believe to be star-shaped burial mounds in the snow. It is physically exhausting, but you try to dig the bodies out of the ice and snow [strength].
+Pass: An odd relic lies next to the creature's corpse. Gain 1 Artifact. Then you examine the body [-1 observation]. If you fail, you lose 1 Sanity staring too long at this alien horror.
+Fail: Chipping through the ice, you slip and injure yourself. Gain a Leg Injury Condition. The rest of the expedition crew is too terrified to approach and yhou beg them for help [influence]. If you pass, they spot something buried in the ice; gain 1 Artifact. If you fail, lose 2 Health as you crawl back to the camp.
+Antarctica
+You hear a faint sound echoiing up from the caves that lead down into the darkness. You listen carefully to discern the sound's origin [observation].
+Pass: You identify the sound of shoggoths. You escape, but can barely keep yourself conscious waiting for a rescue [will]. If you pass, you spot something on the cave floor; gain 1 Artifact. If you fail, you pass out and hear the sounds of shoggoths everywhere you go; gain a Hallucinations Condition.
+Fail: "Tekeli-li! Tekeli-li!" You recognize it too late. The shoggoths overwhelm you [-1 strength]. If you pass, you overcome the threat; gain 2 Clues. If you fail, you escape by jumping off a ledge; gain a Leg Injury Condition.
+Antarctica
+Flying over the area, you see evidence of an ancient stone city. You land your plane as close across the ice to reach the strange architecture [strength].
+Pass: The murals inside the icty tell the story of the elder things. Retreat Doom by 1. However, your sudies take a toll on your mind [will]. Ifyou fail, you block everything you've learned from your mind; gain an Amnesia Condition.
+Fail: You fall through the ice into a stone chamber. Lose 1 Health and gain a Back Injury Condition. You search the dark chamber [-1 observation]. If you pass, you find the husk of an elder thing for study; retreat Doom by 1.
+The Pyramids
+Bandits tie your hands and blindfold you. They lower you into catacombs deep under the pyramids and leave you there to die. You try to free yourself from your bonds [strength].
+Pass: You see now that you are in the Temple of the Sphinx. Retreat Doom by 1. You use your knowledge of Egyptology to find an exit [lore]. If you fail, you wake up with no memory of how you escaped; gain an Amnesia Condition.
+Fail: While struggling with your bonds, you feel undead hands tearing at you. Lose 1 Health and gain an Internal Injury Condition. You gaze into the darkness [-1 observation]. If you pass, you identify mummies with the heads of animals; retreat Doom by 1.
+The Pyramids
+You reach for the ancient relic when a small white cat jumps in front of you. To your horror, the cat transforms into a demonic, feline creature and attacks [strength].
+Pass: The demon shrivels down to a husk, leaving the relic unguarded. Gain 1 Artifact. Examining the item, you may be too distracted to notice the warning hieroglyph [-1 observation]. If you fail, you aren't prepared to evade the poisoned barb; lose 1 Health.
+Fail: The creature leaves you badly wounded. Gain a Leg Injury Condition. You cry out for help [influence]. If you pass, the men hwo come to find you distract the beast, allowing you to procure the relic; gain 1 Artifact. If you fail, lose 2 Health as you have to walk without receiving medical attention.
+The Pyramids
+Inside the pyramid, you find a hidden passage leading to an undiscovered throne room. You explore the room for indications of its history [observation].
+Pass: You see a star map adjacent to a world map on the wall. You use the star map to determine a location on the world map [lore]. If you pass, you discover a hidden cabinet build into the wall; gain 1 Artifact. If you fail, the maps remain a pystery; you lose 2 Sanity.
+Fail: As you search, Nephren-Ka appears! WIth a wave of his hand, you are overcome by pain [-1 strength]. If you pass, you crawl away; gain 2 Clues. If you fail, lose 1 Health and gain an Internal Injury Condition.
+
+

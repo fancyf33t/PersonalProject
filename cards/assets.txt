@@ -1,0 +1,180 @@
+Lucky Cigarette Case 
+Trinket 
+Once per round, you may add 1 to the result of 1 die when resolving a test.
+Value: 2
+**************************
+Arcane Manuscripts
+Item - Tome
+Gain [+1 lore] when resolving Spell effects.
+Value: 1
+**************************
+Agency Quarantine
+Service
+When you gain this card, immediately choose a space. Each Monster on the chosen space loses 4 Health. Then discard this card.
+Value: 4
+**************************
+Private Investigator
+Ally
+Gain [+1 observation].
+You may reroll 1 die when resolving a [observation] test.
+Value: 2
+**************************
+Witch Doctor
+Ally
+Investigators on your space may recover 1 additional Health or discard a Cursed Condition when performing a Rest action.
+Value: 3
+**************************
+Dynamite
+Item - Weapon
+Action: You may discard this card to cause each Monster on your space to lose 3 Health
+Value: 3
+**************************
+Cat Burglar  Value: 1
+Ally 
+Action: Roll 1 die. On a 5 or 6, gain 1 Item or Trinket Asset from the reserve. On a 1, discard this card.
+**************************
+Kerosene  Value: 1
+Item
+You may discard this card to gain [+5 strength] during a Combat Encouner.
+**************************
+.38 Revolver  Value: 1
+Item - Weapon
+Gain [+2 strength] during Combat Encounters.
+**************************
+Silver Twilight Ritual  Value: 3
+Service
+When you gain this card, immediately retreat Doom by 1. Then discard this card.
+**************************
+.18 Derringer  Value: 1
+Trinket - Weapon
+You may add 1 to the result of 1 die when resolving a [strength] test during Combat Encounters.
+**************************
+Pocket Watch Value: 1
+Trinket
+You cannot become Delayed unless you choose to.
+**************************
+Fine Clothes Value: 2
+Item
+Each 6 you roll when performing an Acquire Assets action counts as 2 successes.
+**************************
+Arcane Tome  Value: 3
+Item - Tome
+Gain [+2 lore] when resolving Spell effects.
+When you perform a Rest action, you may test [lore]. If you pass, gain 1 Spell.
+**************************
+Carbine Rifle Value: 3
+Item - Weapon
+Once per round, you may gain [+5 strength] during a Combat Encounter.
+**************************
+King James Bible Value: 2
+Item - Tome
+You may reroll 1 die when resolving a [will] test during a Combat Encounter. When you perfrom a Rest action, recover 1 additional Sanity.
+**************************
+Protective Amulet Value: 1
+Item
+Gain [+1 will] during Combat Encounters.
+**************************
+Puzzle Box  Value: 3
+Trinket 
+When you perform a Rest action, you may attempt to open the puzzle box [-2 observation]. If you pass, you may discard this card to gain 1 Artifact.
+**************************
+Private Care Value: 2
+Service
+When you gain this card, immediately recover all Health and Sanity.
+Then discard this card.
+**************************
+Arcane Scholar Value: 2
+Ally
+Gain [+1 lore].
+You may reroll 1 die when resolving a [lore] test.
+**************************
+Delivery Service  Value: 1
+Service - Teamwork
+When you gain this card, immediately give any number of Item possessions to another investigator on any space.
+Then discard this card.
+**************************
+Urban Guide Value: 4
+Ally
+If you are on a City space, investigators on your space roll 1 additional die when resolving tests except when resolving Other World Encounters.
+**************************
+Holy Cross  Value: 2
+Item
+Gain [+2 will] during Combat Encounters.
+**************************
+Vatican Missionary Value: 2
+Ally
+Gain [1+ will].
+You may reroll 1 die when resolving a [will] test.
+**************************
+Hired Muscle Value: 2
+Ally
+Gain [+1 strength].
+You may reroll 1 die when resolving a [strength] test.
+**************************
+Axe Value: 2
+Item - Weapon
+Gain [+2 strength] during Combat Encounters. You may spend 2 Sanity to reroll any number of dice when resolving a [strength] test during a Combat Encounter.
+**************************
+Lucky Rabbit's Foot Value: 1
+Trinket
+Once per round, you may reroll 1 die when resolving a test.
+**************************
+Personal Assistant Value: 2
+Ally
+Gain [+1 influence].
+You may reroll 1 die when resolving a [influence] test.
+**************************
+Lodge Researcher  Value: 3
+Ally
+If you defeat a Monster during a Combat Encounter, recover 1 Sanity and gain 1 Clue.
+**************************
+Charter Flight Value: 1
+Service
+When you gain this card, immediately move up to 2 spaces.
+Then discard this card.
+**************************
+Fishing Net Value: 2
+Item
+You may reroll 1 die when resolving a [strength] test during a Combat Encounter.
+Reduce the damage of Monsters you encounter by 1 to a minimum of 1.
+**************************
+Wireless Report Value: 1
+Service - Teamwork
+When you gain this card, immediately give any number of Clues to another investigator on any space.
+Then discard this card.
+**************************
+Holy Water Value: 2
+Item - Magical
+You may discard this card to gain [+5 will] and [strength] during a Combat Encounter.
+Action: You may discard this card to choose an investigator on your space. That investigator gains a Blessed Condition.
+**************************
+Bull Whip Value: 1
+Item - Weapon
+Gain [+1 strength] during Combat Encounters.
+You may reroll 1 die when resolving a [strength] test during a Combat Encounter.
+**************************
+Double-barreled Shotgun 
+Value: 4
+Item - Weapon
+Gain [+4 strength] during Combat Encounters.
+Each 6 you roll when resolving a [strength] test during a Combat Encounter counts as 2 success.
+**************************
+Sanctuary Value: 2
+Service
+When you gain this card, you may immediately discard 1 Condition. Then discard this card.
+**************************
+.45 Automatic Value: 2
+Item - Weapon
+Gain [+3 strength] during Combat Encounters.
+**************************
+Spirit Dagger Value: 2
+Item - Magical Weapon
+Gain [+1 will] and [+2 strength] during Combat Encounters.
+**************************
+Whiskey  Value: 1
+Item
+You may discard this card to prevent an investigator on your space from losing up to 2 Sanity.
+**************************
+Bandages Value: 1
+Item
+You may discard this card to prevent an investigator on your space from losing up to 2 Health. 

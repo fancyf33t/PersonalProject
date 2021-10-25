@@ -1,0 +1,96 @@
+CIty of the Great Race
+You hear the sound of a terrible gust of wind and listen carefully to determine the origin of the sound. You may spend 1 CLue to resolve the pass effect. If you do not spend the clue, resolve the fail effect.
+Pass: Something large and powerful is trying to break through a sealed trap door. The racket is startling, and you consider running away [will]. If you pass, you resolve to fend off the terrible beast and, with the help of the Yithians, you close this Gate. If you fail, you flee in terror from approaching threat; lose 1 Sanity.
+Fail: Bursting up through an opening in the floor, a flying polyp attacks [strength]! If you pass, the grateful Yithians help you; close this Gate. If you fail, the encounter leaves you bruised and shaken; lose 1 Health and 1 Sanity.
+The Future
+You find yourself in a familiar city, but ther's no electricity. The only light comes from the greenish moon, and the only sound is distant screaming. You can feel your reason being overrun by fear [will].
+Pass: Resisting the urge to panic, you find a large metal and glass machine that has electricity sparking across its surface. You try to learn how to operate the device [lore]. If you pass, you return to your own time; close this Gate. If you fail, you receive an electrical shock; lose 2 Health.
+Fail: Without thinking, you start walkingwith a long line of people. You hear screams from the people ahead of you. You try to escape, the the area is being guarded [strength]. If you fail, you return home with no memory of what happened; gain an Amnesia Condition.
+Yuggoth
+The mi-go refuse to go near the city of green pyramids. You summon your courage and explore this abandoned area [will].
+Pass: You find lost treasure! Gain 1 Artifact. You hear sounds coming from within the pyramids and look for a place to hide [-1 observation]. If you pass, you stay out of sight until the threat is gone; close this Gate. If you fail, you wake up uncertain of what's happened; gain an Amnesia Condition.
+Fail: You run from the pyramids as fast as you can. Until the mi-go return, you need to rely on your own means of survival [strength]. If you fail, you succumb to the harsh elements of this strange world; lose 1 Health and 1 Sanity.
+Lost Carcosa
+Staring out at the cloudy water of Lake Hali, you are horrified to see the entire lake rippling, as if something at the bottom is about to surface. You are seized by a terrible panic that paralyzes you [will].
+Pass: Through shee will, you force yourself to run oward the door you entered through. You find the doorway has been replaced by a blank wall. You try to recall an incantation from your sudies that will open the lost portal [lore]. If you pass, close this Gate. If you fail, you frantically scratch at the wallpaper; lose 1 Sanity.
+Fail: Suddenly, a flurry of tentacles burst out of the water. One of the flailing limbs grabs you and tries to pull you into the water. You attempt to bind the creature with powerful magic [-1 lore]. If you pass, you run for your life; close this Gate. If you fail, you are dragged into the water; lose 2 Health.
+Lost Carcosa
+You grow frustrated walking through the empty streets, able to hear people talking and laughing nearby, but unable to catch up to them. You try to focus and distinguish specific words from the mingling conversations [observation].
+Pass: The words you hear sound familiar to something you've read. You try to recall their significance [lore]. If you pass, you use the words to close this Gate. If you fail, the words insinuate themselves into every conversation you hear; gain a Paranoia Condition.
+Fail: The words remain unintelligible, and you realize that you've become lost in the city while chasing after these voices. You walk, lost, through Carcosa's darkest alleyways and consider timestakingly retracing your steps. Lose 2 Sanity unless you become Delayed.
+Lost Carcosa
+Turning the corner, you suddenly find yourself on stage. Other actors speak their dialogue and look at you expectantly. Someone offstage passes you a script, but the text is difficult to interpret [-1 lore].
+Pass: The audience applauds your perfrmance and the curtain falls. Close this Gate. You consider sticking around for the second show in hopes of picking up details you missed the first time. You may become Delayed to gain 2 Clues.
+Fail: The other actors glare at you, waiting for you to speak. You hope that by simply acting with confidence they'll believe it's someone else's line [influence]. If you fail, the show comes to a stop, and everyon silently leaves the theater; advance Doom by 1.
+Lost Carcosa
+At an elaborate masquerade, you talk to decadent party-goers who are all maneuvering to be declared as proper heir to the crown [influence].
+Pass: Believing that you can help him, a guest attempts to bribe you. Gain 1 Artifact. Seeing this, the Queen demands that you unmask. She questions you relentlessly in an attempt to discover what you've learned. Become Delayed unless you spend 2 Clues. If you spend the Clues, you gain her favor; close this Gate.
+Fail: You suddenly realize you are speaking to the Phantom of Truth. Lose 1 Sanity. Fear threatens to overwhelm you when you realize he is not wearing a mask [will]. If you fail, gain a Paranoia Condition.
+City of the Great Race
+You are horrified to realize that the body you are inhabiting in this world is not your own. The shock of seeing yourself in an alien, conical shell threatens to shatter your mind [will].
+Pass: You steel yourself against the horror of this alien body and try to recall the knowledge necessary to build a device that will return you to your body [lore]. If you pass, the machine malfunctions; lose 2 Health.
+Fail: The horrible truth shakes the foundations of your mind. You try to banish any knowldge of the arcane from your thoughts, but you lose your grip on reality. Gain a Hallucinations Condition unless you spend 1 Clue.
+City of the Great Race
+On a high, stone shelf you find books containing the wisdom of both the distant past and the far-flung future. Unfortunately, the tomes were written using a series of strange curvilinear symbols. You do your best to translate the alien language [-1 lore].
+Pass: You decipher the means to return yourself to your own time; close this Gate. After you return, you forget your time with the Great Race, but are plagued by strange dreams [will]. If you pass, you explore these visions during your sleep; gain 1 Clue.
+Fail: The symbols make no sense to you. You fear that you will be stuck here forever and search for a way home. You fell despair eating at you; lose 2 Sanity and gain a Paranoia Condition unless you spend 1 Clue
+City of the Great Race
+You find others who, like you, have had their consciousness pulled into alien bodies from throughout time. You try to convince them to share their knowledge [influence].
+Pass: Their stories are highly illuminating. Gain 2 Clues. They remind you of a ritual you researched that may provide you with a solution [-1 lore]. If you pass, close this Gate. If you fail, your attempts only meet with failure; lose 1 Sanity.
+Fail: You gain nothing from speaking to them. Just being around them sets you on edge. Your mind might unhinge if you continue to push yourself without resting. Gain a Paranoia Condition and lose 1 Sanity unless you become delayed.
+The Dreamlands
+You are strictly admonished that in the city of Ulthar, no man may kill a cat. As a result, you see the city is filled with cats. If you know the language, you can communicate with these highly intelligent creatures [lore].
+Pass: The cats are pleased to chat and share useful secrets. Gain 2 Clues. When the topic of food is brought up, dozens of cats take an interest. A crowd of hungry felines surround you. Become Delayed unless you spend 1 Health. If you spend the Health, you feed the cats your rations and go hungry yourself; close this Gate.
+Fail: The cats flee from you, making the people of Ulthar suspicious and they force you into the Enchanted Wood. Lose 1 Health. While you're oth there, you must keep a careful watch to prevent the zoogs from stealing your belongings [observation]. If you fail, discard 1 Item possession.
+The Dreamlands
+In the cavern of flame, the bearded priests Nasht and Kaman-Thah warn you that it is too dangerous to continue. You insist that you possess the knowledge you need and are resolved to enter the Dreamlands [-1 will]. Roll 1 additional die for each Clue you have.
+Pass: After gaining access to the Dreamlands, you find yourself fighting moonbeasts on a black galley sailing to the moon [strength]. If you pass, you steal their treasure and are able to barter with it; close this Gate. If you fail, you become lost in a forest on the moon; lose 2 Health and become Delayed.
+Fail: The gods of dreams exile you back to the waking world and punish you for your overreaching ambition. Your dream and the waking world become indistinguishable. Become Delayed and gain a Hallucinations Condition.
+The Underworld
+You find yourself surrounded by ghouls. However, they don't seem to be antagonistidc toward you. In fact, you believe you could persuade them to help you [influence].
+Pass: The ghouls direct you into the Tower of Koth in the City of the Gugs. As you ascend the tower's stairs, an enormous gug chases after you. The sound of the monstrosity rattles your nerves [will]. If you pass, close this Gate. If you fail, you hide, waiting for it to go away; lose 1 Sanity.
+Fail: Your well-reasoned arguments seem to have no impact, but bribery might. You may discard 1 Item possession to close this Gate. If you do not discard the possession, the ghouls attack you; lose 1 Health and gain an Injury Condition.
+The Future
+You stand in Times Square, New York, but not as you know it. The streets are empty, and the buildings have crumbled to dust. It appears that you will fail to save the world, and you try desperately not to fall into despair [-1 will].
+Pass: You get to your feet and find what is left of the central library. The books you find there prove useful; close this Gate. Deep in the basement of the library, you dig through the archives, searching for clues about the downfall of man [observation]. If you pass, gain 2 Clues.
+Fail: As you kneel sobbing on the cracked pavement, a shadow of a man falls over you. "You caused this," the man says calmly. His gold headdress looks somehow familiar [lore]. If you fail, you accept the truth in his words; lose 6 Sanity.
+The Abyss
+The nightgaunts seem intent on keeping you here in the darkness. You do your best to continue climbing out of these terrible depths without alerting them to your presence [observation].
+Pass: You reach the trap door that leads from the Abyss to Sarkomand. The journey has only strengthened your resolve. Improve [will]. Now it will require all of your strength to push open the door [-1 strength]. If you pass, you are able to escape; close this Gate. If you fail, gain a Back Injury Condition.
+Fail: The nightgaunts pick you up and toss you back to the bottom of the Abyss. Gain a Leg Injury Condition. In this dark stony landscape, you struggle to resist fear and hunger [will]. If you fail, lose 1 Health and 1 Sanity.
+The Past
+You find yourself standing in front of antique scientific equipment. According to the papers the year is 1771. You read through the notes and try to interpret the nature of the experiments [lore].
+Pass: Joseph Curwen was using this lab to revive dead wizards from their ashes and interrogate them for arcane knowledge. Using his notes, you close this Gate. The rest of his results may also prove useful. You may become Delayed to gain 1 Spell.
+Fail: These notes make no sense to you. Your reading is interrupted by a terrible moaning sound, and you find malformed creatures trapped in deep wells under the stone floor. The sight of them tears at your mind [will]. If you fail, lose 3 Sanity.
+The Past
+Through the slits in the closet door you see yourself as a small child, sitting up in bed. "Who's there?" asks a frightened voice. You try to calmly persuade your younger self that you're a friend [-1 influence].
+Pass: The child calms down, but eyes you suspiciously. "Listen carefully to what I say," you tell yourself. "it might save your life..." You may become Delayed to gain 2 Clues. Whether you become Delayed or not, close this Gate.
+Fail: The child screams out for help, and a man brsts into your bedroom. Your father aims his shotgun at your chest, and you attempt to wrestle it away [strength]. If you fail, you are peppered with buckshot; lose 6 Health.
+Great Hall of Celaeno
+You are forbidden to enter the library unless you bear the necessary sigil. You draw the symbol to the best of your knowledge [lore].
+Pass: After you enter the Great Hall, you realize you must have confidence in your action so others do not suspect you of trespassing [will]. If you pass, you recover the book you are looking for; close this Gate. If you fail, your fear gives you away and you are held captive; become Delayed.
+Fail: Your drawing proves insufficient and you find yourself back on Earth, struggling to retain your memories of what happened. Gain an AMnesia Condition unless you spend 1 Clue.
+Great Hall of Celaeno
+You are stunned to see a familiar face reading through tomes of dark sorcery. You try to catch a glimpse of what he's reading without alerting him to your presence [-1 observation].
+Pass: You learn what he's been reading and realize that he has opened a portal between worlds; close this Gate. Afterward, you examine the book that he was reading [lore]. If you pass, gain 1 Clue or 1 Spell. If you fail, you've never encountered such horrors before; lose 2 Sanity.
+Fail: He spots you and unleashes a torrent of arcane energy that tears at your mind. Lose 3 Sanity unless you spend 1 Clue.
+Great Hall of Celaeno
+The book you are look for is not on its proper shelf. You search the surrounding area, but after long hours you have lost the will to keep searching [will].
+Pass: The tome was hidden at the back of the shelf. Opening it up you find a series of handwritten instructions scrawled in the margin. You follow the instructions to the best of your understanding [lore]. If you pass, close this Gate. if you fail, you become frustrated; lose 1 Sanity.
+Fail: You cannot find the book, but perhaps you unknowingly already have the information you need. You may spend 1 Clue to close this Gate. If you do not spend the Clue, you become Delayed.
+Great Hall of Celaeno
+The book you are reading describes complex rituals in very abstract terms. You do your best to comprehend the dense material [lore].
+Pass: You gradually begin to see a pattern emerge. Gain 1 Spell. After staring so long at the book, however, you've forgotten how to get back home. You ask others in the library for help [-1 influence]. If you pass, an alien creature comes to your aid; close this Gate. If you fail, you wander the Great Hall; become Delayed.
+Fail: The opaque descriptions twist your mind with horrid imagery. Gain a Hallucinations Condition. In your unsteady state, you are overcome by vertigo as you descend the stairs to leave. You must focus to keep your footing [will]. If you fail, lose 2 Health.
+Yuggoth
+You discover a waxen mask and artificial hands. Your mind reels as you realize that the old man you had spoken to earlier was actually some terrible creature disguised as a human [will]
+Pass: You realize now that the old man's words carry a secondary meaning. You attempt to decrypt what he said [lore]. If you pass, you understand the man's implied instructions; close this Gate. If you fail, his words lead you in circles; become Delayed.
+Fail: What was the nature of that blasphemous horror behind the mask? You consult your notes, trying to find what might disguise itself this way [-1 lore]. If you pass, you find the data you need; close this Gate. If you fail, fear of the unknowable eats at your thoughts; lose 3 Sanity.
+Yuggoth
+You find a room filled with strange metal cylinders. Inside of each cylinder is a living brain that can communicate through a speaker box. You ask them for help [influence].
+Pass: They describe how to operate the mi-go's machinery to travel between worlds. Based on what they say, you try to operate the alien devices [lore]. If you pass, you return home; close this Gate. If you fail, the machine shows you horrid vistas you would never want to visit; lose 1 Sanity.
+Fail: The disembodied brains demand that you stay. They tell you terrible secrets they've learned about the fate of the Earth. Lose 2 Sanity unless you spend 1 Clue.
+Yuggoth
+You discover a fetid creature with wings and webbed feet. The beast is strange, like something from your wildest dreams. You may spend 1 Clue to resolve the pass effect. If you do not spend the Clue, resolve the fail effect.
+Pass: You believe you've read of a way to use this beast to travel through space [lore]. If you pass, you remember that by drinking space-mead you can safely use this byakhee to return home; close this Gate. If you fail, you drink something you shouldn't have; gain a Hallucination Condition.
+Fail: The creature is terrifying, but if you can keep your calm, you will be able to overpower it [will]. If you pass, you subdue the creature and use it to return home; close this Gate. If you fail, lose 1 Health.

@@ -1,0 +1,61 @@
+Grotesque Statue
+Item
+When you gain this card from the deck, gain 5 Clues.
+Once per round, yo may spend 1 Clue to prevent all Sanity loss from a single effect.
+**************************
+Cultes des Goules
+Item - Tome
+Action: Test [lore]. If you pass, you may spend 1 Sanity to gain 2 Clues.
+**************************
+Necronomicon
+Item - Tome
+Action:  Test [lore]. If you pass, you may spend 1 Sanity to gain 2 Spells.
+**************************
+De Vermis Mysteriis
+Item - Tome 
+Action: Test [lore]. If you pass, you may spend 1 Sanity to improve 1 skill of your choice.
+**************************
+Mi-go Brain Case
+Item - Magical Teamwork
+Action: You and another investigator may trade possessions. In addition, he may move to your space; if he does, move to his previous space.
+**************************
+The SIlver Key
+Item - Magical
+Once per round, you may spend 1 less Clue to pay for an effect.
+You may reroll 1 die when resolving a test during an Other World Encounter.
+**************************
+Sword of Saint Jerome
+Item - Magical Weapon
+Gain [+2 will] and [+5 strength] when resolving Combat Encounters.
+If you defeat a Monster during a Combat Encounter, recover 1 Sanity.
+**************************
+Gate Box
+Item - Magical
+Investigators on your space roll 1 additional die when resolving tests during Other World Encounters.
+If you close a Gate during an Other World Encounter, gain 1 Clue.
+**************************
+Pallid Mask
+Item - Magical 
+During the Encounter Phase, you may choose an encounter as if there are no Monsters on your space.
+**************************
+Lightning Gun
+Item - Magical Weapon
+Gain [+6 strength] when resolving Combat Encounters.
+Action: You and each Monster on your space lose 1 Health.
+**************************
+Ruby of R'lyeh
+Item - Magical
+Once per round, during the Action Phase, yo may spend 1 Sanity and perform 1 additional action.
+**************************
+Glass of Mortlan
+Item - Magical
+Each 6 you roll when resolving a SPell effect counts as 2 success.
+You may prevent the loss of 1 Sanity when resolving your Spell effects.
+**************************
+T'tka Halot
+Item - Tome
+Action: Test [lore]. If you pass, you may spend 1 Sanity to choose 1 Monster on your space to lose 3 Health.
+**************************
+Flute of the Outer Gods
+Item - Magical
+Action: Spend 2 Health and 2 Sanity to defeat all Monsters on your space.
