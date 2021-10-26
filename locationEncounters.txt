@@ -1,0 +1,144 @@
+Shanghai
+The old man offers to make tea for you. You see him mix in a strange, green powder that he calls "tyuk." You may become Delayed to wait for it to brew. If you become Delayed, the tyuk seems to heighten all of your senses; improve 1 skill of your choice.
+Shanghai
+You spot an odd, fish-like man pull a young monk underwater! You dive in to rescue him, holding yur breath as long as you can [strength]. If you pass, the grateful monk prays over you; gain a Blessed Condition. If you fail, you are implicated in his disappearance; gain a Detained Condition.
+Shanghai
+The shrine holds an abundance of ancient relics. Improve [lore]. Your eye catches strange figures written on the ceiling. You find it hard to look away [will]. If you fail, the writing seems to move on its own; gian 1 Hallucinations Condition.
+Shanghai
+If you can convince Chu Min to help, he will use New China's vast resources to provide you with any sort of instruction you require [influence]. If you pass, improve 1 skill of your choice. If you fail, lose 1 Health as his men force you out onto the street.
+Shanghai
+You search through old copies of The Shanghai Courier to find strange or unexplained stories [observation]. If you pass, you discover a pattern of arcane activity in the city; improve [lore]. If you fail, lose 1 Sanity as no pattern emerges from all this horror.
+Shanghai
+The Shanghai Museum recommends you speak to Mu Hsien, a preeminent scholar of the occult. You send him a message that you hope will convince him to help [influence]. If you pass, improve [lore] as he shares his wealth of knowledge.
+Shanghai
+The decadent crime lord, Lin Tang-Yu, offers you access to his library of occult treasures in exchange for information. You may spend 1 Clue to improve [lore].
+Shanghai
+You break into a warehouse filled with ancient wonders and learn much by studying its contents. Improve [lore]. You must remain silent to avoid being caught [observation]. If you fail, they question you for days; become Delayed.
+Tokyo
+A strange man dressed in the charred robes of a monk offers you help in exchange for knowledge. You may spend 1 Clue to convince the Black Monk to assist you and discard 1 Monster of your choice from any space.
+Tokyo
+A translation of The Tao of Immortality is kept in the Tokyo University Library. If you are deemed trustworthy, you are granted access to the ancient text [influence]. If you pass, you can use the arcane manual to move 1 Monster of your choice from any space to another space of your choice.
+Tokyo
+You find a gem breaing the symbol of the Emerald Lama. In its facets, you see the image of some horrible beast. Suddenly, the creature is right next to you! Choose 1 non-Epic Monster on any space and move it to your space, then encounter it.
+Tokyo
+You may become Delayed to explore some submerged pyramids off the coast of Okinawa. If you do, you discover ancient writing that claims to "harm one's enemies;" 1 Monster of your choice on any space loses 3 Health.
+Tokyo
+You ask the enigmatic Dragon Lords to rid the world of potential threats to Japan [influence]. If you pass, each Monster on space of your choice loses 2 Health as the mysterious group casts their spells. If you fail, the Dragon Lords lash out at you; gain a Back Injury Condition.
+Tokyo
+The reigning Emperor has been plagued by nightmares. His advisors ask your opinion and you assure them that these horrors are real [influence]. If you pass, they act immediately; 1 Monster of your choice on any space loses 2 Health. If you fail, gain a Detained Condition.
+Tokyo
+Captain Isoge Taro of the Imperial Japanese Navy takes particular interest in your investigation. You describe the threats that the world is facing [-1 influence]. If you pass, you convince him to help you; 1 Monster of your choice on any space loses 3 Health. If you fail, he is convinced that you are a dangerous menace; gain a Detained Condition.
+Tokyo
+The Brotherhood of the Black Lotus has poisoned you! You fall into a coma and confront your greatest fears [will]. If you pass, you awake and feel transformed; gain a Blessed Condition. If you fail, the nightmares follow you into the waking world; gain a Hallucinations Condition
+Sydney
+An old, aborginal man is on trial for a murder that you know he didn't commit. You agree to testify to prove his innocence [influence]. If you pass, he speaks to the spirits on your behalf; gain a Blessed Condition. If you fail, you are accused of perjury; gain a Detained Condition.
+Sydney
+The constable sees you admire the abandoned weapon. "Give it a bit to see if anyone claims it," he says. "If not, you can help yourself." You may become Delayed to gain 1 random Weapon Asset from the deck.
+Sydney
+Your money and passport have been stolen! You work on the SYdney Harbor Bridge to pay the bills. Improve [strength] as you meet the job's rigorous demands. When your passport is found at the scene of a crime, you need to prove your innocence [influence]. If you fail, gain a Detained Condition.
+Sydney
+A group of hunters provide you with the skills to track down a bunyip. Improve [strength]. When you find the massive four-legged creature, your weapons cannot pierce its leathery hide. You try to protect yourself from the beast's terrible claws and teeth [-1 strength]. If you fail, lose 2 Health.
+Sydney
+You dream of crossing a vast desert hunted by an enormous winged creature. In the dream, you turn to face your fears [will]. If you pass, you wake up feeling more alive than ever; improve [strength]. If you fail, the fear lingers; lose 1 Sanity.
+Sydney
+Several passengers on an underground train have been trapped by a tunnel collapse. The dark and claustrophobic climb through the rubble is terrifying [will]. If you pass, your nerves hold out enough to help dig a clear path for the survivors; improve [strength]. If you fail, lose 1 Sanity.
+Sydney
+The Theosophical Society is excited to hear what knowledge you have gained during your travels. You may spend 1 Clue. If you do, they gratefully provide you with an exercise and diet regimen that fortifies your vitality; improve [strength].
+Sydney
+Due to a city-wide shortage of supplies, shopkeepers won't even show you their wares unless you prove that you can pay top dollar [-1 influence]. If you pass, gain 1 random Weapon Asset from the deck. If you fail, you are roped into a devious scheme; gain a Debt Condition.
+London
+In exchange for a generous donation, the Penhew Foundation will happily show the results of its global explorations. You may gain a Debt Condition to gain 2 Clues.
+London
+You peruse The Scoop, a tabloid paper tat specializes in strange and lurid stories [-1 observation]. If you pass, gain 1 Clue as you find a vital bit of information.
+London
+You meet an eccentric painter in Soho who offers to show you his work. Amid his bizarre, alien landscapes, you notice some familiar details [observation]. If you pass, spawn 1 Clue on a space of your choice. If you fail, you see nothing but horrors; lose 1 Sanity.
+London
+At the lecture of a noted archaeologist, he reveals startling information! Spawn 2 Clues. During the presentation, a stranger tries to sneak a scarab into your pocket [observation]. It is inscribeed with the words, "Cursed be he who moves my body. To him shall come fire, water, and pestilence." If you fail, gain an Internal Injury Condition.
+London
+The Silver Twilight Lodge is locked up tight. You look over the old building for a possible entrance [observation]. If you pass, the Lodge members are delighted by your ingenuity and offer their favor; gain a Blessed Condition. If you fail, you waste fruitless hours serching and become Delayed.
+London
+Impulsively, you look through the inspector's files while his back is turned. Spawn 1 Clue on a space of your choice. Unfortunately, he sees you, and you'll need to fight your way out of Scotland Yard [strength]. If you fail, gain a Detained Condition as there is no shortage of police to arrest you.
+London
+Inside the Herefordshire Asylum, a patient asks you if you've seen the Yellow Sign. You listen to his story of the King in Yellow [observation]. If you pass, spawn 2 Clues. If you fail, his gibberish imprints itself onto your subconscious; gain a Hallucinations Condition.
+London
+You are invited to journey down to Oxford to examine John Dee's translation of the Necronomicon. You may become Delayed to spawn 2 Clues.
+Rome
+You discover a hidden shrine to Cybele in an ancient catacomb. It will be a long process to excavate the fund, but removing such a blight from Rome's foundations will grant you a higher reward. You may become Delayed to gain a Blessed Condition.
+Rome
+You speak to a number of Vatican authorities about your investigations. They carefully consider your story [-1 influence]. If you pass, you are thanked for doing good work; gain a Blessed Condition. If you fail, you are demoralized by their rejection; lose 1 Sanity and discard a Blessed Condition.
+Rome
+A group of Blackshirts are interrogating an old priest, and you try to intervene [influence]. If you pass, they let the priest go, and he is eternally grateful; gain a Blessed Condition. If you fail, you are shoved against a wall and arrested; gain a Detained Condition.
+Rome
+A witch cult must have used this villa to conduct their rituals. They've left behind a number of small potions. You may drink one to improve 1 skill of your choice. If you improve a skill, you must resist the ill effects of the elixir [will]. If you fail, gain a Cursed Condition.
+Rome
+The Vatican Library is so vast! You ask a librarian for recommendation [influence]. If you pass, he leads you to a codex that recounts how worshipers of Shub-Niggurath were driven out of Rome, and the story renews your confidence; improve [will].
+Rome
+Ever since arriving in Rome, you've had nightmares about being betrayed. You try to assure yourself that they are only dreams [will]. If you pass, the nightmare stops; improve [will]. If you fail, the nightmares continue; lose 1 Sanity.
+Rome
+You have an inspirational dream in which you are a proud Roman quaestor. Improve [will]. Your reverie is interrupted by a band of small, primitive men running wild outside. You try to negotiate with this lost tribe of Miri Nigri [influence]. If you fail, lose 1 Health and 1 Sanity as they continue their pursuit of some ancient grudge.
+Rome
+You are invigorated by a vist to a magnificent cathedral. Improve [will]. In the basement, you find a mosaic depecting robed men bowing before a great fire. To your horror, it is surrounded by scorch marks tat resemble human silhouettes [-1 will]. If you fail, gain a Paranoia Condition.
+Istanbul
+You see a horrid apparition slowly acending the stairs and have the immediate impulse to run away [will]. If you pass, you discover that it wants only to take revenge on the murderous cultists for all of their victims; improve [influence]. If you fail, you are overcome by terror; gain a Madness Condition.
+Istanbul
+Professor Azap at the Topkapi Museum is not easily impressed. Only serious scholars can earn his respect [lore]. If you pass, he offers you an help the institute can provide; improve [influence].
+Istanbul
+Members of the Turkish parliament offer you help in exchange for clearing a group of cultists out of the Shunned Mosque. Improve [influence]. Inside, you interrupt a ritual and must resist the effect of its magical energies [will]. If you fail, lose 2 Health as your skin writhes across your body.
+Istanbul
+A secret group of scholars has taken an interest in you. Improve [influence]. They show you a shocking, ancient text written by Theodorus Philetas regarding his translation of the Necronomicon. His words deeply disturb you [will]. If you fail, lose 2 Sanity.
+Istanbul
+Inside the loud hustle and bustle of the Grand Bazaar, you negotiate to find a skilled instructor to tutor you [-1 influence]. If you pass, improve 1 skill of your choice. If you fail, the instructor teaches you nothing; gain a Debt Condition to pay for his lessons.
+Istanbul
+The British Ambassador, Sir Douglas Rutherford, begs for your help. His child has been abducted by the Brothers of the Skin. You may spend 1 Clue to find the cultists and recover the boy. If you do, improve [influence].
+Istanbul
+People from every walk of life can be found enjoying the cleansing steam of the Turkish baths. Inside, you'll eventually find an expert in any given field. You may become Delayed to improve 1 skill of your choice.
+Istanbul
+You suspect that you are being followed. You use a reflective window to watch the people walking behind you [observation]. If you pass, you spot someone stalking you and escape into a mosque, and the imam there prays for your safety; gain a Blessed Condition. If you fail, the assassin finds you first; gain a Back Injuy Condition.
+Arkham
+During the night, you have a nightmare about the old witch, Keziah Mason. In the dream, she shares her power with you; gain 1 Incantation Spell. When you wake up, you fear that the old witch will someday ask you for a favor in return [+1 will]. If you fail, gain a Paranoia Condition.
+Arkham
+The administrators of Arkham's Historical Society take great pains to show you their extensive collection of historical documents. You may become Delayed to gain 2 Spells.
+Arkham
+Some ritual had been performed in the Black Cave, but the cultists are long gone. You look around for anything they may have left behind [observation]. If you pass, you find a scrap of parchment and gain 1 Incantation Spell. If you fail, lose 1 Health as you stumble around in the dark.
+Arkham
+A fortune teller in Independence Square warns you of dire events. You try to interpret her words [lore]. If you pass, you discern that you ultimately survive; gain a Blessed Condition. If you fail, you fear an inevitable doom; gain a Paranoia Condition.
+Arkham
+The Silver Twilight Lodge members ask you several riddles to prove your knowledge [+1 lore]. If you pass, they instruct you in their ways; gain 1 Spell.
+Arkham
+Inside Ye Olde Magick Shoppe, Miriam Beecher talks to you about the finer points of the occult [lore]. If you pass, you impress her with your acument, and she gives you a rare text; gain 1 Incantation Spell. If you fail, you lose track of time and can't seem to remember when you departed; gain an Amnesia Condtion.
+Arkham
+An anonymous patient in the asylum pleads with you to share what you've learned. You may spend 1 Clue to share what you know. If you spend the Clue, the man begins chanting in long-dead language; gain 1 Incantation Spell.
+Arkham
+In the restricted section of Miskatonic University's library, you study an esoteric tome. Gain 1 Incantation Spell. You try to decode a note written in the margin [lore]. If you fail, the words put strange visions into your mind; gain a Hallucinations Condition.
+San Francisco
+You find the husk of a squid-like creature in a tunnel. Just seeing it terrifies you [-1 will]. If you pass, you identify the cthonian; improve 1 skill of your choice as scientists clamor to contribute to its study. If you fail, you run headlong through the tunnel; gain a Leg Injury Condition.
+San Francisco
+The Examiner hires you spend a night in the Winchester Mystery House. They provide you with experts in detecting the supernatural. Improve [observation]. The odd architecture and the building's history threaten to unhinge your mind as the evening passes [-1 will]. If you fail, lose 2 Sanity.
+San Francisco
+You are invited to the Hearst Castle and find yourself surrounded by the best and brightest. You may become Delayed to stay for a few days. If you become Delayed, you pick up some amazing talents; improve 1 skill of your choice.
+San Francisco
+A pulp author named Smith invites you to read his work. The stories disturb you [will]. If you pass, you gain insight into how the invisible world remains hidden; improve [observation]. If you fil, the tale chills you to the bone; gain a Madness Condition.
+San Francisco
+You meet Hammett, a former Pinkerton Agent, on the street car and try to convince him to teach you how to be a detective [influence]. If you pass, he agrees; improve [observation]. If you fail, he's too distracted by his financial woes; gain a Debt Condition while helping to support his family.
+San Francisco
+While patrolling in Chinatown, you become adept at spotting signs of cult activity. Improve [observation]. You find thr temple, but must dispel a hex on the door to enter [lore]. If you fail, lose Health and 1 Sanity as the hex saps your life away.
+San Francisco
+You speak to a military prisoner on Alcatraz Island. He tells you his story of deseting after encountering a horrific creature [will]. If you pass, he thanks you for believing him and blesses your name; gain a Blessed Condition. If you fail, the story throws you into a hysterical fit, and the guards arrest you; gain a Detained Condition.
+San Francisco
+Inspector Jack Manion is looking for information about the Tongs in Chinatown. If you can help him, he'll teach you the basics of police work in exchange. You may spend 1 Clue to improve [observation]
+Buenos Aires
+You sneak into the temple and overhear the rough croaking of deep ones chanting. You recognize familiar elements to the words they are intoning [lore]. If you pass, gain 1 Ritual Spell. If you fail, it's nothing more than horrific noise; lose 1 Sanity.
+Buenos Aires
+At the hospital you find a bald, old man with leathery skin and a flat face. He speaks very slowly, but his story is fascinating. You may become Delayed to gain 2 Spells as he recounts all the details of his time worshiping the Father of Serpents.
+Buenos Aires
+You sneak aboard a ship loaded with stolen antiquities, including an ancient stone tablet. Reading it, you gain 1 Ritual Spell. Memorizing the words, you feel yourself slipping into a trance [will]. If you fail, you wake up imprisoned for theft; gain a Detained Condition.
+Buenos Aires
+A copy of the Necronomicon is kept at the University of Buenos Aires, but the librarian tells you that it's not available for viewing at this time. You try to convince him of the book's importance [influence]. If you pass, he relents and allows you a brief look at the book; gain 1 Ritual Spell.
+Buenos Aires
+The museum's curator shows you a unique golden jewel that was recovered from the sea. You believe that the symbols on it indicate that something is hidden inside [+1 lore]. If you pass, you reveal a small scroll; gain 1 Spell. If you fail, you damage the jewel and must pay for the repairs; gain a Debt Condition.
+Buenos Aires
+An old woman warns you that you've angered Yig and teaches you a protective chant. Gain 1 Ritual Spell. Concerned that she may be right, you learn all you can about Yig [lore]. If you fail, you learn nothing; gain a Paranoia Condition.
+Buenos Aires
+A student has been studying the university's copy of the Necronomicon and is eager to share what he's learned in exchange for hearing what you know. You may spend 1 Clue to share what you know and gain 1 Ritual Spell.
+Buenos Aires
+In an ancient underground chamber, you study strange scientific and magic paraphernalia once used by the Serpent Men [lore]. If you pass, you manipulate the devices to transform yourself and gain a Blessed Condition. If you fail, the devices remain utterly alien; lose 2 Sanity.
