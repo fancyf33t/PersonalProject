@@ -5,3 +5,4 @@ After I am able to get that done, I will repeat the process. Let's start with us
 Refer here:
 https://javascript-tutor.net/jSample/jsp_anidice2.html#:~:text=In%20this%20example%2C%20we%20will%20create%20an%20animated,syntax%20is%20as%20follows%3A%20myVariable%3DsetInterval%28myfunction%2C%20time%20interval%29%20
 
+10/30 I am not entirely sure how i am going to deal with the character sheets outside of just using arrays. let's play around...
