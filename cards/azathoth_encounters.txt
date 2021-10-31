@@ -1,0 +1,72 @@
+Seed of the Daemon Sultan
+A strange green comet has fallen from the sky. Even after the impact, the meterite continues to slowly burrow itself deeper into the earth.
+
+When this card enters play, place the Mystery token on Tunguska. As an encounter, an investigator on Tunguska may attempt to search for signs of the impact in the dead forest [observation]. If he pass, he discovers the strange green meteorite; he may spend 2 Clues to place 1 Eldritch token on this card.
+At the end of the Mythos Phase, if there are Eldritch tokens on this card equal to half investigators, solve this Mystery.
+
+The True Name
+Fragments of Azathoth's true name exist in long forgotten tomes. It is said that if a person speaks his name aloud three times, the blasphemous sound will grant the speaker great power.
+
+When this card enters play, place a numer of Eldritch tokens equal to half investigators each on a random space. As an encounter, an investigator on a space containing an Eldritch token may attempt to find information about Azathoth's true name; he may spend 2 Clues to place that Eldritch token on this card.
+At the end of the Mythos Phase, if there are Eldritch tokens on this card equal to half investigators, solve this Mystery.
+
+Occult Research
+The shan are controlling innocent victims everywhere, using them to call forth Azathoth.
+
+After an investigator resolves a Research Encounter, he may spend 1 Clue he gained from that encounter and place that Clue on this card.
+At the end of the Mythos Phase, if there are Clues on this card equal to investigators, solve this mystery.
+
+Omen Of Devastation
+The Nemesis Moon appears in the night sky, visible to all and heralding an imminent doom.
+
+When an investigator closes a Gate that corresponds to the current Omen, he may spen 1 Clue to place 1 Eldritch token on this card.
+At the end of the Mythos Phase, if there are Eldritch tokens on this card equal to half investigators, solve this Mystery.
+
+City
+Scientists report that ther sample of radium was stolen! Your investigation indicates a connection to worshipers of Azathoth [observation]. If you pass, you discover signs of cult activity; gain this Clue. If you fail, the scientists tell you what horrors the thieves might unleash using the radium; lose 1 Sanity.
+City
+Doctors ask you to observe a trephination. They pull away a piece of his skull, and you examine the brain [observation]. If you pass, you spot an insect-like creater; gain this Clue and 1 additional Clue. If you fail, you don't see the shan, and it overpowers your mind; shuffle a solved Mystery at random into the deck.
+City
+Inside a warehouse, you hear a clanging sound and discover a creature that resembles a metallic crate walking around on several legs. You try to follow the thing back to the cult's lair [-1 observation]. If you pass, gain this Clue and 1 additional Clue.
+City
+A few hours before the performance of the opera Massa di Requiem per Shuggay you have a chance to examine the libretto [lore]. If you pass, you recognize that it's a ritual that honors Azthoth and stop the performance; gain this Clue. If you fail, the performance calls to Azathoth; plce 1 Eldritch token on the green space of the Omen track.
+City
+A team of geologists have disappeared after studying a chunk of rock that was retrieved from a nearby crater. You visit their lab and feel waves of strange energy emanating from the stone, eroding your body from the inside [strength]. If you pass, you safely examine the green stone; gain this Clue. If you fail, you are forced to leave the area; gain an Internal Injury Condition.
+City
+The university allows you to use its telescope to search for signs for a green comet [-1 observation]. If you pass, gain ths Clue and 1 additional Clue. If you fail, you find nothing, looking through the endless depths of space; become Delayed.
+City
+You attend a reading by Edward Pickman Derby from his book Azathoth and Other Horrors and ask him about the occult [influence]. If you pass, gain this Clue. If you fail, he feigns innocence, but later reports the questions to the Cult of the Skull; advance the Omen by 1.
+City
+Something in your brain is manipulating your memories, trying to control you [will]. If you pass, a partially insubstantial insect flies out of yor head, leaving knowledge of an alien planet; gain this Clue. If you fail, you can't tell which of your memories are real; gain an Amnesia Condition.
+Wilderness
+An eerie mist surrounds you, and you find yourself in the court of Azathoth! Gain this Clue. Your mind can barely endure what you are seeing [will]. If you pass, you return to Earth with your mind intact; discard 1 Eldritch token from the Omen track. If you fail, lose 6 Sanity.
+Wilderness
+You discover a twenty-foot tall, gray metallic cone! Gain this Clue. You try to make sense of the alien technology inside [-1 lore]. If you pass, you manage to operate the shan technology; discard 1 Eldritch token from the Omen track.
+Wilderness
+A meteor exploded in the air, scattering a glowing green powder. You try to find a sufficient amount of the compound [-1 observation]. If you pass, gain this Clue and move the Omen token to any space on the track without advancing Doom. If you fail, you are exposed to the terrible energy emanating from the substance; lose 1 Health.
+Wilderness
+Mi-go have dug up the meteor that you were seeking. Curious, you attempt to spy on them [observation]. If you pass, you see them use the stones as a power source; gain this Clue and 1 additional Clue. If you fail, they shoot you with a weapon that leaves you unconscious for hours; gain an Amnesia Condition.
+Wilderness
+This far away from city lights, you get an unparalleled view of the night sky. You comb the sky, hoping to catch sight of a meteor shower [observation]. If you pass, gain this Clue and spawn 1 Clue.
+Wilderness
+Something attacks you in the dark. Lose 1 Health. To your eyes, ther's nothing arund you but trees [observation]. If you pass, you discover a metallic gray tree with evenly spaced branches and identify a strange alien from the planet Xicloti; gain this Clue and 1 additional Clue. If you fail, it strikes you again; gain a Back Injury Condition.
+Wilderness
+You examine an odd cave painting by torchlight. It depicts Azathoth sitting on a throne in the center of a starry spiral. You search for any signs of the painting's source [observation]. If you pass, you quickly find pottery shards; gain this Clue. If you fail, your torch eventually goes out, and you begin to hear the sound of a flute; advance the Omen by 1.
+Wilderness
+You ask the villagers about their peculiar folklore [influence]. If you pass, you recognize references to cannibalistic rituals in honor of Azathoth; gain this Clue. If you fail, something about the food they offer you is disturbing; lose 1 Sanity.
+Sea
+You dream of floating through space, watching stars disappear. You try to recognize constellations so you'll remember which stars disappeared [observation]. If you pass, gain this Clue and move the Omen to any space of the track without advancing Doom.
+Sea
+You wake up to find a large, winged creature in your cabin. It offers you an object to use in your fight against Azathoth. You may gain a Dark Pact Condition to gain this Clue and the T'tka Halot Artifact.
+Sea
+You overhear the navigator say that the stars are not as they should be. The ship is utterly lost. You believe you understand the significance of the new alignment of stars [lore]. If you pass, gain this Clue and 1 additional Clue. If you fail, you become Delayed.
+Sea
+Your ship is destroyed by a glowing rock that fell from the sky! Gain this Clue. You struggle to reach wreckage that can keep you afloat [strength]. If you fail, the undertow pulls you underwater; lose 2 Health.
+Sea
+The Nemesis Moon, Ghroth, looms in the sky. You don't know why it's here, but you know that it is the harbinger of doom. Gain this Clue and place 1 Eldritch token on the green space of the Omen track.
+Sea
+A pale, blubbery-looking sailor tells you of a dream he's been having about a green stone at the bottom of the ocean. Gain this clue. You try to use his description to determine the actual location [observation]. If you pass, move the Omen token to any space of the track without advancing Doom.
+Sea
+You watch a meteor shower streak across the night sky [observation]. If you pass, you see their source is a large, dark moon that's getting closer; gain this Clue and 1 additional Clue. If you fail, advance the Omen by 1.
+Sea
+A volcano throws smoke and burning ash into the air. Despite the toxic fumes, you force yourself to continue watching [will]. If you pass, you watch a new island form; gain this Clue and 1 additional Clue. If you fail, gain an Internal Injury Condition.
