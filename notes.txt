@@ -6,3 +6,28 @@ Refer here:
 https://javascript-tutor.net/jSample/jsp_anidice2.html#:~:text=In%20this%20example%2C%20we%20will%20create%20an%20animated,syntax%20is%20as%20follows%3A%20myVariable%3DsetInterval%28myfunction%2C%20time%20interval%29%20
 
 10/30 I am not entirely sure how i am going to deal with the character sheets outside of just using arrays. let's play around...
+this is an example of how to base an encounter on
+
+var idx = Math.floor(Math.random() * nflChampions.length);
+var message; //this simply initializes the variable message
+
+if (nflChampions[idx].length === 1) {
+    message = `Hello, darkness my old friend. It is me. The ${nflChampions[idx][0]}...`;
+} else if (nflChampions[idx].length === 3) {
+    console.log(`You might be a champion ${nflChampions[idx][0]}, but you are also charged with the following: ${nflChampions[idx][2]}`)
+} else {
+    message = `CONGLATURATIONS, ${nflChampions[idx][0]}!!! You have ${nflChampions[idx][1]} championship titles!! Good job!!`;
+}
+
+10/31 how to i add more complexity to this idea? this is going to get complicated real quick...
+
+sample of the code that i used for the quick fight system. this nesting loop situation is going to require some real work
+
+if (fight > monster[0][1]) {
+    fight_result = 'health test has passed';
+} else if (fight > monster[1][1]) {
+    fight_result = 'will test has passed';
+} else {
+    fight_result = 'ouch'
+}
+console.log(fight_result)
