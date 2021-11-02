@@ -112,3 +112,4 @@ if (fight >= 5) {
     console.log(Jim_Culver[0][1] - monster[0][1])
     fight_result = 'oops'
 }
+console.clear()

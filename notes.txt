@@ -31,3 +31,5 @@ if (fight > monster[0][1]) {
     fight_result = 'ouch'
 }
 console.log(fight_result)
+
+10/31 next i need to make the random dice roll test with my character sheet roll because those numbers on the character sheet indicate how many 'die' get used, not a hard number to test (example: culver has will of 3 which means 3 separate die rolls to get either a 5 or a 6)

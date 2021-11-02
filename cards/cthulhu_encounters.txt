@@ -1,0 +1,95 @@
+The Deep Ones Attack!
+Terrible storms have battered fishing villages across the globe, but it's merely the prelude to an invading army of deep ones!
+
+When this card eters play, each investigator places 1 Eldritch token on the nearest Sea space that does not contain an Eldritch token.
+As an encounter, an investigator on a space containing an Eldritch token may attempt to fend off the deep one invasion; a Deep One Monster ambushes him! If he defeats it, he may spend 1 Clue to place that Eldritch token on this card.
+At the end of the Mythos Phase, if there are Eldritch tokens on this card equal to investigators, solve this Mystery. Do not discard the Eldritch tokens from the game board.
+
+Watching the Stars
+From the sunken city of Yhe, Cthylla rises to fulfill her destiny. Daughter of Cthulhu, she will give birth to the reincarnation of her father should his body ever be destroyed.
+
+When this card enters play, spawn the Cthylla Epic Monster on space 12.
+At the end of the Mythos Phase, if the Cthylla Epic Monster has been defeated, solve this Mystery.
+
+The Stars are Right
+All around the world, Cthulhu's worshipers and those sensitive to his dreams have been plagued by madness. They rush to the sea to witness the Ancient One's return.
+
+When this card enters play, move each Clue on the game board to the nearest Sea space.
+After an investigator resolves a Research Encounter, he may spend 1 Clue he gained from that encounter and place that Clue on this card.
+At the end of the Mythos Phase, if there are Clues on this card equal to investigators, solve this Mystery.
+
+R'lyeh Risen
+Eons ago, the city of R'lyeh was plunged to the bottom of the ocean by some forgotten disaster. It has remained trapped there, waiting for the right time to resurface. Now, that moment has finally arrived.
+
+When this card enters play, place th Mystery token on space 3.
+As an encounter, an investigator on space 3 may explore the island city of R'lyeh by resolving a R'lyeh Risen Special Encounter.
+At the end of the Mythos Phase, if there are Elritch tokens on this card equal to half of the investigators, solve this Mystery.
+
+R'lyeh Risen
+At the very peak of the island, you encounter a massive stone door featurning a horrific bas-relief of a dragon-like creature. Strange symbols are carved along the edge of the door. Some of the icons resemble drawings you've seen in books [-1 lore].
+Pass: You spot a protective ward out of place, hanging precariously. A member of your crew is on top of the door frame next to the ward. You warn him to carefully replace it [-1 influence]. If you pass, he does as you ask; place 1 Eldritch token on the active Mystery. If you fail, he fumbles it; resolve the fail effect.
+Fail: Somewhere on the other side of the enormous door, you hear a thunderous splashing sound and feel the ground shake as something approaches the island's surface. Advance Doom by 1.
+R'lyeh Risen
+You recognize the alien landscape from a dream you've had. Lose 1 Sanity. You try to remember as many details as you can from the dream to navigate through the city [-1 observation].
+Pass: You make your way to a hidden chamber lined with strange glyphs carved into the stone. Some of the symbols seem familiar [-1 lore]. If you pass, you learn the story of how the elder things trapped Cthulhu in this city; place 1 Eldritch token on the active Mystery. If you fail, the images fester in your subconscious; gain a Paranoia Condition.
+Fail: You quickly become lost and tumble down a long stone slope. Gain a Leg Injury Condition. As you climb to your feet you realize you're not alone. Spawn 1 Monster on your space.
+R'lyeh Risen
+Hundreds of deep ones surface from the water, crawling up the green stones. You hide yourself and watch their priest perform a strange ritual [-1 observe].
+Pass: Although you cannot understand the words, the ritual reminds you of a similar ceremony performed by human cults [-1 lore]. If you pass, you recognize the moment when they will close their eyese and tae the opportunity to escape; place 1 Eldritch token on the active Mystery. If you fail, you misinterpret the chant; resolve the fail effect.
+Fail: A loud crok informs you that one of the deep  ones has spotted you. The monstrous fish creatures descend upon you from all sides. Lose 3 Health.
+R'lyeh Risen
+You swim up to the slimy rocks and walk into the corpse city of R'lyeh. Inside, cyclopean, green, stone blocks meet at non-Euclidean angles. The very sight of his alien construction threatens to shatter yur mind [-1 will].
+Pass: Trying not to focus on the architecture, you instead take note of a series of hieroglyphics scribed on the walls. You desperately try to interpret them for useful information [-1 lore]. If you pass, place 1 Eldritch token on the active Mystery.
+Fail: Your life up until this moment has been a dream from which you are just awakening. You now understand that your true purpose is to offer yourself up as a sacrifice to Cthulhu. Lose 3 Sanity.
+R'lyeh Risen
+As you approach the uncharted island, you hear the sound of a cannon and feel the deck shudder. Your ship is badly damaged, and if you hope to survive, you must overpower the crew aboard the gunship Alert, the source of the cannon fire [-1 strength].
+Pass: Once you have control of the ship, you find that it was filled with cultists devoted to Cthulhu. You search through their notes for information about the island [-1 observation]. If you pass, you find a folder with everything you need to know; place 1 Eldritch token on the active Mystery.
+Fail: The Alert's crew kill all of the sailors you were traveling with and knock you unconscious. When you wake up, you find yourself tied up in their makeshift brig. Gain a Detained Condition.
+City
+The librarian tells you that the book you're looking for was checked out by someone named Mr. Marsh. You scour the city to find him before he leaves town [observation]. If you pass, you manage to steal the book from his hotel room; gain this Clue. If you fail, move this Clue to the nearest Sea space.
+City
+You recognize allusions to Cthulhu in a sculptor's recent works. You speak to the artist about his inspirations [influence]. If you pass, gain this Clue and 1 additional Clue. If you fail, he tells you a terrible vision of the future; lose 1 Sanity.
+City
+The police ask for help in tracking down a cultist sect [-1 observation]. If you pass, you help them launch a midnight raid; gain this Clue. If you fail, the cult foils your investigation and rob your hotel; discard 1 Item Asset.
+City
+A man tells you about his terrible dreams of underwater cities. You suspect you understand the source of such nightmares [lore]. If you pass, you warn him about his heritage; gain this Clue. If you fail, a Deep One Monster ambushes you.
+City
+You dream of a city built from massive green stones set a non-Euclidean angles. You try to retain as many details as you can to investigate when you wake up [observation]. If you pass, you identify the location by the stars overhead; gain this Clue and 1 additional Clue. If you fail, the details of the dream are too horrible to remember; lose 1 Sanity.
+City
+After the police raid a local Order of Dagon, you have a chance to search the temple [observation]. If you pass, you find ledgers and historical documents; gain this Clue and a Mists of Releh Spell. If you fail, you feel the statues and icons in the building staring at you; gain a Paranoia Condition.
+City
+The cult of Cthulhu anticipated your arrival. A Cultist Monster ambushes you! If you defet it, gain this Clue. If you do not defeat it, you cannot recall how you escaped; gain an Amnesia Condition and move this Clue to the nearest Sea space.
+City
+You see dozens of people with the distinct features of deep one hybrids. They watch you constantly, and you'll have to fight to escape [strength]. If you pass, you  identify more families descended from deep ones; gain this Clue. If you fail; they attack and turn you over to the police; lose 1 Health and gain a Detained Condition.
+Wilderness
+In a remote area, you discover an ancient ritual underway stop to observe. A Cultist Monster ambushes you! If you defeat it, the cultists abandon their ritual; gain this Clue. If you do not defeat it, you are incoporated into the ceremony; gain a Cursed Condition.
+Wilderness
+This cavern collagsed thousands of years ago. Your excavations reveal ritual carvings that you think correspond to modern cults [-1 observation]. If you pass, you gain insight into the cult of Cthulhu; gain this Clue and 1 additional Clue. If you fail, you contemplate how long the worshipers of Cthulhu have waited for their master; lose 1 Sanity.
+Wilderness
+You uncover an ancient stone statue of Cthulhu carved from an unknown green stone. Just looking at it threatens your mental stabiligy [will]. If you pass, you examine the statue thoroughly; gain this Clue. If you fail, you stare at the horrific carving in horror; gain a Hallucinations Condition.
+Wilderness
+You try to track down an old hermit who supposedly knows the secrets of Cthulhu's cults [observation]. If you pass, the man is insane, but his stories prove accurate; gain this Clue. If you fail, the man has been taken by pirates; move this Clue to the nearest Sea space.
+Wilderness
+You try to interpret the strange constellations in the night sky above you [-1 lore]. If you pass, you understand the occult phenomenon that is coming to pass; gain this Clue and retreat Doom by 1. If you fail, the stars tell you nothing; move this Clue to the nearest Sea space.
+Wilderness
+Cultists have snuck into your camp, trying to steal your equipment [observation]. If you pass, you catch one of them and get a chance to question him; gain this Clue. If you fail, discard 2 Item Assets and move this Clue to the nearest Sea space.
+Wilderness
+You have a vivid dream of R'lyeh and fear that you won't be able to wake up if you can't find your way out of the city [observation]. If you pass, the dream provides you insight into R'lyeh; gain this Clue and 1 additional Clue. If you fail, you remain unconsciou for a day; lose 2 Sanity and become Delayed.
+Wilderness
+The mi-go have lured you into the wild to put an end to your investigation. You try to drive the creatures off before they can do any lasting damage [strength]. If you pass, gain this Clue. If you fail, become Delayed and move this Clue to the nearest Sea space.
+Sea
+You wake up on a reef with no sign of your ship. An enormous star spawn rises from the sea and places its thoughts into your mind. You may gain a Dark Pact Condition to gain this Clue and a Mists of Releh Spell. If you do not, discard this Clue and a Star Spawn Monster ambushes you.
+Sea
+Looking across the water, you see visions of an ancient island city populated by horrible creatures. The city is horrible to behold [will]. If you pass, you learn about R'lyeh; gain this Clue and 1 additional Clue. If you fail, your mind cannot stand the sight; gain a Hallucinations Condition.
+Sea
+In the middle of the night you see an army of deep ones climbing in and out of the water [-1 observation]. If you pass, you wait until they're gone and then search the area; gain the Grotesque Statue Artifact. If you fail, lose 3 Sanity and a Deep One Monster ambushes you.
+Sea
+Your ship encounters another vessel engaged in deep-sea excavation. You sneak aboard their craft to see what they've found [observation]. If you pass, you see stangely-crafted golden jewelry; gain this Clue. If you fail, the divers catch you and throw you into their brig; gain a Detained Condition.
+Sea
+Some dark shape is moving under the waves [observation]. If you pass, you vaoid the creature; gain this Clue. If you fail, your ship is thrown into the air; a Star Spawn Monster ambushes you! If you defeat it, retreat Doom by 1.
+Sea
+You listen intently as the island natives tell a folktale [-1 observation]. OIf you pass, you recognize it as a description of how the elder things fought Cthulhu; gain this Clue and retreat Doom by 1. If you fail, the story has a damaging effect on your mind; gain a Hallucinations Condition.
+Sea
+As you stare across the water, a webbed hand reaches from below the surface and grabs your leg! A Deep One Monster ambushes you. If you defeat it, gain this Clue and 1 additional Clue. If you do not defeat it, gain a Leg Injury Condition.
+Sea
+During the nigt, you hear the sounds of the crew battling some unseen enemy. Suddenly, you are face-to-face with one of the fish-like monstrocities! Gain this Clue and lose 1 Sanity. A Deep One Monster ambushes you. If you defeat it, you find an odd relic; gain the Ruby of R'lyeh Artifact.
