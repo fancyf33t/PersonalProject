@@ -23,31 +23,7 @@ Jim_Culver = [
 
 console.log(`Greetings, your character sheet says that you are Jim Culver. Your stats are: ${Jim_Culver}`)
 
-var monster = [
-    ['Health', 3],
-    ['Will', 1],
-]
-console.log(`You are a monster. Stats: ${monster}`)
-// now i need to create a card that will affect my character sheet... duck...
-var fight = Math.ceil(Math.random() * 6)
-console.log(fight)
 
-// let's start smaller than small....
-var fight_result;
-
-if (fight > monster[0][1]) {
-    console.log('guess it works')
-} else {
-    console.log('you are an idiot')
-} // ok so i can get that figured out. now how to i add another level to this?
-if (fight > monster[0][1]) {
-    fight_result = 'health test has passed';
-} else if (fight > monster[1][1]) {
-    fight_result = 'will test has passed';
-} else {
-    fight_result = 'ouch'
-}
-console.log(fight_result)
 /*
 var nflChampions = [
     ['Green Bay Packers', 13],

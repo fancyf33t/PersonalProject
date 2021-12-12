@@ -1,0 +1,12 @@
+.card {
+    width: 300px;
+    height: 450px;
+    border: 3px solid lavender;
+    margin: 0 auto;
+    position: relative;
+}
+.card-body {
+    border: 2px solid black;
+    position: absolute;
+    bottom: 0;
+}

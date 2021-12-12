@@ -1,0 +1,40 @@
+the following code kind of worked for what i was trying to accomplish. PROBLEM, i want to have a nested if statement
+
+var tester = Math.ceil(Math.random()*6)
+
+function testNum() {
+    if (tester >= 5) {
+        console.log(`You rolled a ${tester}. SUCCESS`)
+    } else {
+        console.log(`You failed because of that ${tester}`)
+    }
+    return;
+}
+testNum()
+// easy enough i guess
+
+// so i am now able to make the numbers display in the box with this function (incorporate this function into a future class)
+let die1 = document.getElementById('die1'),
+    die2 = document.getElementById('die2'),
+    rolls = 0,
+    battleResult = document.getElementById('battleResult'),
+    testBtn = document.getElementById('testBtn');
+
+    testBtn.addEventListener('click', (e)=>{
+        e.preventDefault()
+
+        if (die1 >= 5){
+            if (die2 >=5) {
+                battleResult.innerText = `Holy shit you did it!!!
+                Die 1: ${die1}
+                Die 2: ${die2}`
+            }
+        } else {
+            battleResult.innerText = "We gotta keep trying...."
+        }
+        
+        die1.innerText = Math.ceil(Math.random() * 6);
+        die2.innerText = Math.ceil(Math.random()*6);
+        rolls++
+        return
+    })
