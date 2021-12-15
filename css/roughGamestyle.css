@@ -27,7 +27,7 @@ body {
     border: 1px solid green;
     height: 60px;
 }
-.pass-box, .fail-box {
+.pass-box, .fail-box, .roll-box {
     border: 1px solid salmon;
     height: 90px;
     width: 200px;
@@ -45,11 +45,13 @@ body {
 }
 .encounter-box {
     border: 1px solid black;
-    height: 400px;
+    height: 800px;
 }
-.roll {
-    height: 50px;
-    border: 1px solid black;
-    width: 200px;
+.display-box {
+    width: 90%;
+    border: 1px solid red;
     margin: 0 auto;
+}
+.monster-stats h3 {
+    border-bottom: 1px solid black;
 }

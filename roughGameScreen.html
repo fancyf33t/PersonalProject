@@ -22,85 +22,119 @@
         </div>
     </header>
     <main class="main" id="main">
-        <section class="character-sheet-section" id="characterSection">
-            <div class="card mb-3" style="max-width: 540px;">
-                <div class="row no-gutters">
-                    <div class="col-md-4">
-                        <img src="media/akachionyele.jpg" alt="Akachi Onyele" class="img-fluid">
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                            <h5 class="card-title">Akachi Onyele</h5>
-                            <p class="card-text"><em>"The Shaman"</em></p>
-                            <ul class="nav card-stats">
-                                <li class="stats-box" id="stats1"><span id="lore"></span></li>
-                                <li class="stats-box" id="stats2"><span id="influence"></span></li>
-                                <li class="stats-box" id="stats3"><span id="observation"></span></li>
-                                <li class="stats-box" id="stats4"><span id="strength"></span></li>
-                                <li class="stats-box" id="stats5"><span id="will"></span></li>
-                            </ul>
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-4">
-                                        <div class="health-box"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-7">
+                    <section class="character-sheet-section" id="characterSection">
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row no-gutters">
+                                <div class="col-md-4">
+                                    <img src="media/akachionyele.jpg" alt="Akachi Onyele" class="img-fluid">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Akachi Onyele</h5>
+                                        <p class="card-text"><em>"The Shaman"</em></p>
+                                        <ul class="nav card-stats">
+                                            <li class="stats-box" id="stats1"><span id="lore"></span></li>
+                                            <li class="stats-box" id="stats2"><span id="influence"></span></li>
+                                            <li class="stats-box" id="stats3"><span id="observation"></span></li>
+                                            <li class="stats-box" id="stats4"><span id="strength"></span></li>
+                                            <li class="stats-box" id="stats5"><span id="will"></span></li>
+                                        </ul>
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-4">
+                                                    <div class="health-box"></div>
+                                                </div>
+                                                <div class="col-4">
+                                                    <div class="sanity-box"></div>
+                                                </div>
+                                                <div class="col-4">
+                                                    <div class="clues-box"></div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="col-4">
-                                        <div class="sanity-box"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="conditions">
+                        <section class="character-status-section" id="statusSection">
+                            <div class="condition-box"></div>
+                            <div class="inventory-box"></div>
+                        </section>
+                    </section>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="pass-fail-box">
+                                    <div class="pass-box">
+                                        <h1>pass</h1>
                                     </div>
-                                    <div class="col-4">
-                                        <div class="clues-box"></div>
+                                    <div class="fail-box">
+                                        <h1>fail</h1>
+                                    </div>
+                                    <div class="roll-box">
+                                        <h1>roll dice</h1>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="dice-box">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <div class="die" id="die1"></div>
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="die" id="die2"></div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <div class="die" id="die3"></div>
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="die" id="die4"></div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        <section class="main-gamepage-display" id="gameDisplay">
-            <div class="container">
-                <div class="row">
-                    <div class="col-4">
-                        <section class="character-status-section" id="statusSection">
-                            <div class="condition-box"></div>
-                            <div class="inventory-box"></div>
-                        </section>
-                    </div>
-                    <div class="col-4">
-                        <section class="test-section" id="testSection">
-                            <div class="pass-box"></div>
-                            <div class="fail-box"></div>
-                            <div class="dice-box">
+                <div class="col-5">
+                    <section class="encounter-section">
+                        <div class="encounter-box">
+                            <h2>Encounter section</h2>
+                            <div class="display-box">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque mollitia doloremque quaerat distinctio quia nam laboriosam placeat illum nihil saepe ad vitae, eius fuga deleniti reiciendis nemo! Necessitatibus iure placeat expedita eos soluta magni, voluptatum neque sapiente repudiandae, quisquam qui temporibus earum nisi inventore, sint tempore? Sapiente atque aperiam sit maiores debitis cupiditate suscipit, optio error vero corporis odio qui? Harum illum facilis animi. Exercitationem, nemo deserunt eos corrupti, officiis magni cupiditate, consequuntur tempore asperiores molestiae nesciunt voluptatibus corporis dolor.</p>
+                            </div>
+                            <div class="monster-box">
                                 <div class="container">
                                     <div class="row">
-                                        <div class="col-6">
-                                            <div class="die" id="die1"></div>
+                                        <div class="col-7">
+                                            <div class="monster-display">
+                                                <img src="media/cthulhu.jpg" class="img-fluid">
+                                            </div>
                                         </div>
-                                        <div class="col-6">
-                                            <div class="die" id="die2"></div>
-                                        </div>
-                                    </div>
-                                    <div class="roll"></div>
-                                    <div class="row">
-                                        <div class="col-6">
-                                            <div class="die" id="die3"></div>
-                                        </div>
-                                        <div class="col-6">
-                                            <div class="die" id="die4"></div>
+                                        <div class="col-5">
+                                            <div class="monster-stats">
+                                                <h3>stats for monster</h3>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </section>
-                    </div>
-                    <div class="col-4">
-                        <section class="encounter-section" id="encounterSection">
-                            <div class="encounter-box"></div>
-                        </section>
-                    </div>
+                        </div>
+                    </section>
                 </div>
             </div>
-        </section>
+        </div>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
