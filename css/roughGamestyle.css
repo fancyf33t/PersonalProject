@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+
+}
+body {
+    background-color: #b6ad90;
+}
+
+.stats-box {
+    border: 1px solid black;
+    width: 35px;
+    height: 35px;
+    margin: 5px;
+}
+.health-box, .sanity-box, .clues-box {
+    border: 1px solid red;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.condition-box {
+    border: 1px solid blue;
+    height: 60px;
+}
+.inventory-box {
+    border: 1px solid green;
+    height: 60px;
+}
+.pass-box, .fail-box {
+    border: 1px solid salmon;
+    height: 90px;
+    width: 200px;
+    margin-left: 60px;
+}
+.dice-box {
+    border: 1px solid purple;
+    height: 300px;
+}
+.die {
+    border: 1px solid blue;
+    height: 80px;
+    width: 80px;
+    margin: 25px;
+}
+.encounter-box {
+    border: 1px solid black;
+    height: 400px;
+}
+.roll {
+    height: 50px;
+    border: 1px solid black;
+    width: 200px;
+    margin: 0 auto;
+}
