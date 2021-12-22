@@ -122,3 +122,5 @@ VERY OLD code
                 </div>
             </div>
         </section>
+
+I need to make a character sheet for the player to choose.

@@ -29,12 +29,24 @@ body {
 }
 .pass-box, .fail-box, .roll-box {
     border: 1px solid salmon;
-    height: 90px;
-    width: 200px;
+    max-height: 90px;
+    max-width: 200px;
     margin-left: 60px;
+    text-align: center;
 }
+/*
+no longer necessary to hover
+.pass-box:hover {
+    background-color: chartreuse;
+}
+.fail-box:hover {
+    background-color: crimson;
+}
+*/
 .dice-box {
-    border: 1px solid purple;
+    border: 4px double slategray;
+    /* keep this in mind for a change later */
+    background: linear-gradient(135deg, hsla(267, 62%, 46%, 1) 0%, hsla(278, 51%, 59%, 1) 25%, hsla(263, 49%, 73%, 1) 50%, hsla(212, 56%, 82%, 1) 75%, hsla(178, 87%, 85%, 1) 100%);
     height: 300px;
 }
 .die {
@@ -42,16 +54,49 @@ body {
     height: 80px;
     width: 80px;
     margin: 25px;
+    padding: 15px 30px;
+    font-size: 35px;
 }
 .encounter-box {
-    border: 1px solid black;
-    height: 800px;
+    border: 4px double black;
+    height: 680px;
 }
+
 .display-box {
     width: 90%;
     border: 1px solid red;
     margin: 0 auto;
 }
-.monster-stats h3 {
+
+.monster-display h3, .monster-stats h3 {
     border-bottom: 1px solid black;
+}
+
+.button-Row {
+    border: 1px solid black;
+    align-items: center;
+}
+
+/*
+the following will be the character sheet styling
+*/
+.card-body {
+    border: 1px solid rgb(17, 243, 156);
+    margin: 20px;
+}
+.character-card {
+    border: 1px solid red;
+    max-width: 540px;
+}
+.character-stats {
+    border: 1px solid blue;
+    width: 500px;
+}
+.character-img {
+    /* max-width: 540px */
+    margin: 20px; 
+}
+.character-stat {
+    font-size: 20px;
+    border: 1px solid red;
 }

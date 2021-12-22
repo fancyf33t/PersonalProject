@@ -863,6 +863,59 @@ class Combat {
                 
             }
         }
+        this.encounters = {
+            encounter01: {
+                location: 'city',
+                scene: 'You wander through the aisles of an antique book store. Although many extremely rare books can be found here, the organizational system is almost impossible to decipher [-1 lore]. If you pass, you\'re able to track down a hidden gem; gain 1 Tome Artifact.',
+                // if encounter01, test lore - 1. if 'success', gain arcane.Math.random()*arcanes.length
+            },
+            encounter02: {
+                location: 'city',
+                scene: 'The police report that people are being abducted by a monster dwelling in the sewer system. Wandering through the underground tunnels you are suddenly attacked by a deep one [strength]! If you pass, you defeat the creature and rescue its hostage; gain 1 random Ally Asset from the deck. If you fail, lose 1 Health from the struggle.',
+                // test strength. if success, gain asset[ally]; add to inventory
+            },
+            encounter03: {
+                location: 'city',
+                scene: 'Corrupt members of the police force pressure you for a bribe. You speak to some people you know to take care of the problem [influence]. If you pass, the police are apologetic and share their leads with you; spawn 1 Clue. If you fail, gain a Debt Condition to pay the bribe.',
+                // test lore; if success, clue + 1 else condition[debt]
+            },
+            encounter04: {
+                location: 'city',
+                scene: 'Legends say that this cemetery is haunted. Exploring the headstones, you encounter an angry specter, eager to share his story. The experience is nerve-wracking, but you try to listen [will]. If you pass, the spirit gratefully fades from view; recover 2 Sanity. If you fail, his desperate voice echoes in your mind; gain a Paranoia Condition.',
+                // test will; if success, sanity + 2 else condition[paranoia]
+            },
+            encounter05: {
+                location: 'city',
+                scene: 'The shop is robbed while you are browsing! You attempt to fend off the thieves [strength]. If you pass, the store owner is very gracious; gain 1 Item Asset from the reserve or 1 random Item Asset from the deck. If you fail, lose 1 Health and discard 1 Item possession.',
+                // test strength; if success, asset random else health -1
+            },
+            encounter06: {
+                location: 'city',
+                scene: 'The police ask for your help investigating a series of ritual killings. The grisly crime scenes threaten to overwhelm you with chills and nausea [will]. If you pass, you manage to examine the scene and find significant information; spawn 1 Clue. If you fail, you can\'t endure the horror; lose 2 Sanity.',
+                // test will; if success, clue + 1 else sanity - 2
+            },
+            encounter07: {
+                location: 'city',
+                scene: 'The Syndicate is rengaged in a gang war with local thugs and is under intense legal scrutiny. You try to trade your political clout for assistance [influence]. If you pass, gain 1 Service Asset from the reserve or 1 random Service Asset from the deck.',
+                // test influence; if success inventory + asset.service
+            },
+            encounter08: {
+                location: 'city',
+                scene: 'A group of intimidating Syndicate members demand you pay them for protection. You offer the well-dressed men what you can afford [influence]. If you fail, they make sure you meet with an accident; gain a Leg Injury Condition.',
+                // figure it out
+            },
+            encounter09: {
+                location: 'city',
+                scene: 'A friendly game of cards ends with a very high-stakes hand [influence]. If you pass, you amaze everyone watching and find a new friend; gain 1 random Ally Asset from the deck. If you fail, gain a Debt Condition to cover the loss.',
+                // figure it out
+            },
+            encounter10: {
+                location: 'city',
+                scene: 'A shady figure offers to sell you a weapon, no questions asked. You speak with him to detrmine his motives [influence]. If you pass, gain 1 random Weapon Asset from the deck. If you fail, the undercover policeman arrests you; gain a Detained Condition.',
+                // figure it out
+            },
+            
+        }
         /*
         this is going to be annoying having to classify
         this.spells =  {

@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/roughGamestyle.css">
+    <title>Character Selection Page</title>
+</head>
+
+<body>
+    <header class="header" id="header">
+        <h1 class="title-name" id="titleName">Choose your character</h1>
+    </header>
+    
+    <main class="main" id="mainGamePage">
+        <section class="character-selection-section" id="characterSelection">
+            <!-- this should just be a template of what I want for the cards... i will have them all appear with DOM? am i using that right? -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-6" id="card1">
+                        <div class="character-card" id="character1">
+                            <!-- akachi onyele -->
+                            <div class="card-body" id="cardBody">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <img src="media/akachionyele.jpg" class="img-fluid">
+                                        </div>
+                                        <div class="col-8">
+                                            <h2 class="character-name" id="characterName">Akachi Onyele</h2>
+                                            <h3 class="character-moniker" id="moniker">The Shaman</h3>
+                                            <div class="row">
+                                                <div class="col-6">
+                                                    <div class="health-box" id="healthBox">5</div>
+                                                </div>
+                                                <div class="col-6">
+                                                    <div class="sanity-box" id="sanityBox">7</div>
+                                                </div>
+                                                <!-- <div class="health-box" id="healthBox">5</div>
+                                                <div class="sanity-box" id="sanityBox">7</div> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <ul class="nav character-stats d-flex justify-content-around" id="statsList">
+                                            <li class="nav-item character-stat" id="stat1">Lore: <span
+                                                    id="lore">3</span></li>
+                                            <li class="nav-item character-stat" id="stat2">Influence: <span
+                                                    id="influence">2</span></li>
+                                            <li class="nav-item character-stat" id="stat3">Observation: <span
+                                                    id="observation">2</span></li>
+                                            <li class="nav-item character-stat" id="stat4">Strength: <span
+                                                    id="strength">2</span></li>
+                                            <li class="nav-item character-stat" id="stat5">Will: <span
+                                                    id="will">4</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-6" id="card2">
+                        <div class="character-card" id="character2">
+                            <!-- akachi onyele -->
+                            <div class="card-body" id="cardBody">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <img src="media/akachionyele.jpg" class="img-fluid">
+                                        </div>
+                                        <div class="col-8">
+                                            <h2 class="character-name" id="characterName">Akachi Onyele</h2>
+                                            <h3 class="character-moniker" id="moniker">The Shaman</h3>
+                                            <div class="row">
+                                                <div class="col-6">
+                                                    <div class="health-box" id="healthBox">5</div>
+                                                </div>
+                                                <div class="col-6">
+                                                    <div class="sanity-box" id="sanityBox">7</div>
+                                                </div>
+                                                <!-- <div class="health-box" id="healthBox">5</div>
+                                                <div class="sanity-box" id="sanityBox">7</div> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <ul class="nav character-stats d-flex justify-content-around" id="statsList">
+                                            <li class="nav-item character-stat" id="stat1">Lore: <span
+                                                    id="lore">3</span></li>
+                                            <li class="nav-item character-stat" id="stat2">Influence: <span
+                                                    id="influence">2</span></li>
+                                            <li class="nav-item character-stat" id="stat3">Observation: <span
+                                                    id="observation">2</span></li>
+                                            <li class="nav-item character-stat" id="stat4">Strength: <span
+                                                    id="strength">2</span></li>
+                                            <li class="nav-item character-stat" id="stat5">Will: <span
+                                                    id="will">4</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <!-- akachi onyele -->
+                        <div class="card-body" id="cardBody">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <img src="media/akachionyele.jpg" class="img-fluid">
+                                    </div>
+                                    <div class="col-8">
+                                        <h2 class="character-name" id="characterName">Akachi Onyele</h2>
+                                        <h3 class="character-moniker" id="moniker">The Shaman</h3>
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <div class="health-box" id="healthBox">5</div>
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="sanity-box" id="sanityBox">7</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <ul class="nav character-stats d-flex justify-content-around" id="statsList">
+                                        <li class="nav-item character-stat" id="stat1">Lore: <span id="lore">3</span>
+                                        </li>
+                                        <li class="nav-item character-stat" id="stat2">Influence: <span
+                                                id="influence">2</span></li>
+                                        <li class="nav-item character-stat" id="stat3">Observation: <span
+                                                id="observation">2</span></li>
+                                        <li class="nav-item character-stat" id="stat4">Strength: <span
+                                                id="strength">2</span></li>
+                                        <li class="nav-item character-stat" id="stat5">Will: <span id="will">4</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <p class="character-background" id="characterInfo">
+                                    "As a young girl in Nigeria, Akachi stayed apart from other children, preferring the company of imaginary friends. Her elders feared madness, but the village dibia believed that she had been chosen by the gods. The wise old man taught her how to travel between worlds and how to marshal spirits. Now, she has become a wise leader herself, traveling across Africa and teaching others to protect themselves. She’s recently arrived in Cape Town and from here, she will track down the dark forces that threaten humanity."
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <!-- akachi onyele -->
+                        <div class="card-body" id="cardBody">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <img src="media/akachionyele.jpg" class="img-fluid">
+                                    </div>
+                                    <div class="col-8">
+                                        <h2 class="character-name" id="characterName">Akachi Onyele</h2>
+                                        <h3 class="character-moniker" id="moniker">The Shaman</h3>
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <div class="health-box" id="healthBox">5</div>
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="sanity-box" id="sanityBox">7</div>
+                                            </div>
+                                            <!-- <div class="health-box" id="healthBox">5</div>
+                                            <div class="sanity-box" id="sanityBox">7</div> -->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <ul class="nav character-stats d-flex justify-content-around" id="statsList">
+                                        <li class="nav-item character-stat" id="stat1">Lore: <span id="lore">3</span>
+                                        </li>
+                                        <li class="nav-item character-stat" id="stat2">Influence: <span
+                                                id="influence">2</span></li>
+                                        <li class="nav-item character-stat" id="stat3">Observation: <span
+                                                id="observation">2</span></li>
+                                        <li class="nav-item character-stat" id="stat4">Strength: <span
+                                                id="strength">2</span></li>
+                                        <li class="nav-item character-stat" id="stat5">Will: <span id="will">4</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col-6" id="card3">
+                        <div class="character-card" id="character3"></div>
+                    </div>
+                    <div class="col-6" id="card4">
+                        <div class="character-card" id="character4"></div>
+                    </div>
+                    <div class="col-6" id="card5">
+                        <div class="character-card" id="character5"></div>
+                    </div>
+                    <div class="col-6" id="card6">
+                        <div class="character-card" id="character6"></div>
+                    </div>
+                    <div class="col-6" id="card7">
+                        <div class="character-card" id="character7"></div>
+                    </div>
+                    <div class="col-6" id="card8">
+                        <div class="character-card" id="character8"></div>
+                    </div>
+                    <div class="col-6" id="card9">
+                        <div class="character-card" id="character9"></div>
+                    </div>
+                    <div class="col-6" id="card10">
+                        <div class="character-card" id="character10"></div>
+                    </div>
+                    <div class="col-6" id="card11">
+                        <div class="character-card" id="character11"></div>
+                    </div>
+                    <div class="col-6" id="card12">
+                        <div class="character-card" id="character12"></div>
+                    </div> -->
+            </div>
+        </section>
+    </main>
+    <!-- i don't think i'll need any javascript but it is here anyways... -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
