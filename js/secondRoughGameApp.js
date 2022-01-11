@@ -170,6 +170,7 @@ class Game {
         this.resetDie();
         this.displayEncounter();
         this.characterLoad();
+        this.selectCharacter();
 
     }
     // this function allows the die to roll and appear in the boxes
@@ -326,9 +327,56 @@ class Game {
         }
     }
 
+    selectCharacter() {
+        let hero = document.querySelectorAll('.hero')
+
+        for (const key in this.characters) {
+            const character = this.characters[key];
+            hero.forEach(hero => {
+                hero.addEventListener('click', () => {
+                    // console.log('i cant believe this works')
+                    characterSection.innerHTML = `
+                    <div class="container">
+            <div class="row no-gutters">
+            <div class="col-md-4">
+                <img src="${character.img}" alt="${character.name}" class="img-fluid character-img">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title">${character.name}</h5>
+                    <p class="card-text"><em>"${character.id}"</em></p>
+                    <ul class="nav card-stats">
+                        <li class="stats-box" id="stats1"><span id="lore">${character.lore}</span></li>
+                        <li class="stats-box" id="stats2"><span id="influence">${character.influence}</span></li>
+                        <li class="stats-box" id="stats3"><span id="observation">${character.observation}</span></li>
+                        <li class="stats-box" id="stats4"><span id="strength">${character.strength}</span></li>
+                        <li class="stats-box" id="stats5"><span id="will">${character.will}</span></li>
+                    </ul>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-4">
+                                <div class="health-box">${character.health}</div>
+                            </div>
+                            <div class="col-4">
+                                <div class="sanity-box">${character.sanity}</div>
+                            </div>
+                            <div class="col-4">
+                                <div class="clues-box"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                    `
+                })
+            })
+        }
+        // do a forEach => forEach item in hero addEventListener
+        console.log('Are you working')
+    }
 }
 
-let action = new Game()
+let action = new Game();
 action.init()
 
 // this section will be outside of init() for now.
