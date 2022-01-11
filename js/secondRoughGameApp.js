@@ -282,10 +282,12 @@ class Game {
         for (const key in this.characters) {
             const character = this.characters[key]
             const hero = document.createElement('div');
-            hero.className = 'col-md-4 hero';
+            // Making container position relative for the filter. This is to make it so the event we capture is always the wrapper that contains the id with they key.
+            hero.className = 'col-md-4 hero hero-container';
             hero.innerHTML = `
-            <div class="container">
-            <div class="row no-gutters">
+            <div class="hero-filter" id="${key}">
+            </div>
+            <div class="row">
             <div class="col-md-4">
                 <img src="${character.img}" alt="${character.name}" class="img-fluid character-img">
             </div>
@@ -313,8 +315,7 @@ class Game {
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>`
+                    </div>`
 
             // 1/10 holy crap it works.. freaking finally
             // can i nest the if statements?
@@ -328,37 +329,37 @@ class Game {
     }
 
     selectCharacter() {
-        let hero = document.querySelectorAll('.hero')
+        let heros = document.querySelectorAll('.hero')
 
-        for (const key in this.characters) {
-            const character = this.characters[key];
-            hero.forEach(hero => {
-                hero.addEventListener('click', () => {
-                    // console.log('i cant believe this works')
+
+            heros.forEach(hero => {
+                hero.addEventListener('click', (e) => {
+                    // Capture the id that we added to the filter. This is the key
+                    let selected = e.target.id;
                     characterSection.innerHTML = `
                     <div class="container">
             <div class="row no-gutters">
             <div class="col-md-4">
-                <img src="${character.img}" alt="${character.name}" class="img-fluid character-img">
+                <img src="${this.characters[selected].img}" alt="${this.characters[selected].name}" class="img-fluid this.characters[selected]-img">
             </div>
             <div class="col-md-8">
                 <div class="card-body">
-                    <h5 class="card-title">${character.name}</h5>
-                    <p class="card-text"><em>"${character.id}"</em></p>
+                    <h5 class="card-title">${this.characters[selected].name}</h5>
+                    <p class="card-text"><em>"${this.characters[selected].id}"</em></p>
                     <ul class="nav card-stats">
-                        <li class="stats-box" id="stats1"><span id="lore">${character.lore}</span></li>
-                        <li class="stats-box" id="stats2"><span id="influence">${character.influence}</span></li>
-                        <li class="stats-box" id="stats3"><span id="observation">${character.observation}</span></li>
-                        <li class="stats-box" id="stats4"><span id="strength">${character.strength}</span></li>
-                        <li class="stats-box" id="stats5"><span id="will">${character.will}</span></li>
+                        <li class="stats-box" id="stats1"><span id="lore">${this.characters[selected].lore}</span></li>
+                        <li class="stats-box" id="stats2"><span id="influence">${this.characters[selected].influence}</span></li>
+                        <li class="stats-box" id="stats3"><span id="observation">${this.characters[selected].observation}</span></li>
+                        <li class="stats-box" id="stats4"><span id="strength">${this.characters[selected].strength}</span></li>
+                        <li class="stats-box" id="stats5"><span id="will">${this.characters[selected].will}</span></li>
                     </ul>
                     <div class="container">
                         <div class="row">
                             <div class="col-4">
-                                <div class="health-box">${character.health}</div>
+                                <div class="health-box">${this.characters[selected].health}</div>
                             </div>
                             <div class="col-4">
-                                <div class="sanity-box">${character.sanity}</div>
+                                <div class="sanity-box">${this.characters[selected].sanity}</div>
                             </div>
                             <div class="col-4">
                                 <div class="clues-box"></div>
@@ -370,7 +371,6 @@ class Game {
                     `
                 })
             })
-        }
         // do a forEach => forEach item in hero addEventListener
         console.log('Are you working')
     }

@@ -106,3 +106,16 @@ the following will be the character sheet styling
     font-size: 20px;
     border: 1px solid red;
 }
+
+.hero-container {
+    position: relative;
+}
+
+.hero-filter {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 2;
+}
