@@ -374,6 +374,7 @@ class Game {
         // do a forEach => forEach item in hero addEventListener
         console.log('Are you working')
     }
+    
 }
 
 let action = new Game();
@@ -386,6 +387,7 @@ action.init()
 
 // make the pickCharacter button work and shift d-none
 // it is going to take some time to work on this one
+
 let start = document.getElementById('pickCharacter'),
     mainPage = document.getElementById('mainGamePage');
     characterSelectionPage = document.getElementById('mainCharacterSelection')
