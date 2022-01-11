@@ -282,6 +282,7 @@ class Game {
         for (const key in this.characters) {
             const character = this.characters[key]
             const hero = document.createElement('div');
+            // Making container position relative for the filter. This is to make it so the event we capture is always the wrapper that contains the id with they key.
             hero.className = 'col-md-4 hero hero-container';
             hero.innerHTML = `
             <div class="hero-filter" id="${key}">
@@ -333,6 +334,7 @@ class Game {
 
             heros.forEach(hero => {
                 hero.addEventListener('click', (e) => {
+                    // Capture the id that we added to the filter. This is the key
                     let selected = e.target.id;
                     characterSection.innerHTML = `
                     <div class="container">
