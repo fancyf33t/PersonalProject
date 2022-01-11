@@ -855,14 +855,14 @@ class Combat {
                 qty: 1,
             },
         }
-        this.spells = {
-            spell01: {
-                name:,
-                type:,
-                front:,
+        // this.spells = {
+        //     spell01: {
+        //         name:,
+        //         type:,
+        //         front:,
                 
-            }
-        }
+        //     }
+        // }
         this.encounters = {
             encounter01: {
                 location: 'city',
@@ -926,3 +926,137 @@ class Combat {
         }*/
     }
 }
+const listOfNames = [
+    'keitron',
+    'siera',
+    'taylor', 
+    'michael',
+    'kaitlyn',
+    'kendrick',
+    'john',
+    'patrice',
+    'sam',
+    'takia'
+]
+// make button clickable
+let testBtn = document.getElementById('testButton'),
+    resetBtn = document.getElementById('resetButton');
+let display = document.getElementById('testBox');
+
+var events = [
+    {
+        userId: 1,
+        place: "Wormholes allow information...",
+        name: "keitron",
+        id: 1
+    },
+    {
+        userId: 1,
+        place: "Wormholes allow information...",
+        name: "keitron",
+        id: 2
+    },
+    {
+        userId: 1,
+        place: "Wormholes allow information...",
+        name: "keitron",
+        id: 3
+    },
+    {
+        userId: 1,
+        place: "Wormholes allow information...",
+        name: "keitron",
+        id: 4
+    }
+]
+console.log(events[2].id)
+newEvents = events[Math.floor(Math.random() * events.length)]
+console.log(newEvents.id)
+console.clear();
+var RandomScenes = [
+    {
+        encounter: 1,
+        location: 'city',
+        scene: 'You wander through the aisles of an antique book store. Although many extremely rare books can be found here, the organizational system is almost impossible to decipher [-1 lore]. If you pass, you\'re able to track down a hidden gem; gain 1 Tome Artifact.',
+    },
+    {
+        encounter:2,
+        location: 'city',
+        scene: 'The police report that people are being abducted by a monster dwelling in the sewer system. Wandering through the underground tunnels you are suddenly attacked by a deep one [strength]! If you pass, you defeat the creature and rescue its hostage; gain 1 random Ally Asset from the deck. If you fail, lose 1 Health from the struggle.',
+    },
+    {
+        encounter:3,
+        location: 'city',
+        scene: 'Corrupt members of the police force pressure you for a bribe. You speak to some people you know to take care of the problem [influence]. If you pass, the police are apologetic and share their leads with you; spawn 1 Clue. If you fail, gain a Debt Condition to pay the bribe.'
+    },
+    {
+        encounter:4,
+        location: 'wilderness',
+        scene: 'You help a young woman search the countryside for her uncle [observation]. If you pass, you find the eccentric, old man, and he gives you a gift for helping his niece; gain 1 Tome Artifact from the deck.'
+    },
+    {
+        encounter:5,
+        location: 'wilderness',
+        scene: 'In the middle of the night, a feral beast rips apart your camp and attacks you [strength]! If you pass, you feel invincible; improve [will]. If you fail, lose 1 Health and gain a Leg Injury Condition.'
+    },
+    {
+        encounter:6,
+        location: 'wilderness',
+        scene: 'Far from any road or village, you find a shallow grave marked only with an arcane symbol. As you dig, a growing dread weakens your resolve [will]. If you pass, you find a charred corpse clutching a journal; gain 1 Clue or improve [lore]. If you fail, you run from the area; gain a Cursed Condition.'
+    },
+    {
+        encounter:7,
+        location: 'sea',
+        scene: 'The ship ahead of you seemed abandoned, but now you see that it is crewed entirely by ghostly figures. You try to discern what ship this had once been and what happened to it [lore]. If you pass, the spectral captain grants you aid; gain 1 Clue or improve [will]. If you fail, gain a Cursed Condition.'
+    },
+    {
+        encounter:8,
+        location: 'sea',
+        scene: 'The captain of the ship invites you to dine with him. You have the feeling that he\'s had some experience with unearthly creatures and try to convince him to share his stories [influence]. If you pass, his tale includes highly-significant details; spawn 1 Clue.'
+    },
+    {
+        encounter:9,
+        location: 'sea',
+        scene: 'Your ship becomes lost in a dense fog bank, terrifying the superstitious crew. When the mist finally clears, you\'ve somehow traveled hundreds of miles. Move 1 space and lose 1 Sanity.'
+    }
+]
+newEncounter = RandomScenes[Math.floor(Math.random() * RandomScenes.length)]
+console.log(newEncounter.scene)
+// continue for later
+testBtn.addEventListener('click', (e)=>{
+    e.preventDefault();
+    // console.log('You clicked the button')
+    display.innerText += `${newEncounter.scene}`
+    return
+})
+// so the reset button works now... Copy over to the roughGame
+resetBtn.addEventListener('click', (e)=>{
+    e.preventDefault();
+    if (display.innerText == " ") {
+        console.log('This works somehow')
+    } else {
+        display.innerText = " "
+    }
+})
+
+
+// let's try to make a forLoop that actually randomizes after each click...
+var classroomRoster;
+classroomRoster = [
+    'Jordan Wallace',
+    'Rogellio Valencia',
+    'Ethan S',
+    'Michael Collins',
+    'Patrick Tierce',
+    'Lorraine Partridge',
+    'Johnathan Pyroman',
+    'Takia Smith',
+    'Lauren David',
+    'Katelyn Boudreaux',
+];
+let forBtn = document.getElementById('forLoop');
+forBtn.addEventListener('click', ()=>{
+    // console.log('forBtn was clicked')
+    
+})
+// console.log(classroomRoster)

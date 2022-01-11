@@ -22,18 +22,17 @@
         </div>
     </header>
     <main class="main" id="mainCharacterSelection">
-        <div class="container">
-            <div class="row" id="row1">
-                <div class="card character-card">
-                    <h1>character</h1>
-                </div>
-            </div>
+        <!-- 1/10 this will have copied information from characterPage -->
+        <section class="character-display-section" id="characterdisplay">
+            <!-- this SHOULD contain the characters using DOM -->
+            <div class="row" id="row1"></div>
             <div class="row" id="row2"></div>
-            <div class="row" id="row3"></div>
+            <!-- <div class="row" id="row3"></div>
             <div class="row" id="row4"></div>
             <div class="row" id="row5"></div>
-            <div class="row" id="row6"></div>
-        </div>
+            <div class="row" id="row6"></div> -->
+        </section>
+        <!-- CLOSE mainCharacterSelection using d-none -->
     </main>
     <main class="main" id="mainGamePage">
         <div class="container">
@@ -42,6 +41,7 @@
                     <!-- this is going to be called from js using premade character shets. first i need to make the character selection screen -->
                     <section class="character-sheet-section" id="characterSection">
                         <div class="card mb-3 character-card" id="characterCard">
+                            <div class="stat-section" id="statSection"></div>
                             <div class="row no-gutters">
                                 <div class="col-md-4">
                                     <img src="media/akachionyele.jpg" alt="Akachi Onyele" class="img-fluid character-img">
@@ -107,6 +107,7 @@
                                     <div class="container">
                                         <div class="row">
                                             <!-- the dice will display here. use DOM -->
+                                            <!-- 1/5 let's try making the clickable -->
                                             <div class="col-6">
                                                 <div class="die" id="die1"></div>
                                             </div>
@@ -123,14 +124,14 @@
                                             </div>
                                         </div>
                                         <!-- 12/19 change this up to have four buttons instead of two -->
-                                        <div class="row buttonRow">
+                                        <!-- <div class="row buttonRow">
                                             <ul class="nav dieCount">
                                                 <li class="nav_item"><button id="button1">die1</button></li>
                                                 <li class="nav_item"><button id="button2">die2</button></li>
                                                 <li class="nav_item"><button id="button3">die3</button></li>
                                                 <li class="nav_item"><button id="button4">die4</button></li>
                                             </ul>
-                                        </div>
+                                        </div> -->
                                     </div>
                                 </div>
                             </div>
@@ -180,6 +181,7 @@
         integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
         crossorigin="anonymous"></script>
         <!-- <script src="js/roughGameApp.js"></script> -->
+        <!-- secondRoughGameApp.js contains init(). I need to look like I actually know how to code -->
         <script src="js/secondRoughGameApp.js"></script>
 </body>
 

@@ -1,9 +1,10 @@
-// this has to make use of init() instead of a bunch of event listeners...
+// this has to make use of init() instead of a bunch of event listeners... 1/11 good work, keitron
 
 class Game {
     // for some reason, getting rid of the constructor fixed it?? i don't know why
     init() {
         // leave your functions here...
+        this.removeDie();
         this.rollDie();
         this.resetDie();
         this.displayEncounter();
@@ -19,8 +20,6 @@ class Game {
             die4 = document.getElementById('die4');
         let passBox = document.getElementById('passBox'),
             failBox = document.getElementById('failBox');
-        let plusDie = document.getElementById('increaseDie'),
-            minusDie = document.getElementById('decreaseDie');
 
         rollDie.addEventListener('click', (e) => {
             e.preventDefault();
@@ -60,7 +59,29 @@ class Game {
             // success... this works 12/31
         })
     }
+
+    // remove die for encounter
+    removeDie() {
+        let die1 = document.getElementById('die1'),
+            die2 = document.getElementById('die2'),
+            die3 = document.getElementById('die3'),
+            die4 = document.getElementById('die4');
+        let dice = [
+            die1, die2, die3, die4
+        ];
+        dice.forEach(die => {
+            die.addEventListener('click', (e) => {
+                e.preventDefault();
+                console.log('you clicked the box')
+                // the problem isn't making the dice disappear, it is making sure that I am not having the dice run in the background
+                die.style.display = 'none'
+            })
+        })
+
+
+    }
     // display random encounters?
+    // 1/8 make sure that you figure out how to call on MULTIPLE encounters that are saved
     displayEncounter() { //is this where the constructor comes in?
         let randomEncounter = document.getElementById('changeSceneBtn'),
             encounterDisplay = document.getElementById('displayBox');
@@ -76,7 +97,19 @@ class Game {
             }
         })
     }
+    // display character card
+    /**this will only come after i have the functional character selection page and a functioning submit
+     * that is going to take some work
+     * maybe that will be the task for 1/11
+     * read through modular folder
+     */
+
 }
 
 let action = new Game()
 action.init()
+
+// this section will be outside of init() for now.
+
+// 1/10/22 ok. so everything is inside the init(). you are close to being a big boy...
+// 1/11/22 So, I want to use import.js for this portion to show personal growth. How do I do that?

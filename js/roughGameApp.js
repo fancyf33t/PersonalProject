@@ -118,4 +118,12 @@ randomEncounter.addEventListener('click', (e) => {
         console.log('display stats')
     }
 })
-// 12/22 i managed to get this work and display. i guess it is back to input data. i have a lot more to cover before i worry about making the conditions functional.
+// 12/22 i managed to get this work and display. i guess it is back to input data. i have a lot more to cover before i worry about making the conditions functional
+
+
+
+
+
+
+/**the following information will contain the character selection page/js class */
+

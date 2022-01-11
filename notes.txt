@@ -33,3 +33,43 @@ if (fight > monster[0][1]) {
 console.log(fight_result)
 
 10/31 next i need to make the random dice roll test with my character sheet roll because those numbers on the character sheet indicate how many 'die' get used, not a hard number to test (example: culver has will of 3 which means 3 separate die rolls to get either a 5 or a 6)
+
+1/10/2022
+// removing this from the code. i honestly don't think this ever worked
+/**start */
+// const characterCard = document.getElementById('characterCard');
+// let statSection = document.getElementById('statSection');
+// statSection.style.display = 'flex';
+// statSection.style.justifyContent = 'space-around';
+
+// let div = document.createElement('div');
+// let stat1 = document.createElement('div'),
+//     stat2 = document.createElement('div'),
+//     stat3 = document.createElement('div'),
+//     stat4 = document.createElement('div'),
+//     stat5 = document.createElement('div');
+// stat1.setAttribute('id', 'lore');
+// stat2.setAttribute('id', 'influence');
+// stat3.setAttribute('id', 'observation');
+// stat4.setAttribute('id', 'will');
+// stat5.setAttribute('id', 'strength');
+
+// let stats = [
+//     stat1, stat2, stat3, stat4, stat5
+// ];
+
+// let statStyle = {
+//     borderSize: '2px',
+//     borderStyle: 'solid',
+//     borderColor: 'black',
+//     width: '40px',
+//     height: '40px'
+// }
+// stats.forEach(stat => {
+//     stat.classList.add('stats');
+//     for (let key in dieStyle) {
+//         stat.style[key] = statStyle[key];
+//     }
+//     statSection.appendChild(stat)
+// })
+/**end */

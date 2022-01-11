@@ -979,3 +979,89 @@ plusDie.addEventListener('click', (e)=> {
 })
 
 // baby steps. you have a basic look of how you want the game to work. let's see if we can add another layer..
+
+
+1/5/22
+from Herb
+"This makes the dice clickable and removable. This should help me"
+let diceSection = document.getElementById('diceSection');
+
+diceSection.style.display = 'flex';
+diceSection.style.justifyContent = 'space-around';
+
+let die1 = document.createElement('div');
+let die2 = document.createElement('div');
+let die3 = document.createElement('div');
+let die4 = document.createElement('div');
+
+
+let diceRoll = document.createElement('h2');
+diceRoll.style.fontFamily = 'sans-serif';
+diceRoll.style.textAlign = 'center';
+
+die1.setAttribute('id', 'die1');
+die2.setAttribute('id', 'die2');
+die3.setAttribute('id', 'die3');
+die4.setAttribute('id', 'die4');
+
+let dice = [
+die1, die2, die3, die4
+];
+
+let dieStyle = {
+borderSize: '3px',
+borderStyle: 'solid',
+borderColor: 'black',
+width: '80px',
+height: '80px',
+color: '#f00000',
+lineHeight: 2
+}
+dice.forEach(die => {
+die.classList.add('dice');
+for (let key in dieStyle) {
+die.style[key] = dieStyle[key];
+}
+die.appendChild(diceRoll)
+
+diceSection.appendChild(die)
+});
+
+let button = document.createElement('button');
+button.classList.add('button');
+button.innerText = 'Roll'
+
+diceSection.appendChild(button)
+let total = 0;
+let diceTotal = document.getElementById('total');
+
+const resetTotal =()=> {
+total = 0;
+}
+
+dice.forEach(die => {
+die.addEventListener('click', (e)=> {
+// console.log('clicked')
+e.preventDefault();
+die.style.display = 'none';
+})
+})
+
+button.addEventListener('click', (e)=> {
+// console.log('clicked')
+e.preventDefault();
+
+dice.forEach(die => {
+if (die.style.display !== 'none') {
+die.innerText = Math.ceil(Math.random() * 6)
+} else {
+die.innerText = 0;
+}
+
+total+= parseInt(die.innerText)
+
+})
+
+diceTotal.innerText = total;
+resetTotal();
+})
