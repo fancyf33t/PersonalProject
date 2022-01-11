@@ -80,8 +80,14 @@ no longer necessary to hover
 /*
 the following will be the character sheet styling
 */
+.hero {
+    border: 2px solid black;
+}
+.hero:hover {
+    border: 3px outset red;
+}
 .card-body {
-    border: 1px solid rgb(17, 243, 156);
+    /* border: 1px solid rgb(17, 243, 156); */
     margin: 20px;
 }
 .character-card {
