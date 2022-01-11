@@ -384,4 +384,14 @@ action.init()
 // 1/10/22 ok. so everything is inside the init(). you are close to being a big boy...
 // 1/11/22 So, I want to use import.js for this portion to show personal growth. How do I do that? Scratch that idea. NO IMPORTING
 
+// make the pickCharacter button work and shift d-none
+// it is going to take some time to work on this one
+let start = document.getElementById('pickCharacter'),
+    mainPage = document.getElementById('mainGamePage');
+    characterSelectionPage = document.getElementById('mainCharacterSelection')
 
+start.addEventListener('click', ()=>{
+    console.log('this works too')
+    characterSelectionPage.className = "d-none"
+    mainPage.className = "display"
+})

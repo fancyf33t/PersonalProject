@@ -21,7 +21,7 @@
             </div>
         </div>
     </header>
-    <main class="main" id="mainCharacterSelection">
+    <main class="main d-md-block" id="mainCharacterSelection">
         <!-- 1/10 this will have copied information from characterPage -->
         <section class="character-display-section" id="characterdisplay">
             <!-- this SHOULD contain the characters using DOM -->
@@ -33,15 +33,17 @@
             <div class="row" id="row6"></div> -->
         </section>
         <!-- CLOSE mainCharacterSelection using d-none -->
+        <!-- 1/11 i need to apply an addEventListener to apply d-none -->
+        <button id="pickCharacter">Pick Me</button>
     </main>
-    <main class="main" id="mainGamePage">
+    <main class="main d-none" id="mainGamePage">
         <div class="container">
             <div class="row">
                 <div class="col-7">
                     <!-- this is going to be called from js using premade character shets. first i need to make the character selection screen -->
                     <!-- 1/11/22 I have my selection page working. Now I need to make this portion inherit the card and information without screwing up my page... -->
                     <section class="character-sheet-section" id="characterSection">
-                        
+                        <!-- this section contains the pushed information from the character selection screen -->
                     </section>
                     <section class="conditions">
                         <section class="character-status-section" id="statusSection">

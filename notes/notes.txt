@@ -109,3 +109,16 @@ REMOVED FROM LINE 44
                                 </div>
                             </div>
                         </div>
+
+1/11/22
+looks important for my game display
+show(e) {
+        e.preventDefault();
+        if(e.target.id === 'menuButton') {
+            this.menu.style.display = 'block'; //this already makes more sense to me
+            this.home.style.display = 'none';
+        } else {
+            this.menu.style.display = 'none';
+            this.home.style.display = 'block';
+        }
+    }
