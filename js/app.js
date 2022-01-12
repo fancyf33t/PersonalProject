@@ -4,6 +4,7 @@ class Game {
     // for some reason, getting rid of the constructor fixed it?? i don't know why
     // 1/11 i will attempt to reintroduce the constructor. that may help things
     constructor() {
+        // stores all information regarding character stats
         this.characters = {
             character01: {
                 name: 'Diana Stanley',
@@ -162,6 +163,7 @@ class Game {
                 // add items later
             },
         }
+        // stores all information regarding random encounters
     }
     init() {
         // leave your functions here...
@@ -327,8 +329,9 @@ class Game {
             characterCount++;
         }
     }
-
     selectCharacter() {
+        // moves the selected character to the main game screen
+
         let heros = document.querySelectorAll('.hero')
 
 
