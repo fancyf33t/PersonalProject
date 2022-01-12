@@ -190,6 +190,7 @@ class Game {
     }
     init() {
         // leave your functions here...
+        
         this.removeDie();
         this.rollDie();
         this.resetDie();
@@ -275,6 +276,8 @@ class Game {
         let randomEncounter = document.getElementById('changeSceneBtn'),
             encounterDisplay = document.getElementById('displayBox');
         let sceneChange;
+        let span = document.getElementById('strength');
+
 
 
         randomEncounter.addEventListener('click', (e) => {
@@ -292,9 +295,14 @@ class Game {
                 encounter05: 'The shop is robbed while you are browsing! You attempt to fend off the thieves [strength]. If you pass, the store owner is very gracious; gain 1 Item Asset from the reserve or 1 random Item Asset from the deck. If you fail, lose 1 Health and discard 1 Item possession.',
             }
             sceneChange = encounters[Object.keys(encounters)[Math.floor(Math.random()*Object.keys(encounters).length)]];
+            
             console.log(encounters[Object.keys(encounters)[Math.floor(Math.random()*Object.keys(encounters).length)]]);
-            encounterDisplay.innerHTML += sceneChange;
-
+            encounterDisplay.innerHTML = sceneChange;
+            // it is starting to work in my favor; now i need to include span id
+            if (sceneChange.includes("[strength]")){
+                console.log('This text contains the word strength')
+                // stats-box.style.borderColor = 'red';
+            };
             // let randomEncounter = (this.encounters[Object.keys(this.encounters)[Math.floor(Math.random() * Object.keys(this.encounters).length)]])
 
         })

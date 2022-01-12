@@ -90,10 +90,7 @@ the following will be the character sheet styling
     /* border: 1px solid rgb(17, 243, 156); */
     margin: 20px;
 }
-/* .character-card {
-    border: 1px solid red;
-    max-width: 540px;
-} */
+
 .character-stats {
     border: 1px solid blue;
     width: 500px;
@@ -102,10 +99,7 @@ the following will be the character sheet styling
     /* max-width: 540px */
     margin: 20px; 
 }
-/* .character-stat {
-    font-size: 20px;
-    border: 1px solid red;
-} */
+
 
 .hero-container {
     position: relative;
