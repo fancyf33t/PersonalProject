@@ -122,3 +122,15 @@ show(e) {
             this.home.style.display = 'block';
         }
     }
+
+1/12/22
+trying to randomly access my this.encounters information. this is really annoying
+let randomEncounter = Object.keys(this.encounters);
+            let randomNumber = Math.random();
+            let indexEncounter = Math.floor(randomNumber * randomEncounter.length);
+            let randomKey = randomEncounter[indexEncounter];
+            let randomValue = this.encounters[randomKey];
+
+            console.log(randomKey)
+            console.log(randomEncounter)
+            console.log(randomValue)

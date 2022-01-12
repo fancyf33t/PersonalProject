@@ -164,6 +164,29 @@ class Game {
             },
         }
         // stores all information regarding random encounters
+        this.encounters = {
+            // 1/12/22 Not happy about this but I may need to change up how I call on these encounters....
+            encounter01: 'You wander through the aisles of an antique book store. Although many extremely rare books can be found here, the organizational system is almost impossible to decipher [-1 lore]. If you pass, you\'re able to track down a hidden gem; gain 1 Tome Artifact.',
+            // if encounter01, test lore - 1. if 'success', gain arcane.Math.random()*arcanes.length
+            encounter02: 'The police report that people are being abducted by a monster dwelling in the sewer system. Wandering through the underground tunnels you are suddenly attacked by a deep one [strength]! If you pass, you defeat the creature and rescue its hostage; gain 1 random Ally Asset from the deck. If you fail, lose 1 Health from the struggle.',
+            // test strength. if success, gain asset[ally]; add to inventory
+            encounter03: 'Corrupt members of the police force pressure you for a bribe. You speak to some people you know to take care of the problem [influence]. If you pass, the police are apologetic and share their leads with you; spawn 1 Clue. If you fail, gain a Debt Condition to pay the bribe.',
+            // test lore; if success, clue + 1 else condition[debt]
+            encounter04: 'Legends say that this cemetery is haunted. Exploring the headstones, you encounter an angry specter, eager to share his story. The experience is nerve-wracking, but you try to listen [will]. If you pass, the spirit gratefully fades from view; recover 2 Sanity. If you fail, his desperate voice echoes in your mind; gain a Paranoia Condition.',
+            // test will; if success, sanity + 2 else condition[paranoia
+            encounter05: 'The shop is robbed while you are browsing! You attempt to fend off the thieves [strength]. If you pass, the store owner is very gracious; gain 1 Item Asset from the reserve or 1 random Item Asset from the deck. If you fail, lose 1 Health and discard 1 Item possession.',
+            // test strength; if success, asset random else health -1
+            encounter06: 'The police ask for your help investigating a series of ritual killings. The grisly crime scenes threaten to overwhelm you with chills and nausea [will]. If you pass, you manage to examine the scene and find significant information; spawn 1 Clue. If you fail, you can\'t endure the horror; lose 2 Sanity.',
+            // test will; if success, clue + 1 else sanity - 2
+            encounter07: 'The Syndicate is rengaged in a gang war with local thugs and is under intense legal scrutiny. You try to trade your political clout for assistance [influence]. If you pass, gain 1 Service Asset from the reserve or 1 random Service Asset from the deck.',
+            // test influence; if success inventory + asset.service
+            encounter08: 'A group of intimidating Syndicate members demand you pay them for protection. You offer the well-dressed men what you can afford [influence]. If you fail, they make sure you meet with an accident; gain a Leg Injury Condition.',
+            // figure it out
+            encounter09: 'A friendly game of cards ends with a very high-stakes hand [influence]. If you pass, you amaze everyone watching and find a new friend; gain 1 random Ally Asset from the deck. If you fail, gain a Debt Condition to cover the loss.',
+            // figure it out
+            encounter10: 'A shady figure offers to sell you a weapon, no questions asked. You speak with him to detrmine his motives [influence]. If you pass, gain 1 random Weapon Asset from the deck. If you fail, the undercover policeman arrests you; gain a Detained Condition.',
+            // figure it out
+        }
     }
     init() {
         // leave your functions here...
@@ -173,6 +196,7 @@ class Game {
         this.displayEncounter();
         this.characterLoad();
         this.selectCharacter();
+        //gameOver check Review2
 
     }
     // this function allows the die to roll and appear in the boxes
@@ -250,16 +274,29 @@ class Game {
     displayEncounter() { //is this where the constructor comes in?
         let randomEncounter = document.getElementById('changeSceneBtn'),
             encounterDisplay = document.getElementById('displayBox');
+        let sceneChange;
+
 
         randomEncounter.addEventListener('click', (e) => {
             e.preventDefault();
-            // console.log('this will give me random stuff')
-            var randomCard = cardExamples[Math.floor(Math.random() * cardExamples.length)].scene
-            console.log(randomCard)
-            encounterDisplay.innerText = randomCard; // ok so this works now... i need to add another layer to it
-            if (randomCard.includes('monsterC')) { // so this does work
-                console.log('display stats')
+            // console.log(this.encounters)
+            let encounters = {
+                encounter01: 'You wander through the aisles of an antique book store. Although many extremely rare books can be found here, the organizational system is almost impossible to decipher [-1 lore]. If you pass, you\'re able to track down a hidden gem; gain 1 Tome Artifact.',
+                // if encounter01, test lore - 1. if 'success', gain arcane.Math.random()*arcanes.length
+                encounter02: 'The police report that people are being abducted by a monster dwelling in the sewer system. Wandering through the underground tunnels you are suddenly attacked by a deep one [strength]! If you pass, you defeat the creature and rescue its hostage; gain 1 random Ally Asset from the deck. If you fail, lose 1 Health from the struggle.',
+                // test strength. if success, gain asset[ally]; add to inventory
+                encounter03: 'Corrupt members of the police force pressure you for a bribe. You speak to some people you know to take care of the problem [influence]. If you pass, the police are apologetic and share their leads with you; spawn 1 Clue. If you fail, gain a Debt Condition to pay the bribe.',
+                // test lore; if success, clue + 1 else condition[debt]
+                encounter04: 'Legends say that this cemetery is haunted. Exploring the headstones, you encounter an angry specter, eager to share his story. The experience is nerve-wracking, but you try to listen [will]. If you pass, the spirit gratefully fades from view; recover 2 Sanity. If you fail, his desperate voice echoes in your mind; gain a Paranoia Condition.',
+                // test will; if success, sanity + 2 else condition[paranoia
+                encounter05: 'The shop is robbed while you are browsing! You attempt to fend off the thieves [strength]. If you pass, the store owner is very gracious; gain 1 Item Asset from the reserve or 1 random Item Asset from the deck. If you fail, lose 1 Health and discard 1 Item possession.',
             }
+            sceneChange = encounters[Object.keys(encounters)[Math.floor(Math.random()*Object.keys(encounters).length)]];
+            console.log(encounters[Object.keys(encounters)[Math.floor(Math.random()*Object.keys(encounters).length)]]);
+            encounterDisplay.innerHTML += sceneChange;
+
+            // let randomEncounter = (this.encounters[Object.keys(this.encounters)[Math.floor(Math.random() * Object.keys(this.encounters).length)]])
+
         })
     }
     // display character card
@@ -335,11 +372,11 @@ class Game {
         let heros = document.querySelectorAll('.hero')
 
 
-            heros.forEach(hero => {
-                hero.addEventListener('click', (e) => {
-                    // Capture the id that we added to the filter. This is the key
-                    let selected = e.target.id;
-                    characterSection.innerHTML = `
+        heros.forEach(hero => {
+            hero.addEventListener('click', (e) => {
+                // Capture the id that we added to the filter. This is the key
+                let selected = e.target.id;
+                characterSection.innerHTML = `
                     <div class="container">
             <div class="row no-gutters">
             <div class="col-md-4">
@@ -372,12 +409,13 @@ class Game {
                 </div>
             </div>
                     `
-                })
             })
+        })
         // do a forEach => forEach item in hero addEventListener
-        console.log('Are you working')
+        // console.log('Are you working') // yes you are working
     }
-    
+
+    // create a turn counter?
 }
 
 let action = new Game();
@@ -393,9 +431,9 @@ action.init()
 
 let start = document.getElementById('pickCharacter'),
     mainPage = document.getElementById('mainGamePage');
-    characterSelectionPage = document.getElementById('mainCharacterSelection')
+characterSelectionPage = document.getElementById('mainCharacterSelection')
 
-start.addEventListener('click', ()=>{
+start.addEventListener('click', () => {
     console.log('this works too')
     characterSelectionPage.className = "d-none"
     mainPage.className = "display"
