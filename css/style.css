@@ -90,7 +90,9 @@ the following will be the character sheet styling
     /* border: 1px solid rgb(17, 243, 156); */
     margin: 20px;
 }
-
+.character-display-section {
+    margin: 40px;
+}
 .character-stats {
     border: 1px solid blue;
     width: 500px;
