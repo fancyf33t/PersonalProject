@@ -291,6 +291,25 @@ class Game {
         //gameOver check Review2
 
     }
+    // remove die for encounter
+    removeDie() {
+        let die1 = document.getElementById('die1'),
+            die2 = document.getElementById('die2'),
+            die3 = document.getElementById('die3'),
+            die4 = document.getElementById('die4');
+        let dice = [
+            die1, die2, die3, die4
+        ];
+        dice.forEach(die => {
+            die.addEventListener('click', (e) => {
+                e.preventDefault();
+                console.log('you clicked the box')
+                // the problem isn't making the dice disappear, it is making sure that I am not having the dice run in the background
+                die.style.display = 'none';
+                die.innerText = 0;
+            })
+        })
+    }
     // this function allows the die to roll and appear in the boxes
     rollDie() {
         let rollDie = document.getElementById('dieRollBtn'),
@@ -299,25 +318,39 @@ class Game {
             die2 = document.getElementById('die2'),
             die3 = document.getElementById('die3'),
             die4 = document.getElementById('die4');
+        let dice = [
+            die1, die2, die3, die4
+        ];
         let passBox = document.getElementById('passBox'),
             failBox = document.getElementById('failBox');
 
         rollDie.addEventListener('click', (e) => {
             e.preventDefault();
-            die1.innerText = Math.ceil(Math.random() * 6);
-            die2.innerText = Math.ceil(Math.random() * 6);
-            die3.innerText = Math.ceil(Math.random() * 6);
-            die4.innerText = Math.ceil(Math.random() * 6);
+            dice.forEach(die => {
+                if (die.style.display !== 'none') {
+                    die.innerText = Math.ceil(Math.random() * 6)
+                    console.log(die.innerText)
+                } else {
+                    die.innerText = 0;
+                }
+            })
+            // die1.innerText = Math.ceil(Math.random() * 6);
+            // die2.innerText = Math.ceil(Math.random() * 6);
+            // die3.innerText = Math.ceil(Math.random() * 6);
+            // die4.innerText = Math.ceil(Math.random() * 6);
 
-            console.log('this works')
+            // console.log('this works')
+            // dummy
+
             // i need to set a timeout on this or something... have it reset when i press the button
             if (die1.innerText >= 5 || die2.innerText >= 5 || die3.innerText >= 5 || die4.innerText >= 5) { //this is working
-                console.log('SUCCESS')
+                // console.log('SUCCESS')
                 passBox.style.backgroundColor = 'chartreuse';
             } else {
-                console.log('BIG LOSS')
+                // console.log('BIG LOSS')
                 failBox.style.backgroundColor = 'crimson';
             }
+            console.log(die1.innerText)
             return
         })
     }
@@ -341,25 +374,7 @@ class Game {
         })
     }
 
-    // remove die for encounter
-    removeDie() {
-        let die1 = document.getElementById('die1'),
-            die2 = document.getElementById('die2'),
-            die3 = document.getElementById('die3'),
-            die4 = document.getElementById('die4');
-        let dice = [
-            die1, die2, die3, die4
-        ];
-        dice.forEach(die => {
-            die.addEventListener('click', (e) => {
-                e.preventDefault();
-                console.log('you clicked the box')
-                // the problem isn't making the dice disappear, it is making sure that I am not having the dice run in the background
-                // die.style.display = 'none';
-                die.innerText = 0;
-            })
-        })
-    }
+
     // display random encounters?
     // 1/8 make sure that you figure out how to call on MULTIPLE encounters that are saved
     displayEncounter() { //is this where the constructor comes in?
@@ -553,14 +568,14 @@ class Game {
         // console.log('Are you working') // yes you are working
     }
     // display monster&stats
-    displayMonster() {
-        // i want the information o the monsters to display here
-        let monsterDisplay = document.getElementById('monsterImage'),
-            statDisplay = document.getElementById('statDisplay');
-        let randomEncounter = document.getElementById('changeSceneBtn'),
+    // displayMonster() {
+    //     // i want the information o the monsters to display here
+    //     let monsterDisplay = document.getElementById('monsterImage'),
+    //         statDisplay = document.getElementById('statDisplay');
+    //     let randomEncounter = document.getElementById('changeSceneBtn'),
 
-        
-    }
+
+    // }
     // create a turn counter?
 }
 
