@@ -563,6 +563,8 @@ class Game {
             },
 
         }
+        // stores all information regarding inventory for the character use
+        this.inventory = {}
     }
     init() {
         // leave your functions here...
@@ -872,42 +874,69 @@ class Game {
         let storeCount = 0;
         // let storeRow = document.getElementById('storeRow');
         let storeRow = document.getElementById('storeListRow');
+        storeRow.innerHTML = "" // moves a new item into the storeRow
+        const assetList = document.createElement('ul');
+        assetList.className = "nav asset-list justify-content-around"
+
         for (const key in this.assets) {
             const asset = this.assets[key]
-            const assetList = document.createElement('ul');
-            assetList.className = "nav asset-list justify-content-around"
-            assetList.innerHTML = `
-            <li class="list-item" id="assetCard">${asset.name}</li>
-            `
+            const listItem = document.createElement('li');
+            listItem.innerText = asset.name
+            listItem.className = "list-item"
+            listItem.setAttribute('data-key', key)
+            listItem.addEventListener('click', (e)=>{
+                this.storePurchase(e)
+            })
+            // assetList.innerHTML = `
+            // <li class="list-item" id="assetCard">${asset.name}</li>
+            // `
             // const assetItem = document.createElement('li');
             // assetItem.innerHTML = `
             // ${asset.name}
             // `
-
+            
             if (storeCount < 4) {
-                storeRow.append(assetList)
+                assetList.appendChild(listItem);
             } else {
                 // console.log('that\'s enough')
-                console.log(asset.name)
+                // console.log(asset.name)
             }
             storeCount++;
-
-            let items = document.querySelectorAll('.assetList');
-            items.forEach(assetList => {
-                assetList.addEventListener('click', (e)=>{
-                    e.preventDefault();
-                    console.log(`${asset.name} has been clicked`)
-                })
-            })
             // console.log(asset)
         }
         
+        storeRow.append(assetList)
         // do i have to reinitialize everything?
         
     }
     // this funciton will move items from the store into the inventory box
-    storePurchase() {
+    storePurchase(e) {
         // i want to make each item clickable in order to move them from the store box into the inventory box
+        // let card = document.getElementById(assetCard);
+        // let cards = document.querySelectorAll('.card');
+
+        console.log(e.target.getAttribute('data-key'))
+        let itemKey = e.target.getAttribute('data-key')
+        this.inventory[itemKey] = this.assets[itemKey]
+        // this.inventory.push(this.assets[itemKey])
+        delete this.assets[itemKey]
+        console.log(this.inventory)
+        let inventoryRow = document.getElementById('inventoryListRow');
+        inventoryRow.innerHTML = '';
+        for (const key in this.inventory) {
+            let listItem = document.createElement('li');
+            listItem.innerText = this.inventory[key].name
+            listItem.className = "list-item"
+            listItem.setAttribute('data-key', key)
+            listItem.addEventListener('click', (e)=>{
+                // this.storePurchase(e)
+                console.log('inventory item')
+            })
+            inventoryRow.appendChild(listItem);
+        }
+
+        
+        this.storeLoad();
     }
 }
     // create a turn counter?
