@@ -216,6 +216,7 @@ class Game {
             encounter29: 'A sudden storm descends upon you and strong winds whip around your vessel. Huge waves toss your ship around like a toy, and you are thrown to the deck repeatedly. Lose 1 Sanity and gain a Back Injury Condition.',
             encounter30: 'The captain tells you that you are passing over the site of a famous shipwreck. You can use the ship\'s deep-sea diving equipment to explore the wreckage. You may become Delayed to gain 1 Artifact.'
         }
+        // stores all information regarding monster stats
         this.monsters = {
             monster01: {
                 name: 'Cthulhu',
@@ -278,6 +279,290 @@ class Game {
                 media: 'media/Monsters/monster7.jpg'
             }
         }
+        // stores all information regarding assets for character use
+        this.assets = {
+            asset01: {
+                name: 'Lucky Cigarette Case',
+                type: 'trinket',
+                description: 'Once per round, you may add 1 to the result of 1 die when resolving a test',
+                value: 2,
+                // test + 1
+            },
+            asset02: {
+                name: 'Arcan Manuscripts',
+                type: 'tome',
+                description: 'Gain [+1 lore] when resolving Spell effects',
+                value: 1,
+                // if spell test, test + 1 roll
+            },
+            asset03: {
+                name: 'Agency Quarantine',
+                type: 'service',
+                description: 'When you gain this card, immediately choose a space. Each Monster on the chosen space loses 4 Health. Then discard this card',
+                value: 4,
+                // if monster, - 4 Health to monster
+            },
+            asset04: {
+                name: 'Private Investigator',
+                type: 'ally',
+                description: 'Gain [+1 observation]. You may reroll 1 die when resolving a [observation] test.',
+                value: 2,
+                // observation + 1; reroll on observation test
+            },
+            asset05: {
+                name: 'Witch Doctor',
+                type: 'ally',
+                description: 'Investigators on your space may recover 1 additional Health or discard a Cursed Condition when performing a Rest action',
+                value: 3,
+                // Rest + 1 or remove cursed (condition)
+            },
+            asset06: {
+                name: 'Dynamite',
+                type: 'weapon',
+                description: 'You may discard this card to cause each Monster on your space to lose 3 Health',
+                value: 3,
+                // if monster + character, monster.health - 3
+            },
+            asset07: {
+                name: 'Cat Burglar',
+                type: 'ally',
+                description: 'Roll 1 die. On a 5 or 6, gain 1 Item o Trinket Asset from the reserve. On a 1, discard this card',
+                value: 1,
+                // roll; if roll >= 5, add item||trinket; if roll == 1, discard
+            },
+            asset08: {
+                name: 'Kerosene',
+                type: 'item',
+                description: 'You may discard this card to gain [+5 strength] during a Combat Encounter',
+                value: 1,
+                // during combat, + 5 strength; discard
+            },
+            asset09: {
+                name: '.38 Revolver',
+                type: 'weapon',
+                description: 'Gain [+2 strength] during Combat Encounters',
+                value: 1,
+                // if combat roll, strength + 2
+            },
+            asset10: {
+                name: 'Silver Twilight Ritual',
+                type: 'weapon',
+                description: 'When you gain this card, immediately retreat Doom by 1. Then discard this card.',
+                value: 3,
+                // DoomCount - 1; discard this card
+            },
+            asset11: {
+                name: '.18 Derringer',
+                type: 'weapon',
+                description: 'You may add 1 to the result of 1 die when resolving a [strength] test during Combat Encounters',
+                value: 1,
+                // if strength test, roll + 1
+            },
+            asset12: {
+                name: 'Pocket Watch',
+                type: 'trinket',
+                description: 'You cannot become Delayed unless you choose to',
+                value: 1,
+                // while true, no delay else false? (don't know how to word that...)
+            },
+            asset13: {
+                name: 'Fine Clothes',
+                type: 'item',
+                description: 'Each 6 you roll when performing an Acquire Assets action counts as 2 successes',
+                value: 2,
+                // forEach 6 on acquireAssets roll, + 2
+            },
+            asset14: {
+                name: 'Arcane Tome',
+                type: 'tome',
+                description: 'Gain [+2 lore] when resolving Spell effects. When you perform a Rest action, you may test [lore]. If you pass, gain 1 Spell',
+                value: 3,
+                // if spell, lore + 2; if rest, test lore; if lore test >=5, + 1 spell
+            },
+            asset15: {
+                name: 'Carbine Rifle',
+                type: 'weapon',
+                description: 'Once per round, you may gain [+5 strength] during a Combat Encounter',
+                value: 3,
+                // combatRoll + 5 strength
+            },
+            asset16: {
+                name: 'King James Bible',
+                type: 'tome',
+                description: 'You may reroll 1 die when resolving a [will] test during a Combat Encounter. When you perform a Rest action, recover 1 additional Sanity',
+                value: 2,
+                // if combatEncounter, reroll will test; if rest, sanity + 1
+            },
+            asset17: {
+                name: 'Protect Amulet',
+                type: 'item',
+                description: 'Gain [+1 will] during Combat Encounters',
+                value: 1,
+                // combatEncounter will + 1
+            },
+            asset18: {
+                name: 'Puzzle Box',
+                type: 'trinket',
+                description: 'When you perform a Rest action, you may attempt to open the puzzle box [-2 observation]. If you pass, you may discard this card to gain 1 Artifact',
+                value: 3,
+                // observation - 2roll; + artifact
+            },
+            asset19: {
+                name: 'Private Care',
+                type: 'service',
+                description: 'When you gain this card, immediately recover all Health and Sanity',
+                value: 2,
+                // reset Health and Sanity
+            },
+            asset20: {
+                name: 'Arcane Scholar',
+                type: 'ally',
+                description: 'Gain [+1 lore]. You may reroll 1 die when resolving a [lore] test',
+                value: 2,
+                // lore + 1; reroll 1 lore test
+            },
+            asset21: {
+                name: 'Delivery Service',
+                type: 'service',
+                description: 'When you gain this card, immediately give any number of Item possessions to another investigator on any space. Then discard this card.',
+                value: 1,
+                // no idea how to code this...
+            },
+            asset22: {
+                name: 'Urban Guide',
+                type: 'ally',
+                description: 'If you are on a City space, investigators on your space roll 1 additional die when resolving tests except when resolving Other World Encounters',
+                value: 4,
+                // figure out location spaces i guess
+            },
+            asset23: {
+                name: 'Holy Cross',
+                type: 'item',
+                description: 'Gain [+2 will] during Combat Encounters',
+                value: 2,
+                // +2 will combatRolls
+            },
+            asset24: {
+                name: 'Vatican Missionary',
+                type: 'ally',
+                description: 'You may reroll 1 die when resolving a [will] test',
+                value: 2,
+                // reroll will test
+            },
+            asset25: {
+                name: 'Hired Muscle',
+                type: 'ally',
+                description: 'You may reroll 1 die when resolving a [strength] test',
+                value: 2,
+                // reroll strength test
+            },
+            asset26: {
+                name: 'Axe',
+                type: 'weapon',
+                description: 'Gain [+2 strength] during Combat Encounters. You may spend 2 Sanity to reroll any number of dice when resolving a [strength] test during a Combat Encounter',
+                value: 2,
+                // if combatRoll, strength +2; reroll somehow
+            },
+            asset27: {
+                name: 'Lucky Rabbit\'s Foot',
+                type: 'trinket',
+                description: 'Once per round, you may reroll 1 die when resolving a test.',
+                value: 1,
+                // reroll
+            },
+            asset28: {
+                name: 'Personal Assistant',
+                type: 'ally',
+                description: 'You may reroll 1 die when resolving a [influence] test.',
+                value: 2,
+                // if influenceTest, reroll
+            },
+            asset29: {
+                name: 'Lodge Researcher',
+                type: 'ally',
+                description: 'If you defeat a Monster during a Combat Encounter, recover 1 Sanity and gain 1 Clue.',
+                value: 3,
+                // if victory, + 1 sanity & + 1 clue
+            },
+            asset30: {
+                name: 'Charter Flight',
+                type: 'service',
+                description: 'When you gain this card, immediately move up to 2 spaces. Then discard this card.',
+                value: 1,
+                // move 2 spaces
+            },
+            asset31: {
+                name: 'Fishing Net',
+                type: 'item',
+                description: 'You may reroll 1 die when resolving a [strength] test during a Combat Encounter. Reduce the damage of Monsters you encounter by 1 to a minimum of 1.',
+                value: 2,
+                // if combatRoll, strength test + 1; reduce damage
+            },
+            asset32: {
+                name: 'Wireless Report',
+                type: 'service',
+                description: 'When you gain this card, immediately give any number of Clues to another investigator on any space. Then discard this card.',
+                value: 1,
+                // + clue.qty to player
+            },
+            asset33: {
+                name: 'Holy Water',
+                type: 'magical', // item
+                description: ['You may discard this card to gain [+5 will] and [strength] during a Combat Encounter.', 'Action: You may discard this card to choose an investigator on your space. That investigator gains a Blessed Condition.'],
+                value: 2,
+                // 
+            },
+            asset34: {
+                name: 'Bull Whip',
+                type: 'weapon',
+                description: 'Gain [+1 strength] during Combat Encounters. You may reroll 1 die when resolving a [strength] test during a Combat Encounter.',
+                value: 1,
+                // if combatRoll, + 1 strength; reroll strength
+            },
+            asset35: {
+                name: 'Double-barreled Shotgun',
+                type: 'weapon',
+                description: 'Gain [+4 strength] during Combat Encounters. Each 6 you roll when resolving a [strength] test during a Combat Encounter counts as 2 success.',
+                value: 4,
+                // if combatRoll, +4 strength; if combatRoll == 6, + 2 rolls
+            },
+            asset36: {
+                name: 'Sanctuary',
+                type: 'service',
+                description: 'When you gain this card, you may immediately discard 1 Condition. Then discard this card.',
+                value: 2,
+                // remove condition
+            },
+            asset37: {
+                name: '.45 Automatic',
+                type: 'weapon',
+                description: 'Gain [+3 strength] during Combat Encounters.',
+                value: 2,
+                // if combatRoll, strength + 3
+            },
+            asset38: {
+                name: 'Spirit Dagger',
+                type: 'magical weapon', //item
+                description: 'Gain [+1 will] and [+2 strength] during Combat Encounters',
+                value: 2,
+                // if combatRoll, will ++ & strength ++
+            },
+            asset39: {
+                name: 'Whiskey',
+                type: 'item',
+                description: 'You may discard this card to prevent an investigator on your space from losing up to 2 Sanity.',
+                value: 1,
+                // if player - 2 Sanity, + 2 sanity to player
+            },
+            asset40: {
+                name: 'Bandages',
+                type: 'item',
+                description: 'You may discard this card to prevent an investigator on your space from losing up to 2 Health.',
+                value: 1,
+                // if player - 2 health, + 2 health to player
+            },
+
+        }
     }
     init() {
         // leave your functions here...
@@ -288,6 +573,7 @@ class Game {
         this.displayEncounter();
         this.characterLoad();
         this.selectCharacter();
+        this.storeLoad();
         //gameOver check Review2
 
     }
@@ -333,6 +619,10 @@ class Game {
                 } else {
                     die.innerText = 0;
                 }
+                // // 1/14/22 not the prettiest thing but.... Maybe just set the die to reset on the next turn...
+                // if (die.style.display == 'none') {
+                //     die.style.display = 'block'
+                // }
             })
             // die1.innerText = Math.ceil(Math.random() * 6);
             // die2.innerText = Math.ceil(Math.random() * 6);
@@ -576,8 +866,51 @@ class Game {
 
 
     // }
-    // create a turn counter?
+    // this function will display the items in the store
+    storeLoad() {
+        // establish store count
+        let storeCount = 0;
+        // let storeRow = document.getElementById('storeRow');
+        let storeRow = document.getElementById('storeListRow');
+        for (const key in this.assets) {
+            const asset = this.assets[key]
+            const assetList = document.createElement('ul');
+            assetList.className = "nav asset-list justify-content-around"
+            assetList.innerHTML = `
+            <li class="list-item" id="assetCard">${asset.name}</li>
+            `
+            // const assetItem = document.createElement('li');
+            // assetItem.innerHTML = `
+            // ${asset.name}
+            // `
+
+            if (storeCount < 4) {
+                storeRow.append(assetList)
+            } else {
+                // console.log('that\'s enough')
+                console.log(asset.name)
+            }
+            storeCount++;
+
+            let items = document.querySelectorAll('.assetList');
+            items.forEach(assetList => {
+                assetList.addEventListener('click', (e)=>{
+                    e.preventDefault();
+                    console.log(`${asset.name} has been clicked`)
+                })
+            })
+            // console.log(asset)
+        }
+        
+        // do i have to reinitialize everything?
+        
+    }
+    // this funciton will move items from the store into the inventory box
+    storePurchase() {
+        // i want to make each item clickable in order to move them from the store box into the inventory box
+    }
 }
+    // create a turn counter?
 
 let action = new Game();
 action.init()
@@ -591,11 +924,11 @@ action.init()
 // it is going to take some time to work on this one
 
 let start = document.getElementById('pickCharacter'),
-    mainPage = document.getElementById('mainGamePage');
-characterSelectionPage = document.getElementById('mainCharacterSelection')
+    mainPage = document.getElementById('mainGamePage'), // main game page (2)
+    characterSelectionPage = document.getElementById('mainCharacterSelection'); // start game page (1)
 
 start.addEventListener('click', () => {
-    console.log('this works too')
+    // console.log('this works too')
     characterSelectionPage.className = "d-none"
     mainPage.className = "display"
 })

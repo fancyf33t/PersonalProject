@@ -201,3 +201,19 @@ Removed and edited for easier calling(?)
                 scene: 'A shady figure offers to sell you a weapon, no questions asked. You speak with him to detrmine his motives [influence]. If you pass, gain 1 random Weapon Asset from the deck. If you fail, the undercover policeman arrests you; gain a Detained Condition.',
                 // figure it out
             },
+
+1/13/2022
+Running into a slight problem with DOM (because of course)
+for (const key in this.monsters) {
+            const monster = this.monsters[key]
+            const mnsDisplay = document.createElement('div');
+            mnsDisplay.className = 'monster-display';
+            monsterDisplay.innerHTML += `
+            <h4 class="monster-name">${monster.name}</h4>
+            <img src=${monster.img}>
+            </div>
+            `;
+            statDisplay.innerHTML += `
+            <p class="monster-stat">${monster.health} ${monster.sanity}</p>
+            `
+        }

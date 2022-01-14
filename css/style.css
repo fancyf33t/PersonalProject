@@ -115,3 +115,12 @@ the following will be the character sheet styling
     left: 0;
     z-index: 2;
 }
+
+/* asset customization */
+.list-item {
+    background-color: white;
+    padding: 5px;
+}
+.list-item:hover {
+    background-color:yellowgreen;
+}

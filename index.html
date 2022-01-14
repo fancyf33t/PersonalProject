@@ -11,6 +11,7 @@
     <title>Rough GameScreen</title>
 </head>
 <!-- i need to fix this.... it will be better when i add some sections... -->
+
 <body>
     <header class="header" id="header">
         <div class="container">
@@ -21,23 +22,21 @@
             </div>
         </div>
     </header>
+    <!-- START PAGE/character selection -->
     <main class="main d-md-block" id="mainCharacterSelection">
         <!-- 1/10 this will have copied information from characterPage -->
         <section class="character-display-section" id="characterDisplay">
             <!-- this SHOULD contain the characters using DOM -->
             <div class="row" id="row1"></div>
             <div class="row" id="row2"></div>
-            <!-- <div class="row" id="row3"></div>
-            <div class="row" id="row4"></div>
-            <div class="row" id="row5"></div>
-            <div class="row" id="row6"></div> -->
         </section>
         <!-- CLOSE mainCharacterSelection using d-none -->
         <!-- 1/11 i need to apply an addEventListener to apply d-none -->
         <button id="pickCharacter">Pick Me</button>
     </main>
+    <!-- GAME SCREEN -->
     <!-- 1/12/22 don't forget to put back the d-none -->
-    <main class="main " id="mainGamePage">
+    <main class="main" id="mainGamePage">
         <div class="container">
             <div class="row">
                 <div class="col-7">
@@ -46,15 +45,38 @@
                     <section class="character-sheet-section" id="characterSection">
                         <!-- this section contains the pushed information from the character selection screen -->
                     </section>
-                    <section class="conditions">
+                    <section class="store-section">
+                        <div class="store-box">
+                            <h4>Store box</h4>
+                            <div class="store-display" id="storeRow">
+                                <ul class="store-list nav justify-content-around" id="storeListRow"></ul>
+                            </div>
+                            <!-- i want to push these items into the -->
+                            <!-- <ul class="store-list nav justify-content-around" id="storeList">
+                                <li class="store-item">Asset1</li>
+                            </ul> -->
+                        </div>
+                    </section>
+                    <!-- 1/14/2022 Let's just remove this for now. I don't think I'll be able to figure it out in time. Will return once a viable product is made -->
+                    <!-- <section class="conditions">
                         <section class="character-status-section" id="statusSection">
                             <div class="condition-box">
                                 <h4>condition box</h4>
-                            </div>
-                            <div class="inventory-box">
-                                <h4>inventory box</h4>
-                            </div>
-                        </section>
+                                <ul class="condition-list nav justify-content-around">
+                                    <li class="condition-item">Condition1</li>
+                                    <li class="condition-item">Condition2</li>
+                                    <li class="condition-item">Condition1</li>
+                                    <li class="condition-item">Condition2</li>
+                                    <li class="condition-item">Condition3</li>
+                                </ul>
+                            </div> -->
+                    <div class="inventory-box">
+                        <h4>inventory box</h4>
+                        <div class="inventory-display" id="inventoryRow">
+                            <ul class="inventory-list nav justify-content-around" id="inventoryListRow"></ul>
+                        </div>
+                    </div>
+                    </section>
                     </section>
                     <div class="container">
                         <div class="row">
@@ -153,9 +175,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
         crossorigin="anonymous"></script>
-        <!-- <script src="js/roughGameApp.js"></script> -->
-        <!-- secondRoughGameApp.js contains init(). I need to look like I actually know how to code -->
-        <script src="js/app.js"></script>
+    <!-- <script src="js/roughGameApp.js"></script> -->
+    <!-- secondRoughGameApp.js contains init(). I need to look like I actually know how to code -->
+    <script src="js/app.js"></script>
 </body>
 
 </html>
