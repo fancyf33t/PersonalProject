@@ -217,3 +217,21 @@ for (const key in this.monsters) {
             <p class="monster-stat">${monster.health} ${monster.sanity}</p>
             `
         }
+
+1/14/2022
+I am very damn close to figuring this out. Maybe I will use DOM to push only the list items themelves
+for (const key in this.assets) {
+            const asset = this.assets[key]
+            const assetList = document.createElement('ul');
+            assetList.className = "nav asset-list justify-content-around"
+            assetList.innerHTML = `
+            <li class="list-item" id="assetCard">${asset.name}</li>
+            `
+
+            if (storeCount < 3) {
+                storeRow.append(assetList)
+            } else {
+                console.log('this doesn\'t work')
+            }
+            storeCount++
+        }
