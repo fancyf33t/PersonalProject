@@ -235,3 +235,38 @@ for (const key in this.assets) {
             }
             storeCount++
         }
+
+Apply the following changes to your current code
+show(e) {
+        e.preventDefault();
+        if(e.target.id === 'menuButton') {
+            this.menu.style.display = 'block'; //this already makes more sense to me
+            this.home.style.display = 'none';
+        } else {
+            this.menu.style.display = 'none';
+            this.home.style.display = 'block';
+        }
+    }
+
+// 1/18/22 I am woefully stuck. I don't know how I am going to fix this. I really might have bitten off more than I can chew...
+            let search = sceneChange
+            // search the box for key words
+            let strength = search.includes("strength"),
+                lore = search.includes("lore"),
+                observation = search.includes("observations"),
+                will = search.includes("will");
+            // initialize the boxes you want changed upon certain conditions
+            let stat1 = document.getElementById('stat1'),
+                stat2 = document.getElementById('stat2'),
+                stat3 = document.getElementById('stat3'),
+                stat4 = document.getElementById('stat4'),
+                stat5 = document.getElementById('stat5');
+            let clues = document.getElementById('clueBox');
+            
+
+
+1/17/2022
+there is no way i will be able to do what i want. i just am not smart enough for this... 
+
+1/19/2022
+console.log(encounters[Object.keys(encounters)[Math.floor(Math.random() * Object.keys(encounters).length)]]);

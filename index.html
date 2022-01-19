@@ -23,7 +23,7 @@
         </div>
     </header>
     <!-- START PAGE/character selection -->
-    <main class="main d-md-block" id="mainCharacterSelection">
+    <main class="main" id="mainCharacterSelection">
         <!-- 1/10 this will have copied information from characterPage -->
         <section class="character-display-section" id="characterDisplay">
             <!-- this SHOULD contain the characters using DOM -->
@@ -45,7 +45,8 @@
                     <section class="character-sheet-section" id="characterSection">
                         <!-- this section contains the pushed information from the character selection screen -->
                     </section>
-                    <section class="inventory-section">
+                    <!-- 1/19/2022 will be removing the inventory/store section for the time being. having a dumb moment -->
+                    <!-- <section class="inventory-section">
                         <div class="inventory-box">
                             <h4>inventory box</h4>
                             <div class="inventory-display" id="inventoryRow">
@@ -59,12 +60,8 @@
                             <div class="store-display" id="storeRow">
                                 <ul class="store-list nav justify-content-around" id="storeListRow"></ul>
                             </div>
-                            <!-- i want to push these items into the -->
-                            <!-- <ul class="store-list nav justify-content-around" id="storeList">
-                                <li class="store-item">Asset1</li>
-                            </ul> -->
                         </div>
-                    </section>
+                    </section> -->
                     <!-- 1/14/2022 Let's just remove this for now. I don't think I'll be able to figure it out in time. Will return once a viable product is made -->
                     <!-- <section class="conditions">
                         <section class="character-status-section" id="statusSection">
@@ -97,7 +94,7 @@
                                     </div>
                                 </div>
                                 <div class="turn-counter">
-                                    <button class="turnCounterButton">TURN OVER</button>
+                                    <button class="turn-counter-button" id="turnCounterButton">TURN OVER</button>
                                 </div>
                             </div>
                             <div class="col-6">
@@ -121,15 +118,6 @@
                                                 <div class="die" id="die4"></div>
                                             </div>
                                         </div>
-                                        <!-- 12/19 change this up to have four buttons instead of two -->
-                                        <!-- <div class="row buttonRow">
-                                            <ul class="nav dieCount">
-                                                <li class="nav_item"><button id="button1">die1</button></li>
-                                                <li class="nav_item"><button id="button2">die2</button></li>
-                                                <li class="nav_item"><button id="button3">die3</button></li>
-                                                <li class="nav_item"><button id="button4">die4</button></li>
-                                            </ul>
-                                        </div> -->
                                     </div>
                                 </div>
                             </div>
@@ -137,6 +125,11 @@
                     </div>
                 </div>
                 <div class="col-5">
+                    <section class="turn-counter-section">
+                        <div class="turn-counter" id="turnCounter">
+                            <p id="counterNumber"><span id="number"></span></p>
+                        </div>
+                    </section>
                     <section class="encounter-section">
                         <div class="encounter-box">
                             <h2>Encounter section</h2>
@@ -146,31 +139,33 @@
                                 <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque mollitia doloremque quaerat distinctio quia nam laboriosam placeat illum nihil saepe ad vitae, eius fuga deleniti reiciendis nemo! Necessitatibus iure placeat expedita eos soluta magni, voluptatum neque sapiente repudiandae, quisquam qui temporibus earum nisi inventore, sint tempore? Sapiente atque aperiam sit maiores debitis cupiditate suscipit, optio error vero corporis odio qui? Harum illum facilis animi. Exercitationem, nemo deserunt eos corrupti, officiis magni cupiditate, consequuntur tempore asperiores molestiae nesciunt voluptatibus corporis dolor.</p> -->
 
                             </div>
-                            <div class="monster-box">
+                            <!-- <div class="monster-box">
                                 <div class="container">
                                     <div class="row">
                                         <div class="col-7">
                                             <div class="monster-display">
-                                                <h3>Monster name</h3>
+                                                <h3>Monster</h3>
                                                 <div class="monster-image" id="monsterImage"></div>
-                                                <!-- <img src="media/Monsters/cthulhu.jpg" class="img-fluid"> -->
                                             </div>
                                         </div>
                                         <div class="col-5">
                                             <div class="monster-stats">
                                                 <h3>stats</h3>
-                                                <!-- i want text and stats to appear here -->
                                                 <div class="stat-display" id="statDisplay"></div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+                            <button id="showMonster">SHOW MONSTER</button> -->
                         </div>
                     </section>
                 </div>
             </div>
         </div>
+    </main>
+    <main class="main" id="mainGameOver">
+
     </main>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

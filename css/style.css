@@ -7,25 +7,41 @@ body {
 }
 
 .stats-box {
-    border: 1px solid black;
+    border: 3px solid black;
     width: 35px;
     height: 35px;
     margin: 5px;
+}
+#stats1:hover {
+    border-color: purple;
+}
+#stats2:hover {
+    border-color: orange;
+}
+#stats3:hover {
+    border-color: green;
+}
+#stats4:hover {
+    border-color: red;
+}
+#stats5:hover {
+    border-color: blue;
 }
 .health-box, .sanity-box, .clues-box {
     border: 1px solid red;
     width: 40px;
     height: 40px;
     border-radius: 50%;
+    padding-left: 15px;
 }
 
-.condition-box {
+.store-box {
     border: 1px solid blue;
-    height: 60px;
+    height: 80px;
 }
 .inventory-box {
     border: 1px solid green;
-    height: 60px;
+    height: 80px;
 }
 .pass-box, .fail-box, .roll-box {
     border: 1px solid salmon;
@@ -64,6 +80,7 @@ no longer necessary to hover
 
 .display-box {
     width: 90%;
+    height: 250px;
     border: 1px solid red;
     margin: 0 auto;
 }
@@ -119,7 +136,10 @@ the following will be the character sheet styling
 .store-box {
     border: 1px solid black;
 }
-
+.store-text {
+    border: 1px solid green;
+    height: 40px;
+}
 /* asset customization */
 .list-item {
     background-color: white;
