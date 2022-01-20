@@ -270,3 +270,49 @@ there is no way i will be able to do what i want. i just am not smart enough for
 
 1/19/2022
 console.log(encounters[Object.keys(encounters)[Math.floor(Math.random() * Object.keys(encounters).length)]]);
+
+MONSTER information
+// display monster&stats
+    // displayMonster() {
+    //     // i want the information o the monsters to display here
+    //     let monsterDisplay = document.getElementById('monsterImage'),
+    //         statDisplay = document.getElementById('statDisplay');
+    //     let showMonster = document.getElementById('showMonster');
+    //     // create a small object containing monster images
+    //     // let monsterImages = [
+    //     //     'media/Monsters/cthulhu.jpg',
+    //     //     'media/Monsters/monster10.jpg',
+    //     //     'media/Monsters/monster1.jpg',
+    //     //     'media/Monsters/monster2.jpg',
+    //     //     'media/Monsters/monster3.jpg'
+    //     // ];
+    //     let monsterImages = {
+    //         'monster01' : 'media/Monsters/cthulhu.jpg',
+    //         'monster02' : 'media/Monsters/monster10.jpg',
+    //         'monster03' : 'media/Monsters/monster1.jpg',
+    //         'monster04' : 'media/Monsters/monster2.jpg',
+    //         'monster05' : 'media/Monsters/monster3.jpg'
+    //     };
+    //     let monsterCount = 0;
+    //     for (const value in monsterImages) {
+    //         const monster = monsterImages[value];
+    //         const card = document.createElement('div');
+    //         card.innerHTML = `
+    //         <img class="img-fluid" src="${monster}>
+    //         `
+    //         if (monsterCount < 2) {
+    //             monsterDisplay.append(card);
+    //         } else {
+    //             console.log('error')
+    //         }
+    //     }
+    //     // try to display the monster images at random
+
+    //     // showMonster.addEventListener('click', (e)=>{
+    //     //     e.preventDefault();
+    //     //     // figure out how to get the monster image to display at random on this fucking page
+    //     //     for (const monster = monsterImages) {
+
+    //     //     }
+    //     // })
+    // }

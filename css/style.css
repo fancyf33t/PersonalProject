@@ -34,6 +34,16 @@ body {
     border-radius: 50%;
     padding-left: 15px;
 }
+.rest-box {
+    border: 1px solid black;
+    height: 60px;
+    max-width: 200px;
+    margin-left: 60px;
+    margin-bottom: 50px;
+}
+.rest-box h1 {
+    padding-left: 50px;
+}
 
 .store-box {
     border: 1px solid blue;
@@ -73,6 +83,9 @@ no longer necessary to hover
     padding: 15px 30px;
     font-size: 35px;
 }
+/* .encounter-section {
+    border: 5px solid yellow;
+} */
 .encounter-box {
     border: 4px double black;
     height: 680px;

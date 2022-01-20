@@ -1,5 +1,17 @@
 // this has to make use of init() instead of a bunch of event listeners... 1/11 good work, keitron
 
+let start = document.getElementById('pickCharacter'),
+    mainPage = document.getElementById('mainGamePage'), // main game page (2)
+    characterSelectionPage = document.getElementById('mainCharacterSelection'); // start game page (1)
+
+start.addEventListener('click', () => {
+    // console.log('this works too')
+    characterSelectionPage.className = "d-none"
+    mainPage.className = "display"
+})
+
+
+
 class Game {
     // for some reason, getting rid of the constructor fixed it?? i don't know why
     // 1/11 i will attempt to reintroduce the constructor. that may help things
@@ -163,6 +175,8 @@ class Game {
                 // add items later
             },
         }
+        // stores all information regarding CURRENT CHARACTERS
+        this.currentCharacter = {}
         // stores all information regarding random encounters
         this.encounters = {
             // 1/12/22 Not happy about this but I may need to change up how I call on these encounters....
@@ -572,6 +586,7 @@ class Game {
 
         // this.startGame();
         this.activeGame();
+        this.loseGame();
         this.removeDie();
         this.rollDie();
         this.resetDie();
@@ -579,7 +594,8 @@ class Game {
         this.characterLoad();
         this.selectCharacter();
         // this.storeLoad();
-        // this.displayMonster();
+        this.displayMonster();
+        this.restAction();
 
         //gameOver check Review2
 
@@ -590,6 +606,11 @@ class Game {
         let activeGameState;
         let displayCount = document.getElementById('turnCounter');
         let turnOverBtn = document.getElementById('turnCounterButton');
+        // access character information
+        // let clueBox = document.getElementById('clueBox');
+        // let clues = 0;
+        // clueBox.innerHTML = clues;
+
         displayCount.innerHTML = count;
         while (count > 0) {
             activeGameState = true
@@ -612,7 +633,38 @@ class Game {
     }
     // losing conditions to end the game
     loseGame() {
+        /**What are the conditions to lose?
+         * 1) Health == 0;
+         * 2) Sanity == 0;
+         * 3) TurnCOunt == 0;
+         * if (health == 0 || sanity == 0 || turnCount == 0){
+         *      endGame
+         *      }
+         */
 
+
+    }
+    // rest box should be helpful
+    restAction() {
+        // please don't be stupid...
+        let restCharacter = document.getElementById('restBox');
+        let clues = document.getElementById('clueBox')
+
+        // for (const key in this.characters) {
+        //     const character = this.characters[key]
+
+        //     console.log(character)
+        // }
+        
+        
+        restCharacter.addEventListener('click', (e) => {
+            e.preventDefault();
+            
+            console.log(this.currentCharacter.health)
+            this.currentCharacter.health ++
+            this.updateCharacter();
+
+        })
     }
     // remove die for encounter
     removeDie() {
@@ -776,15 +828,13 @@ class Game {
                 lore = search.includes("LORE"),
                 observation = search.includes("OBSERVATION"),
                 will = search.includes("WILL"),
-                influence = search.inclueds("INFLUENCE");
+                influence = search.includes("INFLUENCE");
             // initialize the boxes you want changed upon certain conditions
             let stat1 = document.getElementById('stat1'),
                 stat2 = document.getElementById('stat2'),
                 stat3 = document.getElementById('stat3'),
                 stat4 = document.getElementById('stat4'),
                 stat5 = document.getElementById('stat5');
-            let clues = document.getElementById('clueBox');
-
 
         })
     }
@@ -794,6 +844,41 @@ class Game {
      * maybe that will be the task for 1/11
      * read through modular folder
      */
+    // display monster stats
+    displayMonster() {
+        /**i can't make the image display but i can at least get the stats */
+        // initialize monster Health & Sanity
+        let display = document.getElementById('monsterImage');
+        let monHealth = document.getElementById('monsterHealth'),
+            monSanity = document.getElementById('monsterSanity');
+        let showMonsterBtn = document.getElementById('showMonster');
+        let monsterImages = [
+            'media/Monsters/cthulhu.jpg',
+            'media/Monsters/monster10.jpg',
+            'media/Monsters/monster1.jpg',
+            'media/Monsters/monster2.jpg',
+            'media/Monsters/monster3.jpg'
+        ];
+
+        showMonsterBtn.addEventListener('click', () => {
+            console.log('here is the monster')
+            // for (const key in monsterImages) {
+            //     const image = monsterImages[key]
+            //     const monsterCard = document.createElement('div');
+            //     monsterCard.className = 'monsterCard-container';
+            //     monsterCard.innerHTML = `
+            //         <img src="${image}">
+            //     </div>
+            //     `
+            // }
+            monHealth.innerHTML = Math.ceil(Math.random() * 7);
+            monSanity.innerHTML = Math.ceil(Math.random() * 7);
+
+
+        })
+
+
+    }
     characterLoad() {
         // load characters on page
         let characterCount = 0;
@@ -839,7 +924,7 @@ class Game {
                                 <div class="sanity-box">${character.sanity}</div>
                             </div>
                             <div class="col-4">
-                                <div class="clues-box"></div>
+                                <div class="clues-box" id="clueBox"></div>
                             </div>
                         </div>
                     </div>
@@ -865,30 +950,73 @@ class Game {
             hero.addEventListener('click', (e) => {
                 // Capture the id that we added to the filter. This is the key
                 let selected = e.target.id;
-                characterSection.innerHTML = `
+                this.currentCharacter = this.characters[selected]
+                this.updateCharacter();
+            //     characterSection.innerHTML = `
+            //         <div class="container">
+            // <div class="row no-gutters">
+            // <div class="col-md-4">
+            //     <img src="${this.characters[selected].img}" alt="${this.characters[selected].name}" class="img-fluid this.characters[selected]-img">
+            // </div>
+            // <div class="col-md-8">
+            //     <div class="card-body">
+            //         <h5 class="card-title">${this.characters[selected].name}</h5>
+            //         <p class="card-text"><em>"${this.characters[selected].id}"</em></p>
+            //         <ul class="nav card-stats">
+            //             <li class="stats-box" id="stats1"><span id="lore">${this.characters[selected].lore}</span></li>
+            //             <li class="stats-box" id="stats2"><span id="influence">${this.characters[selected].influence}</span></li>
+            //             <li class="stats-box" id="stats3"><span id="observation">${this.characters[selected].observation}</span></li>
+            //             <li class="stats-box" id="stats4"><span id="strength">${this.characters[selected].strength}</span></li>
+            //             <li class="stats-box" id="stats5"><span id="will">${this.characters[selected].will}</span></li>
+            //         </ul>
+            //         <div class="container">
+            //             <div class="row">
+            //                 <div class="col-4">
+            //                     <div class="health-box">${this.characters[selected].health}</div>
+            //                 </div>
+            //                 <div class="col-4">
+            //                     <div class="sanity-box">${this.characters[selected].sanity}</div>
+            //                 </div>
+            //                 <div class="col-4">
+            //                     <div class="clues-box" id="clueBox"></div>
+            //                 </div>
+            //             </div>
+            //         </div>
+            //     </div>
+            // </div>
+            //         `
+            })
+        })
+        // do a forEach => forEach item in hero addEventListener
+        // console.log('Are you working') // yes you are working
+    }
+    // updates information for character selection
+    updateCharacter() {
+        // paste info from selectCharacter
+        characterSection.innerHTML = `
                     <div class="container">
             <div class="row no-gutters">
             <div class="col-md-4">
-                <img src="${this.characters[selected].img}" alt="${this.characters[selected].name}" class="img-fluid this.characters[selected]-img">
+                <img src="${this.currentCharacter.img}" alt="${this.currentCharacter.name}" class="img-fluid this.currentCharacter-img">
             </div>
             <div class="col-md-8">
                 <div class="card-body">
-                    <h5 class="card-title">${this.characters[selected].name}</h5>
-                    <p class="card-text"><em>"${this.characters[selected].id}"</em></p>
+                    <h5 class="card-title">${this.currentCharacter.name}</h5>
+                    <p class="card-text"><em>"${this.currentCharacter.id}"</em></p>
                     <ul class="nav card-stats">
-                        <li class="stats-box" id="stats1"><span id="lore">${this.characters[selected].lore}</span></li>
-                        <li class="stats-box" id="stats2"><span id="influence">${this.characters[selected].influence}</span></li>
-                        <li class="stats-box" id="stats3"><span id="observation">${this.characters[selected].observation}</span></li>
-                        <li class="stats-box" id="stats4"><span id="strength">${this.characters[selected].strength}</span></li>
-                        <li class="stats-box" id="stats5"><span id="will">${this.characters[selected].will}</span></li>
+                        <li class="stats-box" id="stats1"><span id="lore">${this.currentCharacter.lore}</span></li>
+                        <li class="stats-box" id="stats2"><span id="influence">${this.currentCharacter.influence}</span></li>
+                        <li class="stats-box" id="stats3"><span id="observation">${this.currentCharacter.observation}</span></li>
+                        <li class="stats-box" id="stats4"><span id="strength">${this.currentCharacter.strength}</span></li>
+                        <li class="stats-box" id="stats5"><span id="will">${this.currentCharacter.will}</span></li>
                     </ul>
                     <div class="container">
                         <div class="row">
                             <div class="col-4">
-                                <div class="health-box">${this.characters[selected].health}</div>
+                                <div class="health-box">${this.currentCharacter.health}</div>
                             </div>
                             <div class="col-4">
-                                <div class="sanity-box">${this.characters[selected].sanity}</div>
+                                <div class="sanity-box">${this.currentCharacter.sanity}</div>
                             </div>
                             <div class="col-4">
                                 <div class="clues-box" id="clueBox"></div>
@@ -898,55 +1026,9 @@ class Game {
                 </div>
             </div>
                     `
-            })
-        })
-        // do a forEach => forEach item in hero addEventListener
-        // console.log('Are you working') // yes you are working
+            
+
     }
-    // display monster&stats
-    // displayMonster() {
-    //     // i want the information o the monsters to display here
-    //     let monsterDisplay = document.getElementById('monsterImage'),
-    //         statDisplay = document.getElementById('statDisplay');
-    //     let showMonster = document.getElementById('showMonster');
-    //     // create a small object containing monster images
-    //     // let monsterImages = [
-    //     //     'media/Monsters/cthulhu.jpg',
-    //     //     'media/Monsters/monster10.jpg',
-    //     //     'media/Monsters/monster1.jpg',
-    //     //     'media/Monsters/monster2.jpg',
-    //     //     'media/Monsters/monster3.jpg'
-    //     // ];
-    //     let monsterImages = {
-    //         'monster01' : 'media/Monsters/cthulhu.jpg',
-    //         'monster02' : 'media/Monsters/monster10.jpg',
-    //         'monster03' : 'media/Monsters/monster1.jpg',
-    //         'monster04' : 'media/Monsters/monster2.jpg',
-    //         'monster05' : 'media/Monsters/monster3.jpg'
-    //     };
-    //     let monsterCount = 0;
-    //     for (const value in monsterImages) {
-    //         const monster = monsterImages[value];
-    //         const card = document.createElement('div');
-    //         card.innerHTML = `
-    //         <img class="img-fluid" src="${monster}>
-    //         `
-    //         if (monsterCount < 2) {
-    //             monsterDisplay.append(card);
-    //         } else {
-    //             console.log('error')
-    //         }
-    //     }
-    //     // try to display the monster images at random
-
-    //     // showMonster.addEventListener('click', (e)=>{
-    //     //     e.preventDefault();
-    //     //     // figure out how to get the monster image to display at random on this fucking page
-    //     //     for (const monster = monsterImages) {
-
-    //     //     }
-    //     // })
-    // }
     // this function will display the items in the store
     storeLoad() {
         // establish store count
@@ -1023,14 +1105,4 @@ action.init()
 
 // make the pickCharacter button work and shift d-none
 // it is going to take some time to work on this one
-
-let start = document.getElementById('pickCharacter'),
-    mainPage = document.getElementById('mainGamePage'), // main game page (2)
-    characterSelectionPage = document.getElementById('mainCharacterSelection'); // start game page (1)
-
-start.addEventListener('click', () => {
-    // console.log('this works too')
-    characterSelectionPage.className = "d-none"
-    mainPage.className = "display"
-})
 
