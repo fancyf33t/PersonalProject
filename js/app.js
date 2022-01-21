@@ -662,6 +662,7 @@ class Game {
             
             console.log(this.currentCharacter.health)
             this.currentCharacter.health ++
+            this.currentCharacter.sanity ++
             this.updateCharacter();
 
         })
@@ -725,6 +726,9 @@ class Game {
             } else {
                 // console.log('BIG LOSS')
                 failBox.style.backgroundColor = 'crimson';
+                // 1/2022 i hate you keitron. you need to stop having ethan drag you through this project.......
+                this.currentCharacter.health --
+                this.updateCharacter();
             }
             console.log(die1.innerText)
             return
