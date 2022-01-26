@@ -163,3 +163,13 @@ the following will be the character sheet styling
 .list-item:hover {
     background-color:yellowgreen;
 }
+
+/* GAME OVER page */
+
+.main .game-over-section {
+    background-color: black;
+}
+.main .game-over-section h1 {
+    color:chartreuse;
+    font-size: 200px;
+}

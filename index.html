@@ -36,7 +36,7 @@
     </main>
     <!-- GAME SCREEN -->
     <!-- 1/12/22 don't forget to put back the d-none -->
-    <main class="main" id="mainGamePage">
+    <main class="main d-none" id="mainGamePage">
         <div class="container">
             <div class="row">
                 <div class="col-7">
@@ -94,7 +94,7 @@
                                     </div>
                                     <div class="roll-box">
                                         <button id="dieRollBtn">roll dice</button>
-                                        <button id="resetRollBtn">reset</button>
+                                        <!-- <button id="resetRollBtn">reset</button> -->
                                     </div>
                                 </div>
                                 <div class="turn-counter">
@@ -103,6 +103,7 @@
                             </div>
                             <div class="col-6">
                                 <div class="dice-box">
+                                    <h4><em>"Click box to remove"</em></h4>
                                     <div class="container">
                                         <div class="row">
                                             <!-- the dice will display here. use DOM -->
@@ -135,7 +136,7 @@
                         </div>
                     </section>
                     <section class="encounter-section">
-                        <div class="encounter-box">
+                        <div class="encounter-box" id="encounterBox">
                             <h2>Encounter section</h2>
                             <!-- try to make encounter scenes appear at random -->
                             <!-- <button id="changeSceneBtn">Change Scene</button> -->
@@ -143,38 +144,22 @@
                                 <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque mollitia doloremque quaerat distinctio quia nam laboriosam placeat illum nihil saepe ad vitae, eius fuga deleniti reiciendis nemo! Necessitatibus iure placeat expedita eos soluta magni, voluptatum neque sapiente repudiandae, quisquam qui temporibus earum nisi inventore, sint tempore? Sapiente atque aperiam sit maiores debitis cupiditate suscipit, optio error vero corporis odio qui? Harum illum facilis animi. Exercitationem, nemo deserunt eos corrupti, officiis magni cupiditate, consequuntur tempore asperiores molestiae nesciunt voluptatibus corporis dolor.</p> -->
 
                             </div>
-                            <div class="monster-box">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-7">
-                                            <div class="monster-display">
-                                                <h3>Monster</h3>
-                                                <div class="monster-image" id="monsterImage">
-                                                    <img src="media/Monsters/monster10.jpg" class="img-fluid">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-5">
-                                            <div class="monster-stats">
-                                                <h3>stats</h3>
-                                                <div class="stat-display" id="statDisplay">
-                                                    <h9 class="monster-health">Health: <span id="monsterHealth"></span></h4>
-                                                    <h9 class="monster-sanity">Sanity: <span id="monsterSanity"></span></h4>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                            <div class="monster-box" id="monsterBox">
+                                <!-- 1/23 info in notes -->
                             </div>
-                            <button id="showMonster">SHOW MONSTER</button>
+                            <!-- <button id="showMonster">SHOW MONSTER</button> -->
                         </div>
                     </section>
                 </div>
             </div>
         </div>
     </main>
-    <main class="main" id="mainGameOver">
-
+    <main class="main d-none" id="mainGameOver">
+        <section class="game-over-section d-flex justify-content-center" id="gameOver">
+            <div class="game-over-box">
+                <h1 id="gameOverTitle">Game Over</h1>
+            </div>
+        </section>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
