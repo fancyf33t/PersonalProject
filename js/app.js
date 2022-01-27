@@ -227,6 +227,21 @@ class Game {
                     clues: -1,
                     health: 1
                 }
+            },
+            encounter04: {
+                id: 4,
+                location: 'city',
+                scene: 'Corrupt members of the police force pressure you for a bribe. You speak to some people you know to take care of the problem [influence]. If you pass, the police are apologetic and share their leads with you; spawn 1 Clue. If you fail, gain a Debt Condition to pay the bribe.'
+            },
+            encounter05: {
+                id: 5,
+                location: 'wilderness',
+                scene: 'You find a primitive painting on the wall of a cave and decide to explore the subterranean depths that lie beyond. The dark, constricting passages create a terrible sense of claustrophobia [-1 will]. If you pass, gain 1 Clue left by an ancient civilization. If you fail, lose 2 Sanity.'
+            },
+            encounter06: {
+                id: 6,
+                location: 'sea',
+                scene: 'You find the floating detritus of some sunken ship and search for any survivors or salvageable objects [observation]. If you pass, you discover a floating trunk; gain 1 Artifact. If you fail, you waste hours without result; become Delayed [next turn].'
             }
         }
         // stores the current encounter??
@@ -611,6 +626,7 @@ class Game {
         // this.displayMonster();
         // this.storedMonster();
         this.restAction();
+        this.gameOver();
 
         //gameOver check Review2
 
@@ -628,7 +644,7 @@ class Game {
     // }
     // do you mean that I need to move this method into the constructor?
     activeGame() {
-        let count = 21;
+        let count = 10;
         let activeGameState;
         let displayCount = document.getElementById('turnCounter');
         let turnOverBtn = document.getElementById('turnCounterButton');
@@ -656,10 +672,10 @@ class Game {
             displayCount.innerHTML = count;
             count--;
             this.displayEncounter();
-            // if (count == 0) {
-            //     console.log('Game over')
-            //     // displayCount.innerHTML = 'GAME OVER'
-            // }
+            if (count == 0) {
+                console.log('Game over')
+                displayCount.innerHTML = 'GAME OVER'
+            }
             // if (count % 3) {
             //     console.log(`no monster here`)
             //     // displayScene
@@ -832,7 +848,7 @@ class Game {
         // sceneDisplay.innerText = sceneChange;
         // 1/22/22 delete the unnecessary
         // create randomizer
-        let randomizer = Math.ceil(Math.random() * 3)
+        let randomizer = Math.ceil(Math.random() * 6)
         for (const key in this.encounters) {
             this.currentEncounter = this.encounters[key]
             // // i know this works
@@ -954,12 +970,15 @@ class Game {
                     <div class="container">
                         <div class="row">
                             <div class="col-4">
+                            <p>Health</p>
                                 <div class="health-box">${character.health}</div>
                             </div>
                             <div class="col-4">
+                            <p>Sanity</p>
                                 <div class="sanity-box">${character.sanity}</div>
                             </div>
                             <div class="col-4">
+                            <p>Clues</p>
                                 <div class="clues-box" id="clueBox">${character.clues}</div>
                             </div>
                         </div>
@@ -1049,12 +1068,15 @@ class Game {
                     <div class="container">
                         <div class="row">
                             <div class="col-4">
+                            <p>Health</p>
                                 <div class="health-box">${this.currentCharacter.health}</div>
                             </div>
                             <div class="col-4">
+                            <p>Sanity</p>
                                 <div class="sanity-box">${this.currentCharacter.sanity}</div>
                             </div>
                             <div class="col-4">
+                            <p>Clues</p>
                                 <div class="clues-box" id="clueBox">${this.currentCharacter.clues}</div>
                             </div>
                         </div>
@@ -1129,10 +1151,11 @@ class Game {
         this.storeLoad();
     }
 
-    gameOver() {
-        let gameOver = document.getElementById('mainGameOver');
-        gameOver.className = "display"
-    }
+    // gameOver() {
+    //     let gameOver = document.getElementById('mainGameOver');
+    //     let 
+    //     gameOver.className = "display"
+    // }
 }
 // create a turn counter?
 
