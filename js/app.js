@@ -9,8 +9,8 @@ start.addEventListener('click', () => {
     characterSelectionPage.className = "d-none"
     mainPage.className = "display"
 })
-
-
+// mainPage.style.backgroundImage = "url('media/worldMap.jpg')"
+document.body.style.backgroundImage = "url('media/worldMap.jpg')"
 
 class Game {
     // for some reason, getting rid of the constructor fixed it?? i don't know why
@@ -650,7 +650,9 @@ class Game {
         let turnOverBtn = document.getElementById('turnCounterButton');
         let monsterBox = document.getElementById('monsterBox')
         let sceneDisplay = document.getElementById('displayBox')
-        let monsterAppears = "a monster has appeared"
+        let monsterAppears = "a monster has appeared";
+        // initialize game over?
+        let gameOver = document.getElementById('mainGameOver');
 
         // access character information
         // let clueBox = document.getElementById('clueBox');
@@ -675,6 +677,7 @@ class Game {
             if (count == 0) {
                 console.log('Game over')
                 displayCount.innerHTML = 'GAME OVER'
+                this.loseGame();
             }
             // if (count % 3) {
             //     console.log(`no monster here`)
@@ -701,6 +704,11 @@ class Game {
          *      endGame
          *      }
          */
+        let gameOver = document.getElementById('mainGameOver'),
+            mainPage = document.getElementById('mainGamePage');
+
+        mainPage.className = "d-none"
+        gameOver.className = "display"
     }
     // rest box should be helpful
     restAction() {
@@ -1049,7 +1057,7 @@ class Game {
     updateCharacter() {
         // paste info from selectCharacter
         characterSection.innerHTML = `
-                    <div class="container">
+                    <div class="container hero-card">
             <div class="row no-gutters">
             <div class="col-md-4">
                 <img src="${this.currentCharacter.img}" alt="${this.currentCharacter.name}" class="img-fluid this.currentCharacter-img">

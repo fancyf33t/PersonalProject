@@ -460,3 +460,66 @@ let encounters = {
             // encounter29: 'A sudden storm descends upon you and strong winds whip around your vessel. Huge waves toss your ship around like a toy, and you are thrown to the deck repeatedly. Lose 1 Sanity and gain a Back Injury Condition.',
             // encounter30: 'The captain tells you that you are passing over the site of a famous shipwreck. You can use the ship\'s deep-sea diving equipment to explore the wreckage. You may become Delayed to gain 1 Artifact.'
         }
+
+
+1/28/22
+css collage colorscheme
+/* CSS HEX */
+--seal-brown: #522A11ff;
+--fawn: #DE9B54ff;
+--fawn-2: #DE9B54ff;
+--seal-brown-2: #522A11ff;
+--seal-brown-3: #522A11ff;
+
+/* CSS HSL */
+--seal-brown: hsla(23, 66%, 19%, 1);
+--fawn: hsla(31, 68%, 60%, 1);
+--fawn-2: hsla(31, 68%, 60%, 1);
+--seal-brown-2: hsla(23, 66%, 19%, 1);
+--seal-brown-3: hsla(23, 66%, 19%, 1);
+
+/* SCSS HEX */
+$seal-brown: #522A11ff;
+$fawn: #DE9B54ff;
+$fawn-2: #DE9B54ff;
+$seal-brown-2: #522A11ff;
+$seal-brown-3: #522A11ff;
+
+/* SCSS HSL */
+$seal-brown: hsla(23, 66%, 19%, 1);
+$fawn: hsla(31, 68%, 60%, 1);
+$fawn-2: hsla(31, 68%, 60%, 1);
+$seal-brown-2: hsla(23, 66%, 19%, 1);
+$seal-brown-3: hsla(23, 66%, 19%, 1);
+
+/* SCSS RGB */
+$seal-brown: rgba(82, 42, 17, 1);
+$fawn: rgba(222, 155, 84, 1);
+$fawn-2: rgba(222, 155, 84, 1);
+$seal-brown-2: rgba(82, 42, 17, 1);
+$seal-brown-3: rgba(82, 42, 17, 1);
+
+/* SCSS Gradient */
+$gradient-top: linear-gradient(0deg, #522A11ff, #DE9B54ff, #DE9B54ff, #522A11ff, #522A11ff);
+$gradient-right: linear-gradient(90deg, #522A11ff, #DE9B54ff, #DE9B54ff, #522A11ff, #522A11ff);
+$gradient-bottom: linear-gradient(180deg, #522A11ff, #DE9B54ff, #DE9B54ff, #522A11ff, #522A11ff);
+$gradient-left: linear-gradient(270deg, #522A11ff, #DE9B54ff, #DE9B54ff, #522A11ff, #522A11ff);
+$gradient-top-right: linear-gradient(45deg, #522A11ff, #DE9B54ff, #DE9B54ff, #522A11ff, #522A11ff);
+$gradient-bottom-right: linear-gradient(135deg, #522A11ff, #DE9B54ff, #DE9B54ff, #522A11ff, #522A11ff);
+$gradient-top-left: linear-gradient(225deg, #522A11ff, #DE9B54ff, #DE9B54ff, #522A11ff, #522A11ff);
+$gradient-bottom-left: linear-gradient(315deg, #522A11ff, #DE9B54ff, #DE9B54ff, #522A11ff, #522A11ff);
+$gradient-radial: radial-gradient(#522A11ff, #DE9B54ff, #DE9B54ff, #522A11ff, #522A11ff);
+
+1/28/22
+removed from display activeGame
+// if (count % 3) {
+            //     console.log(`no monster here`)
+            //     // displayScene
+            //     this.displayEncounter();
+            // } else {
+            //     // this.displayMonster();
+            //     console.log(`monster on count#: ${count}`)
+            //     // let's not worry about the monsters right now. this project is ongoing
+            //     // this.storedMonster();
+            // }
+            // this.displayEncounter();
