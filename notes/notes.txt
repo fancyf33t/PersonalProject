@@ -523,3 +523,40 @@ removed from display activeGame
             //     // this.storedMonster();
             // }
             // this.displayEncounter();
+
+ // 1/29/22 i am going to try something really quick before i am done
+        let randomizer = Math.ceil(Math.random() *6);
+        for (const key in this.diceImages){
+            this.rolling = this.diceImages[key]
+            if (randomizer === this.rolling.id){
+                die.innerHTML = this.rolling.image
+            }
+        }
+
+// stores images for the dice
+        this.diceImages = {
+            dice1: {
+                id: 1,
+                image: 'media/die1.png'
+            },
+            dice2: {
+                id: 2,
+                image: 'media/die2.png'
+            },
+            dice3: {
+                id: 3,
+                image: 'media/die3.png'
+            },
+            dice4: {
+                id: 4,
+                image: 'media/die4.png'
+            },
+            dice5: {
+                id: 5,
+                image: 'media/die5.png'
+            },
+            dice6: {
+                id: 6,
+                image: 'media/die6.png'
+            }
+        }

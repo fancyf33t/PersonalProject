@@ -2,11 +2,18 @@
     box-sizing: border-box;
 
 }
+:root {
+    --primFont: 'Homemade Apple', cursive;
+}
 body {
     /* background-color: #b6ad90; */
     /* background-image: url("...media/worldMap.jpg"); */
 }
-
+.game-title {
+    font-family: var(--primFont);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 .stats-box {
     border: 4px solid black;
     width: 35px;
@@ -28,6 +35,12 @@ body {
 #stats5:hover {
     border-color: blue;
 }
+.try-section {
+    margin-top: 50px;
+    border: 1px solid pink;
+    background-image: url(../media/woodTable2.jpg);
+    box-shadow: 6px 4px 9px 0px rgba(0,0,0,0.75);
+}
 .health-box, .sanity-box, .clues-box {
     border: 1px solid red;
     width: 40px;
@@ -36,9 +49,10 @@ body {
     padding-left: 15px;
 }
 .rest-box {
-    border: 1px solid black;
+    border: 3px solid black;
     height: 60px;
     max-width: 200px;
+    margin-top: 20px;
     margin-left: 60px;
     margin-bottom: 50px;
 }
@@ -54,8 +68,13 @@ body {
     border: 1px solid green;
     height: 80px;
 }
+#pickCharacter {
+    height: 60px;
+    width: 100px;
+    border-radius: 5px;
+}
 .pass-box, .fail-box, .roll-box {
-    border: 1px solid salmon;
+    border: 2px solid black;
     max-height: 90px;
     max-width: 200px;
     margin-left: 60px;
@@ -75,10 +94,12 @@ no longer necessary to hover
     /* keep this in mind for a change later */
     /* background: linear-gradient(135deg, hsla(267, 62%, 46%, 1) 0%, hsla(278, 51%, 59%, 1) 25%, hsla(263, 49%, 73%, 1) 50%, hsla(212, 56%, 82%, 1) 75%, hsla(178, 87%, 85%, 1) 100%); */
     background: linear-gradient(315deg, hsla(284, 80%, 10%, 1) 0%, hsla(290, 25%, 76%, 1) 100%);
-    height: 300px;
+    max-height: 300px;
+    box-shadow: 6px 4px 9px 0px rgba(0,0,0,0.75);
+    margin-top: 15px;
 }
 .die {
-    border: 1px solid blue;
+    border: 3px solid gray;
     height: 80px;
     width: 80px;
     margin: 25px;
@@ -89,16 +110,20 @@ no longer necessary to hover
     border: 5px solid yellow;
 } */
 .encounter-box {
-    border: 4px double black;
-    background-color: #522A11ff;
+    /* border: 4px double black; */
+    /* background: linear-gradient(150deg, hsla(260, 30%, 96%, 1) 0%, hsla(264, 6%, 84%, 1) 25%, hsla(260, 2%, 71%, 1) 50%, hsla(270, 1%, 59%, 1) 75%, hsla(0, 0%, 46%, 1) 100%); */
+    background: linear-gradient(180deg, hsla(260, 30%, 96%, 1) 0%, hsla(264, 6%, 84%, 1) 10%, hsla(260, 2%, 71%, 1) 29%, hsla(270, 1%, 59%, 1) 64%, hsla(0, 0%, 46%, 1) 91%);
     height: 680px;
-    color: silver;
+    box-shadow: 6px 4px 9px 0px rgba(0,0,0,0.75);
+    border-radius: 5px;
+    /* color: silver; */
 }
 
 .display-box {
     width: 90%;
     height: 250px;
     border: 1px solid red;
+    padding: 5px;
     margin: 0 auto;
 }
 
@@ -118,14 +143,20 @@ the following will be the character sheet styling
     border: 2px solid black;
 }
 .hero:hover {
-    border: 3px outset brown;
+    border: 3px outset red;
+    transition: 1.5s ease;
 }
 .hero-card {
-    background-color: rgb(152, 134, 134);
+    /* background-color: rgb(152, 134, 134); */
+    background: linear-gradient(150deg, hsla(260, 30%, 96%, 1) 0%, hsla(264, 6%, 84%, 1) 25%, hsla(260, 2%, 71%, 1) 50%, hsla(270, 1%, 59%, 1) 75%, hsla(0, 0%, 46%, 1) 100%);
+    box-shadow: 6px 4px 9px 0px rgba(0,0,0,0.75);
+    border-radius: 5px;
 }
+
 .card-body {
     /* border: 1px solid rgb(17, 243, 156); */
     margin: 20px;
+    /* box-shadow: 6px 4px 9px 0px rgba(0,0,0,0.75); */
 }
 .character-display-section {
     margin: 40px;
@@ -141,12 +172,16 @@ the following will be the character sheet styling
 
 
 .hero-container {
-    position: relative;
-    background-color: rgb(145, 136, 98);
+    /* position: relative; */
+    /* background-color: rgb(145, 136, 98); */
+    background: linear-gradient(150deg, hsla(260, 30%, 96%, 1) 0%, hsla(264, 6%, 84%, 1) 25%, hsla(260, 2%, 71%, 1) 50%, hsla(270, 1%, 59%, 1) 75%, hsla(0, 0%, 46%, 1) 100%);
+    border-radius: 5px;
+    border: 3px solid black;
+    box-shadow: 6px 4px 9px 0px rgba(0,0,0,0.75);
 }
 .hero-container:hover {
-    background-color: rgb(243, 159, 91);
-    transition: 1s ease;
+    background: linear-gradient(150deg, hsla(155, 23%, 71%, 1) 0%, hsla(302, 17%, 32%, 1) 100%);
+    transition: 1.5s ease;
 }
 
 .hero-filter {
@@ -221,6 +256,7 @@ the following will be the character sheet styling
 .main .game-over-section {
     background-color: black;
     justify-content: center;
+    /* box-shadow: 6px 4px 9px 0px rgba(0,0,0,0.75); */
 }
 .main .game-over-section h1 {
     color:chartreuse;
@@ -228,16 +264,18 @@ the following will be the character sheet styling
 }
 #gameOverTitle {
     font-size: 250px;
+    /* box-shadow: 6px 4px 9px 0px rgba(0,0,0,0.75); */
 }
 #startOverButton {
     font-size: 100px;
     border-radius: 10px;
-    justify-content: center;
+    
     /* text-decoration: none; */
 }
 #startOverButton:hover {
     font-size: 115px;
-    transition: 2.5s ease;
+    transition-duration: 1.5s;
+    transition-timing-function: ease-in-out;
 }
 #startOverButton a {
     text-decoration: none;

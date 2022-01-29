@@ -11,6 +11,8 @@ start.addEventListener('click', () => {
 })
 // mainPage.style.backgroundImage = "url('media/worldMap.jpg')"
 document.body.style.backgroundImage = "url('media/worldMap.jpg')"
+// let table = document.getElementById('rollBox');
+// table.style.backgroundImage = "url('media/woodTable.jpg')"
 
 class Game {
     // for some reason, getting rid of the constructor fixed it?? i don't know why
@@ -609,6 +611,33 @@ class Game {
         this.inventory = {}
         // stores all information regarding the game counter
         this.counterNumber = {}
+        // stores images for the dice
+        this.diceImages = {
+            dice1: {
+                id: 1,
+                image: 'media/die1.png'
+            },
+            dice2: {
+                id: 2,
+                image: 'media/die2.png'
+            },
+            dice3: {
+                id: 3,
+                image: 'media/die3.png'
+            },
+            dice4: {
+                id: 4,
+                image: 'media/die4.png'
+            },
+            dice5: {
+                id: 5,
+                image: 'media/die5.png'
+            },
+            dice6: {
+                id: 6,
+                image: 'media/die6.png'
+            }
+        }
     }
     init() {
         // leave your functions here...
@@ -679,17 +708,7 @@ class Game {
                 displayCount.innerHTML = 'GAME OVER'
                 this.loseGame();
             }
-            // if (count % 3) {
-            //     console.log(`no monster here`)
-            //     // displayScene
-            //     this.displayEncounter();
-            // } else {
-            //     // this.displayMonster();
-            //     console.log(`monster on count#: ${count}`)
-            //     // let's not worry about the monsters right now. this project is ongoing
-            //     // this.storedMonster();
-            // }
-            // this.displayEncounter();
+            // resets the die after each turn
             this.resetDie();
 
         })
@@ -758,7 +777,6 @@ class Game {
         let passBox = document.getElementById('passBox'),
             failBox = document.getElementById('failBox');
         let clues = document.getElementById('clueBox');
-
         rollDie.addEventListener('click', (e) => {
             e.preventDefault();
             dice.forEach(die => {
