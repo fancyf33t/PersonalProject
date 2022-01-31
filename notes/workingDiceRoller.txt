@@ -1,0 +1,65 @@
+// display the dice by using a class
+
+class DiceGame {
+    constructor() {
+        this.diceImages = {
+            dice1: {
+                id: 1,
+                img: '/media/die1.jpg'
+            },
+            dice2: {
+                id: 2,
+                img: '/media/die2.jpg'
+            },
+            dice3: {
+                id: 3,
+                img: '/media/die3.jpg'
+            },
+            dice4: {
+                id: 4,
+                img: '/media/die4.jpg'
+            },
+            dice5: {
+                id: 5,
+                img: '/media/die5.jpg'
+            },
+            dice6: {
+                id: 6,
+                img: '/media/die6.jpg'
+            }
+        }
+        this.currentDice = {}
+    }
+    init() {
+        this.rollDie();
+    }
+    // so this works.... can i add this to my personal project?
+    rollDie() {
+        let box1 = document.getElementById('die1'),
+            box2 = document.getElementById('die2'),
+            box3 = document.getElementById('die3'),
+            box4 = document.getElementById('die4');
+
+        let randomizer = Math.ceil(Math.random() * 6),
+            rollBtn = document.getElementById('rollButton');
+
+        rollBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            for (const key in this.diceImages) {
+                this.currentDice = this.diceImages[key]
+                if (randomizer === this.currentDice.id) {
+                    console.log(`Id ${this.currentDice.id} is supposed to be showing`)
+                    box1.innerHTML = `
+                    <div>
+                        <img src="${this.currentDice.img}" class="img-fluid">
+                    </div>
+                    `
+                }
+            }
+            return
+        })
+    }
+}
+
+let action = new DiceGame();
+action.init();

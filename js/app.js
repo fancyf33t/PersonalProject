@@ -638,6 +638,8 @@ class Game {
                 image: 'media/die6.png'
             }
         }
+        // empty object to hold the dice
+        this.currentDice = {}
     }
     init() {
         // leave your functions here...
@@ -774,6 +776,8 @@ class Game {
         let dice = [
             die1, die2, die3, die4
         ];
+        // initialize randomizer to pull from constructor
+        let randomizer = Math.ceil(Math.random()*6);
         let passBox = document.getElementById('passBox'),
             failBox = document.getElementById('failBox');
         let clues = document.getElementById('clueBox');
@@ -782,14 +786,11 @@ class Game {
             dice.forEach(die => {
                 if (die.style.display !== 'none') {
                     die.innerText = Math.ceil(Math.random() * 6)
+                    // die.innerText = randomizer;
                     console.log(die.innerText)
                 } else {
                     die.innerText = 0;
                 }
-                // // 1/14/22 not the prettiest thing but.... Maybe just set the die to reset on the next turn...
-                // if (die.style.display == 'none') {
-                //     die.style.display = 'block'
-                // }
             })
             // console.log('this works')
             // dummy
