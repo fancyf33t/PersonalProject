@@ -233,17 +233,32 @@ class Game {
             encounter04: {
                 id: 4,
                 location: 'city',
-                scene: 'Corrupt members of the police force pressure you for a bribe. You speak to some people you know to take care of the problem [influence]. If you pass, the police are apologetic and share their leads with you; spawn 1 Clue. If you fail, gain a Debt Condition to pay the bribe.'
+                scene: 'Corrupt members of the police force pressure you for a bribe. You speak to some people you know to take care of the problem [influence]. If you pass, the police are apologetic and share their leads with you; spawn 1 Clue. If you fail, you make your payment in "other ways"; lose 1 Health and 1 Sanity.'
             },
             encounter05: {
                 id: 5,
                 location: 'wilderness',
-                scene: 'You find a primitive painting on the wall of a cave and decide to explore the subterranean depths that lie beyond. The dark, constricting passages create a terrible sense of claustrophobia [-1 will]. If you pass, gain 1 Clue left by an ancient civilization. If you fail, lose 2 Sanity.'
+                scene: 'You find a primitive painting on the wall of a cave and decide to explore the subterranean depths that lie beyond. The dark, constricting passages create a terrible sense of claustrophobia [-1 will]. If you pass, gain 1 Clue left by an ancient civilization. If you fail, lose 1 Health and 1 Sanity.'
             },
             encounter06: {
                 id: 6,
                 location: 'sea',
-                scene: 'You find the floating detritus of some sunken ship and search for any survivors or salvageable objects [observation]. If you pass, you discover a floating trunk; gain 1 Artifact. If you fail, you waste hours without result; become Delayed [next turn].'
+                scene: 'You find the floating detritus of some sunken ship and search for any survivors or salvageable objects [observation]. If you pass, you discover a floating trunk; gain 1 Clue. If you fail, you waste hours without result; become Delayed [next turn without rolling].'
+            },
+            encounter07: {
+                id: 7,
+                location: 'city',
+                scene: 'Legends say that this cemetery is haunted. Explorin the headstones, you encounter an angry specter, eager to share his story. The experience is nerve-wracking, but you try to listen [will]. If you pass, the spirit gratefully fades from view; gain 1 Clue. If you fail, his desperate voice echoes in your mind; lose 1 Health and 1 Sanity.'
+            },
+            encounter08: {
+                id: 8,
+                location: 'wilderness',
+                scene: 'According to your map, you can make a detour to visit a lake purported to have restorative powers. You may become Delayed [next turn without rolling].'
+            },
+            encounter09: {
+                id: 9,
+                location: 'sea',
+                scene: 'A large wave washes across the deck, and a prized possession slips from your fingers. You dive into the water, holding your breath as long as you can to recover the object before it sinks out of reach [will]. If you fail, lose 1 Health and 1 Sanity.'
             }
         }
         // stores the current encounter??
@@ -640,6 +655,7 @@ class Game {
         }
         // empty object to hold the dice
         this.currentDice = {}
+        // sound effect
     }
     init() {
         // leave your functions here...
@@ -767,6 +783,7 @@ class Game {
     }
     // this function allows the die to roll and appear in the boxes
     rollDie() {
+        // 1/31/22 I want to be able to add dice images to the game but at the moment i can't figure out how to apply them without breaking my game. Please see 'workingDiceRoller.txt' for the functioning code
         let rollDie = document.getElementById('dieRollBtn'),
             resetDie = document.getElementById('resetRollBtn');
         let die1 = document.getElementById('die1'),
@@ -781,6 +798,7 @@ class Game {
         let passBox = document.getElementById('passBox'),
             failBox = document.getElementById('failBox');
         let clues = document.getElementById('clueBox');
+        let sound = document.getElementById('diceSound');
         rollDie.addEventListener('click', (e) => {
             e.preventDefault();
             dice.forEach(die => {
@@ -813,6 +831,8 @@ class Game {
                 // this.updateCharacter();
             }
             // console.log(die1.innerText)
+            // 1/31/22 thank you Roger for the great suggestion
+            sound.play();
             return
         })
     }
@@ -875,7 +895,7 @@ class Game {
         // sceneDisplay.innerText = sceneChange;
         // 1/22/22 delete the unnecessary
         // create randomizer
-        let randomizer = Math.ceil(Math.random() * 6)
+        let randomizer = Math.ceil(Math.random() * 9)
         for (const key in this.encounters) {
             this.currentEncounter = this.encounters[key]
             // // i know this works
