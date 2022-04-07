@@ -13,7 +13,6 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Rough GameScreen</title>
 </head>
-<!-- i need to fix this.... it will be better when i add some sections... -->
 
 <body>
     <header class="header" id="header">
@@ -34,7 +33,7 @@
             <div class="row" id="row2"></div>
         </section>
         <!-- CLOSE mainCharacterSelection using d-none -->
-        <!-- 1/11 i need to apply an addEventListener to apply d-none -->
+        <!-- 1/11 apply an addEventListener to apply d-none -->
         <button id="pickCharacter">Pick Me</button>
     </main>
     <!-- GAME SCREEN -->
@@ -43,43 +42,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-7">
-                    <!-- this is going to be called from js using premade character shets. first i need to make the character selection screen -->
-                    <!-- 1/11/22 I have my selection page working. Now I need to make this portion inherit the card and information without screwing up my page... -->
                     <section class="character-sheet-section" id="characterSection">
                         <!-- this section contains the pushed information from the character selection screen -->
-                    </section>
-                    <!-- 1/19/2022 will be removing the inventory/store section for the time being. having a dumb moment -->
-                    <!-- <section class="inventory-section">
-                        <div class="inventory-box">
-                            <h4>inventory box</h4>
-                            <div class="inventory-display" id="inventoryRow">
-                                <ul class="inventory-list nav justify-content-around" id="inventoryListRow"></ul>
-                            </div>
-                        </div>
-                    </section>
-                    <section class="store-section">
-                        <div class="store-box">
-                            <h4>Store box</h4>
-                            <div class="store-display" id="storeRow">
-                                <ul class="store-list nav justify-content-around" id="storeListRow"></ul>
-                            </div>
-                        </div>
-                    </section> -->
-                    <!-- 1/14/2022 Let's just remove this for now. I don't think I'll be able to figure it out in time. Will return once a viable product is made -->
-                    <!-- <section class="conditions">
-                        <section class="character-status-section" id="statusSection">
-                            <div class="condition-box">
-                                <h4>condition box</h4>
-                                <ul class="condition-list nav justify-content-around">
-                                    <li class="condition-item">Condition1</li>
-                                    <li class="condition-item">Condition2</li>
-                                    <li class="condition-item">Condition1</li>
-                                    <li class="condition-item">Condition2</li>
-                                    <li class="condition-item">Condition3</li>
-                                </ul>
-                            </div> -->
-
-                    </section>
                     </section>
                     <div class="container try-section" id="rollBox">
                         <div class="row">
@@ -111,7 +75,7 @@
                                     <div class="container">
                                         <div class="row">
                                             <!-- the dice will display here. use DOM -->
-                                            <!-- 1/5 let's try making the clickable -->
+                                            <!-- 1/5 make clickable-->
                                             <div class="col-6">
                                                 <div class="die" id="die1"></div>
                                             </div>
@@ -135,9 +99,7 @@
                 </div>
                 <div class="col-5">
                     <section class="turn-counter-section">
-                        <div class="turn-counter" id="turnCounter">
-                            <!-- <p id="counterNumber"><span id="number"></span></p> -->
-                        </div>
+                        <div class="turn-counter" id="turnCounter"></div>
                     </section>
                     <section class="encounter-section">
                         <div class="encounter-box" id="encounterBox">
@@ -189,8 +151,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
         crossorigin="anonymous"></script>
-    <!-- <script src="js/roughGameApp.js"></script> -->
-    <!-- secondRoughGameApp.js contains init(). I need to look like I actually know how to code -->
     <script src="js/app.js"></script>
 </body>
 

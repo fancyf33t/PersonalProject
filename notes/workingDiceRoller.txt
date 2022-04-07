@@ -33,7 +33,7 @@ class DiceGame {
     init() {
         this.rollDie();
     }
-    // so this works.... can i add this to my personal project?
+    // so this works....
     rollDie() {
         let box1 = document.getElementById('die1'),
             box2 = document.getElementById('die2'),
